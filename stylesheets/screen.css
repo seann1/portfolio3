@@ -91,6 +91,17 @@ body {
   background-color: black;
 }
 
+/* line 29, ../sass/screen.scss */
+.cloud1 {
+  width: 100%;
+}
+
+/* line 33, ../sass/screen.scss */
+.cloud1 img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @-webkit-keyframes title {
   0% {
     background-image: url("../images/site-title1.png");
@@ -101,4 +112,19 @@ body {
   100% {
     background-image: url("../images/site-title3.png");
   }
+}
+/* line 44, ../sass/screen.scss */
+#cloud2 {
+  float: right;
+}
+
+/* line 48, ../sass/screen.scss */
+.random-text {
+  color: yellow;
+}
+
+/* line 52, ../sass/screen.scss */
+.random-text2 {
+  color: yellow;
+  float: right;
 }

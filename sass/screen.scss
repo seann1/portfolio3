@@ -26,10 +26,30 @@
 body {
 	background-color: black;
 }
+.cloud1 {
+	width: 100%;
+}
 
+.cloud1 img {
+	margin-left: auto;
+	margin-right: auto;
+}
 
 @-webkit-keyframes title {
     0% {background-image: url("../images/site-title1.png");}
     50% {background-image: url("../images/site-title2.png");}
     100% {background-image: url("../images/site-title3.png");}
+}
+
+#cloud2 {
+	float: right;
+}
+
+.random-text {
+	color: yellow;
+}
+
+.random-text2 {
+	color: yellow;
+	float: right;
 }
