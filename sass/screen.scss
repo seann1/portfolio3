@@ -48,6 +48,7 @@ body {
 .random-text {
 	color: yellow;
 	float: right;
+	margin-top: 10px;
 }
 
 .random-text2 {
@@ -67,6 +68,14 @@ body {
 	}
 }
 
-#cloud2 {
+.cloud2 {
 	-webkit-transform: scaleX(-1);
+}
+
+.skull:hover {
+	-webkit-filter: invert(100%);
+}
+
+#invert:hover {
+	-webkit-filter: invert(100%);
 }
