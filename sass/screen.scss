@@ -5,11 +5,37 @@
 
 @import "compass/reset";
 @import "compass/css3/animation";
-@import "_physics.scss";
 
 @font-face {
-font-family: GraublauWeb;
+font-family: Venera;
 src: url("../fonts/Venera-100.otf") format("opentype");
+}
+
+@font-face {
+font-family: Venerathree;
+src: url("../fonts/Venera-300.otf") format("opentype");
+}
+
+@font-face {
+font-family: Venerafive;
+src: url("../fonts/Venera-500.otf") format("opentype");
+}
+
+button {
+	font-family: Venerafive;
+}
+
+.btn-default {
+	border-radius: none !important;
+	background-color: #b200ff;
+	border-width: 0px;
+	color: #c7ff44;
+}
+
+.randomized {
+	margin-top: 10px;
+	font-family: Venerathree;
+	color: white;
 }
 
 .title {
@@ -58,7 +84,7 @@ body {
 }
 
 .fix {
-	height: 100px;
+	height: 120px;
 }
 
 .random-text2 {

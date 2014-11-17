@@ -126,4 +126,8 @@ randomtext();
 		location.reload();
 	});
 
+	var randomText = $(".randomized")
+
+	randomText.shuffleLetters();
+
 });
