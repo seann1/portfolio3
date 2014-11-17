@@ -43,4 +43,15 @@ function revani2() {
   	).then(revani2);
 };
 
+
+function randomtext() {
+	var messages = [
+	"#", "<img src='images/skull.png' class='skull'></img>", "<img src='images/jackolantern.png' class='skull'></img>", "^", "%"].reverse();
+
+	$('.random-text').html(messages[Math.floor(Math.random() * messages.length)]).fadeIn(3000).delay(100).fadeOut(3000, randomtext);
+
+};
+
+randomtext();
+
 });

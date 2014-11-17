@@ -121,10 +121,31 @@ body {
 /* line 48, ../sass/screen.scss */
 .random-text {
   color: yellow;
+  float: right;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
 .random-text2 {
   color: yellow;
-  float: right;
+  float: left;
+}
+
+/* line 58, ../sass/screen.scss */
+.skull {
+  height: 40px;
+  width: auto;
+}
+
+/* line 63, ../sass/screen.scss */
+.right {
+  float: left;
+}
+/* line 65, ../sass/screen.scss */
+.right img {
+  -webkit-transform: scaleX(-1);
+}
+
+/* line 70, ../sass/screen.scss */
+#cloud2 {
+  -webkit-transform: scaleX(-1);
 }

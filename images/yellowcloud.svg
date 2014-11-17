@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="219.845px" height="141.776px" viewBox="0 0 219.845 141.776" enable-background="new 0 0 219.845 141.776"
+	 xml:space="preserve">
+<polygon fill="#F7F703" points="36,17.775 108,44.775 180,17.775 180,80.775 108,134.775 36,80.775 36,26.775 "/>
+<polygon fill="#F4AA06" points="108,53.775 180,26.775 180,71.775 108,125.775 36,71.775 36,26.775 "/>
+<polygon fill="#08F2A4" points="108,26.775 81,62.775 90,71.775 99,89.775 108,98.775 117,89.775 126,71.775 135,62.775 "/>
+<polygon fill="#0C57ED" points="108,44.775 99,62.775 99,71.775 99,80.775 108,89.775 117,80.775 117,71.775 117,62.775 "/>
+<polygon fill="#95EA0F" points="72,71.775 81,80.775 81,89.775 81,98.775 72,89.775 "/>
+<polygon fill="#95EA0F" points="135,98.775 135,80.775 144,71.775 144,89.775 "/>
+<path fill="#95EA0F" d="M36,26.775"/>
+<polygon fill="#FF5A8D" points="36,26.775 54,35.775 54,44.775 36,35.775 "/>
+<polygon fill="#FF5A8D" points="180,26.775 162,35.775 162,44.775 180,35.775 "/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="63" y1="40.2749" x2="81" y2="40.2749">
+	<stop  offset="0" style="stop-color:#8CC63F"/>
+	<stop  offset="1" style="stop-color:#29ABE2"/>
+</linearGradient>
+<polygon fill="url(#SVGID_1_)" points="72,17.775 63,44.775 63,53.775 72,62.775 81,53.775 81,44.775 "/>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="135" y1="39.2749" x2="153" y2="39.2749">
+	<stop  offset="0" style="stop-color:#29ABE2"/>
+	<stop  offset="1" style="stop-color:#8CC63F"/>
+</linearGradient>
+<polygon fill="url(#SVGID_2_)" points="144,16.775 135,43.775 135,52.775 144,61.775 153,52.775 153,43.775 "/>
+<polygon fill="#969214" points="72,89.775 72,98.775 81,116.775 81,107.775 "/>
+<polygon fill="#969214" points="144,89.775 144,98.775 135,116.775 135,107.775 "/>
+<polygon fill="#969214" points="36,53.775 45,62.775 45,71.775 45,98.775 36,89.775 "/>
+<polygon fill="#969214" points="180,53.775 171,62.775 171,98.775 180,89.775 "/>
+<polygon fill="#EFE870" points="162,62.775 153,71.775 153,107.775 162,98.775 "/>
+<polygon fill="#EFE870" points="54,63.775 63,72.775 63,81.775 63,108.775 54,99.775 "/>
+<polygon fill="#EFE870" points="72,35.775 72,44.775 63,44.775 63,26.775 "/>
+<polygon fill="#EFE870" points="153,26.775 144,35.775 144,44.775 153,43.775 "/>
+<polygon fill="#EFE870" points="72,44.775 63,44.775 72,62.775 "/>
+<polygon fill="#EFE870" points="153,43.775 144,44.775 144,62.775 "/>
+<polygon fill="#B8F73E" points="108,35.775 99,44.775 99,53.775 108,62.775 117,53.775 117,44.775 "/>
+<polygon fill="#EBF440" points="108,44.775 99,53.775 108,71.775 117,53.775 "/>
+<polygon fill="#EBF440" points="180,26.775 171,35.775 171,44.775 180,35.775 "/>
+<polygon fill="#EBF440" points="36,26.775 45,35.775 45,44.775 36,35.775 "/>
+<polygon fill="#EBF440" points="54,44.775 54,53.775 63,62.775 63,53.775 "/>
+<polygon fill="#EBF440" points="162,44.775 153,52.775 153,62.775 162,53.775 "/>
+<polygon fill="#BFF241" points="90,80.775 90,107.775 99,116.775 108,116.775 99,98.775 99,89.775 90,71.775 "/>
+<polygon fill="#BFF241" points="126,71.775 117,89.775 117,98.775 108,116.775 117,116.775 126,107.775 "/>
+<polygon fill="#FF0000" points="99,107.775 90,107.775 90,98.775 "/>
+<polygon fill="#FF0000" points="126,98.775 126,107.775 117,107.775 "/>
+</svg>

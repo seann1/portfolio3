@@ -47,9 +47,26 @@ body {
 
 .random-text {
 	color: yellow;
+	float: right;
 }
 
 .random-text2 {
 	color: yellow;
-	float: right;
+	float: left;
+}
+
+.skull {
+	height: 40px;
+	width: auto;
+}
+
+.right {
+	float: left;
+	img {
+		-webkit-transform: scaleX(-1);
+	}
+}
+
+#cloud2 {
+	-webkit-transform: scaleX(-1);
 }
