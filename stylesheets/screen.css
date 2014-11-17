@@ -95,11 +95,17 @@ button {
 /* line 35, ../sass/screen.scss */
 .randomized {
   margin-top: 10px;
+  margin-left: 72px;
+  font-size: .7em;
+  background-color: yellow;
   font-family: Venerathree;
-  color: white;
+  padding-top: 3px;
+  width: 27%;
+  color: black;
+  border-radius: 0px 10px 0px 0px;
 }
 
-/* line 41, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 .title {
   height: 400px;
   width: 800px;
@@ -111,24 +117,24 @@ button {
   border-image: url(../images/border.svg) 20 repeat;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 58, ../sass/screen.scss */
 .title-inner {
   height: 100%;
   width: 100%;
   -webkit-animation: title 5s infinite alternate;
 }
 
-/* line 58, ../sass/screen.scss */
+/* line 64, ../sass/screen.scss */
 body {
   background-color: black;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .cloud1 {
   width: 100%;
 }
 
-/* line 65, ../sass/screen.scss */
+/* line 71, ../sass/screen.scss */
 .cloud1 img {
   margin-left: auto;
   margin-right: auto;
@@ -145,55 +151,55 @@ body {
     background-image: url("../images/site-title3.png");
   }
 }
-/* line 76, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 #cloud2 {
   float: right;
 }
 
-/* line 80, ../sass/screen.scss */
+/* line 86, ../sass/screen.scss */
 .random-text {
   color: yellow;
   float: right;
   margin-top: 10px;
 }
 
-/* line 86, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .fix {
   height: 120px;
 }
 
-/* line 90, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 .random-text2 {
   color: yellow;
   float: left;
 }
 
-/* line 95, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 .skull {
   height: 80px;
   width: auto;
 }
 
-/* line 100, ../sass/screen.scss */
+/* line 106, ../sass/screen.scss */
 .right {
   float: left;
 }
-/* line 102, ../sass/screen.scss */
+/* line 108, ../sass/screen.scss */
 .right img {
   -webkit-transform: scaleX(-1);
 }
 
-/* line 107, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .cloud2 {
   -webkit-transform: scaleX(-1);
 }
 
-/* line 111, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .skull:hover {
   -webkit-filter: invert(100%);
 }
 
-/* line 115, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 #invert:hover {
   -webkit-filter: invert(100%);
 }
