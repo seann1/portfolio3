@@ -67,7 +67,92 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 9, ../sass/screen.scss */
+/* line 4, ../sass/_physics.scss */
+* {
+  margin: 0;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* line 14, ../sass/_physics.scss */
+body {
+  background: #333;
+}
+
+/* line 18, ../sass/_physics.scss */
+canvas {
+  background: #333;
+  width: 1000px;
+  height: 340px;
+  margin: 0 auto;
+  display: block;
+  border: 1px dashed #555;
+  border-top: none;
+}
+
+/* line 28, ../sass/_physics.scss */
+#info {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  width: auto;
+  max-width: 380px;
+  height: auto;
+  background: #f2f2f2;
+  border-bottom-right-radius: 10px;
+}
+
+/* line 39, ../sass/_physics.scss */
+#top {
+  background: #fff;
+  width: 100%;
+  height: auto;
+  position: relative;
+  border-bottom: 1px solid #eee;
+}
+
+/* line 47, ../sass/_physics.scss */
+p {
+  font-family: Arial, sans-serif;
+  color: #666;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 10px;
+}
+
+/* line 56, ../sass/_physics.scss */
+a {
+  font-family: sans-serif;
+  color: #444;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* line 63, ../sass/_physics.scss */
+#site {
+  float: left;
+  margin: 10px;
+  color: #38a;
+  border-bottom: 1px dashed #bbf;
+  padding-bottom: 3px;
+}
+
+/* line 71, ../sass/_physics.scss */
+#close {
+  float: right;
+  margin: 10px;
+}
+
+@font-face {
+  font-family: GraublauWeb;
+  src: url("../fonts/Venera-100.otf") format("opentype");
+}
+/* line 15, ../sass/screen.scss */
 .title {
   height: 400px;
   width: 800px;
@@ -79,24 +164,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-image: url(../images/border.svg) 20 repeat;
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 26, ../sass/screen.scss */
 .title-inner {
   height: 100%;
   width: 100%;
   -webkit-animation: title 5s infinite alternate;
 }
 
-/* line 26, ../sass/screen.scss */
+/* line 32, ../sass/screen.scss */
 body {
   background-color: black;
 }
 
-/* line 29, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 .cloud1 {
   width: 100%;
 }
 
-/* line 33, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .cloud1 img {
   margin-left: auto;
   margin-right: auto;
@@ -113,50 +198,55 @@ body {
     background-image: url("../images/site-title3.png");
   }
 }
-/* line 44, ../sass/screen.scss */
+/* line 50, ../sass/screen.scss */
 #cloud2 {
   float: right;
 }
 
-/* line 48, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .random-text {
   color: yellow;
   float: right;
   margin-top: 10px;
 }
 
-/* line 54, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
+.fix {
+  height: 100px;
+}
+
+/* line 64, ../sass/screen.scss */
 .random-text2 {
   color: yellow;
   float: left;
 }
 
-/* line 59, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .skull {
-  height: 40px;
+  height: 80px;
   width: auto;
 }
 
-/* line 64, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 .right {
   float: left;
 }
-/* line 66, ../sass/screen.scss */
+/* line 76, ../sass/screen.scss */
 .right img {
   -webkit-transform: scaleX(-1);
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 81, ../sass/screen.scss */
 .cloud2 {
   -webkit-transform: scaleX(-1);
 }
 
-/* line 75, ../sass/screen.scss */
+/* line 85, ../sass/screen.scss */
 .skull:hover {
   -webkit-filter: invert(100%);
 }
 
-/* line 79, ../sass/screen.scss */
+/* line 89, ../sass/screen.scss */
 #invert:hover {
   -webkit-filter: invert(100%);
 }

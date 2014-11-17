@@ -5,6 +5,12 @@
 
 @import "compass/reset";
 @import "compass/css3/animation";
+@import "_physics.scss";
+
+@font-face {
+font-family: GraublauWeb;
+src: url("../fonts/Venera-100.otf") format("opentype");
+}
 
 .title {
 	height: 400px;
@@ -51,13 +57,17 @@ body {
 	margin-top: 10px;
 }
 
+.fix {
+	height: 100px;
+}
+
 .random-text2 {
 	color: yellow;
 	float: left;
 }
 
 .skull {
-	height: 40px;
+	height: 80px;
 	width: auto;
 }
 
