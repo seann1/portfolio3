@@ -80,7 +80,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   src: url("../fonts/Venera-500.otf") format("opentype");
 }
 /* line 24, ../sass/screen.scss */
-button {
+body {
   font-family: Venerafive;
 }
 
@@ -124,17 +124,12 @@ button {
   -webkit-animation: title 5s infinite alternate;
 }
 
-/* line 64, ../sass/screen.scss */
-body {
-  background-color: black;
-}
-
-/* line 67, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
 .cloud1 {
   width: 100%;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .cloud1 img {
   margin-left: auto;
   margin-right: auto;
@@ -151,55 +146,93 @@ body {
     background-image: url("../images/site-title3.png");
   }
 }
-/* line 82, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 #cloud2 {
   float: right;
 }
 
-/* line 86, ../sass/screen.scss */
+/* line 82, ../sass/screen.scss */
 .random-text {
   color: yellow;
   float: right;
   margin-top: 10px;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 88, ../sass/screen.scss */
 .fix {
   height: 120px;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 .random-text2 {
   color: yellow;
   float: left;
 }
 
-/* line 101, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 .skull {
   height: 80px;
   width: auto;
 }
 
-/* line 106, ../sass/screen.scss */
+/* line 102, ../sass/screen.scss */
 .right {
   float: left;
 }
-/* line 108, ../sass/screen.scss */
+/* line 104, ../sass/screen.scss */
 .right img {
   -webkit-transform: scaleX(-1);
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .cloud2 {
   -webkit-transform: scaleX(-1);
 }
 
-/* line 117, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .skull:hover {
   -webkit-filter: invert(100%);
 }
 
-/* line 121, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 #invert:hover {
   -webkit-filter: invert(100%);
+}
+
+/* line 121, ../sass/screen.scss */
+.brand-img {
+  height: 70px;
+  width: auto;
+}
+
+/* line 126, ../sass/screen.scss */
+body {
+  background-color: black;
+}
+
+/* line 130, ../sass/screen.scss */
+.navbar {
+  border-radius: 0px;
+  background: -moz-linear-gradient(left, #fff132 0%, #eabe2c 31%, #fc286f 70%, #a189ff 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #fff132), color-stop(31%, #eabe2c), color-stop(70%, #fc286f), color-stop(100%, #a189ff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #fff132 0%, #eabe2c 31%, #fc286f 70%, #a189ff 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #fff132 0%, #eabe2c 31%, #fc286f 70%, #a189ff 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #fff132 0%, #eabe2c 31%, #fc286f 70%, #a189ff 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #fff132 0%, #eabe2c 31%, #fc286f 70%, #a189ff 100%);
+  /* W3C */
+  border-width: 0px;
+}
+/* line 139, ../sass/screen.scss */
+.navbar a {
+  color: white;
+}
+
+/* line 144, ../sass/screen.scss */
+.glitch-background {
+  background-image: url("../images/background1.jpg");
 }

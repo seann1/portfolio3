@@ -21,7 +21,7 @@ font-family: Venerafive;
 src: url("../fonts/Venera-500.otf") format("opentype");
 }
 
-button {
+body {
 	font-family: Venerafive;
 }
 
@@ -59,10 +59,6 @@ button {
 	height: 100%;
 	width: 100%;
  -webkit-animation: title 5s infinite alternate;
-}
-
-body {
-	background-color: black;
 }
 .cloud1 {
 	width: 100%;
@@ -120,4 +116,31 @@ body {
 
 #invert:hover {
 	-webkit-filter: invert(100%);
+}
+
+.brand-img {
+	height: 70px;
+	width: auto;
+}
+
+body {
+	background-color: black;
+}
+
+.navbar {
+	border-radius: 0px;
+	background: -moz-linear-gradient(left, #fff132 0%, #eabe2c 31%, #fc286f 70%, #a189ff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fff132), color-stop(31%,#eabe2c), color-stop(70%,#fc286f), color-stop(100%,#a189ff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #fff132 0%,#eabe2c 31%,#fc286f 70%,#a189ff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #fff132 0%,#eabe2c 31%,#fc286f 70%,#a189ff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #fff132 0%,#eabe2c 31%,#fc286f 70%,#a189ff 100%); /* IE10+ */
+	background: linear-gradient(to right, #fff132 0%,#eabe2c 31%,#fc286f 70%,#a189ff 100%); /* W3C */;
+	border-width: 0px;
+	a {
+		color: white;
+	}
+}
+
+.glitch-background {
+	background-image: url('../images/background1.jpg');
 }

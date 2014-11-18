@@ -141,4 +141,8 @@ randomtext();
     $(".bluecloud1").glitch2();
 	}, 8000);
 
+	setInterval(function() {
+		$(".body").addClass("glitch-background");
+	}, 2000);
+
 });
