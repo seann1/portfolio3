@@ -142,7 +142,22 @@ randomtext();
 	}, 8000);
 
 	setInterval(function() {
-		$(".body").addClass("glitch-background");
-	}, 2000);
+		var d = new Date();
+		var n = d.getTime();
+		n = n.toString();
+		if ((parseInt(n.charAt(9)) % 4 > 1) && (parseInt(n.charAt(11)) / 2 > 3))  {
+			if (parseInt(n.charAt(12)) < 5) {
+				$(".body").addClass("glitch-background2");
+			} else {
+				$(".body").addClass("glitch-background");
+			}
+		}
+		else { $(".body").removeClass("glitch-background");
+					 $(".body").removeClass("glitch-background2");
+
+		}
+
+	}, 20);
+
 
 });
