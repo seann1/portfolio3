@@ -21,7 +21,7 @@ $(document).ready(function() {
 		$.when(
 			$(".bluecloud1").animate({
 	  	position: "relative",
-	  	left: "+=1000",
+	  	left: "+=4",
 	  	height: "100px",
 	  	}, 2000)
 	  	).then(ani)
@@ -71,7 +71,7 @@ $(document).ready(function() {
   	$.when(
 	  	$(".bluecloud1").animate({
 	  	position: "relative",
-	  	right: "+=100",
+	  	right: "+=10",
 	  	height: "90px",
 	  	}, 2000)
   	).then(revani);
@@ -129,5 +129,16 @@ randomtext();
 	var randomText = $(".randomized")
 
 	randomText.shuffleLetters();
+	$(".randomized").glitch();
+	
+	var timesRun = 0;
+	
+	var interval = setInterval(function() {
+		timesRun += 1;
+		if(timesRun === 5){
+        clearInterval(interval);
+    }
+    $(".bluecloud1").glitch2();
+	}, 8000);
 
 });
