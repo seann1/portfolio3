@@ -146,9 +146,9 @@ randomtext();
 		var n = d.getTime();
 		n = n.toString();
 		if ((parseInt(n.charAt(9)) % 4 > 1) && (parseInt(n.charAt(11)) / 2 > 3))  {
-			if (parseInt(n.charAt(12)) < 5) {
+			if (parseInt(n.charAt(11)) < 5) {
 				$(".body").addClass("glitch-background2");
-			} else if ((parseInt(n.charAt(9)) > 6) && (parseInt(n.charAt(11)) / 2 > 3)) {
+			} else if ((parseInt(n.charAt(8)) > 2) && (parseInt(n.charAt(11)) > 2)) {
 				$(".body").addClass("glitch-background");
 			} else {
 				$(".body").addClass("glitch-background3")
