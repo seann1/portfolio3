@@ -148,12 +148,15 @@ randomtext();
 		if ((parseInt(n.charAt(9)) % 4 > 1) && (parseInt(n.charAt(11)) / 2 > 3))  {
 			if (parseInt(n.charAt(12)) < 5) {
 				$(".body").addClass("glitch-background2");
-			} else {
+			} else if ((parseInt(n.charAt(9)) > 6) && (parseInt(n.charAt(11)) / 2 > 3)) {
 				$(".body").addClass("glitch-background");
+			} else {
+				$(".body").addClass("glitch-background3")
 			}
 		}
 		else { $(".body").removeClass("glitch-background");
 					 $(".body").removeClass("glitch-background2");
+					 $(".body").removeClass("glitch-background3");
 
 		}
 
