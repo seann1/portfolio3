@@ -279,3 +279,17 @@ body {
   margin: 10px;
   width: auto;
 }
+
+/* line 184, ../sass/screen.scss */
+.social {
+  background-color: #606060;
+  padding: 20px;
+  text-align: center;
+  z-index: 200;
+  margin-top: 20px;
+}
+
+/* line 192, ../sass/screen.scss */
+.icon {
+  height: 60px;
+}
