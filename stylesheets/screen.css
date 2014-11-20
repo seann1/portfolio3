@@ -241,3 +241,8 @@ body {
 .glitch-background2 {
   background-image: url("../images/blue-screen.gif");
 }
+
+/* line 152, ../sass/screen.scss */
+.glitch-background3 {
+  background-image: url("../images/background2.gif");
+}
