@@ -249,3 +249,33 @@ body {
   background-image: url("../images/background2.gif");
   opacity: 50%;
 }
+
+/* line 159, ../sass/screen.scss */
+.turn-on {
+  margin-bottom: 20px;
+}
+
+/* line 162, ../sass/screen.scss */
+.footer {
+  height: 200px;
+  background-color: #cccccc;
+  text-align: center;
+  padding-top: 40px;
+}
+
+/* line 169, ../sass/screen.scss */
+.phone {
+  padding: 15px;
+  background-color: #00bfe5;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/* line 176, ../sass/screen.scss */
+.email {
+  padding: 15px;
+  background-color: #00bfe5;
+  border-radius: 10px;
+  margin: 10px;
+  width: auto;
+}
