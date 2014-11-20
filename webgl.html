@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<title>My first Three.js app</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100%; }
+		</style>
+	</head>
+	<body>
+		<script src="js/three.min.js"></script>
+		<script src="js/TrackballControls.js"></script>
+		<script>
+
+		var camera, scene, renderer, geometry, material, mesh, light1, controls;
+
+function init() {
+
+    scene = new THREE.Scene();
+
+    camera = new THREE.PerspectiveCamera(50, window.innerWidth / window.innerHeight, 1, 10000);
+    camera.position.z = 500;
+    scene.add(camera);
+
+    geometry = new THREE.SphereGeometry(75);
+    material = new THREE.MeshNormalMaterial( { color: 'white' } );
+
+    controls = new THREE.TrackballControls(camera);
+		controls.addEventListener( 'change', render);
+
+
+ 
+//loop to generate boxes
+    for (var i = 0;i<100;i++){
+    mesh = new THREE.Mesh(geometry, material);
+    mesh.position.x = ( Math.random() - 0.5)  * 1000;
+    mesh.position.y = ( Math.random() - 0.5) * 1000;
+    mesh.position.z = ( Math.random() - 0.5) * 1000;
+    scene.add(mesh);
+  	}
+
+    scene.add( new THREE.AmbientLight( 0x000000 ) );
+
+  	for (var i = 0;i<10;i++){
+
+	    light1 = new THREE.PointLight( 0xff0040, 1, 5000 );
+	    light1.position.set( (( Math.random() - 0.5) * 1000), (( Math.random() - 0.5) * 1000), (( Math.random() - 0.5) * 1000) );
+	    scene.add( light1 );
+  	}
+
+    var amlight = new THREE.AmbientLight( 0xff00ff ); // soft white light
+		scene.add( amlight );
+
+    renderer = new THREE.WebGLRenderer();
+    renderer.setSize(window.innerWidth, window.innerHeight);
+
+    document.body.appendChild(renderer.domElement);
+
+}
+
+function animate() {
+
+	var angularSpeed = 0.2;
+	var lastTime = 0;
+
+	var time = (new Date()).getTime();
+	var timeDiff = time - lastTime;
+	var angularChange = angularSpeed * timeDiff * 2 * Math.PI / 1000;
+	// cube.rotation.z += angularChange;
+	lastTime = time;
+
+	renderer.render(scene, camera);
+
+    requestAnimationFrame(animate);
+    controls.update();
+
+}
+
+function render() {
+
+    var time = Date.now() * 0.0005;
+
+    renderer.render(scene, camera);
+    mesh.rotation.x += 0.01;
+   	mesh.rotation.y += 0.02;
+
+}
+
+init();
+animate();
+render();
+		</script>
+	</body>
+</html>
