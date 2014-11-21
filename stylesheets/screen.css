@@ -326,4 +326,8 @@ body {
   width: 500px;
   height: 400px;
   background-color: #CCC;
+  border-radius: 10px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #a5a5a5;
 }

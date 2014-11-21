@@ -164,7 +164,7 @@ randomtext();
         var myLatlng = new google.maps.LatLng(45.422615, -122.716294);
         var mapOptions = {
           center: new google.maps.LatLng(45.422615, -122.716294),
-          zoom: 14,
+          zoom: 10,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(mapCanvas, mapOptions)
@@ -172,7 +172,7 @@ randomtext();
         var marker = new google.maps.Marker({
     			position: myLatlng,
     			map: map,
-    			title:"Hello World!"
+    			title:"Sean"
 				});
 
       }
