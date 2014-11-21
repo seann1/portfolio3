@@ -331,3 +331,8 @@ body {
   border-style: solid;
   border-color: #a5a5a5;
 }
+
+/* line 229, ../sass/screen.scss */
+.top {
+  padding-top: 20px;
+}
