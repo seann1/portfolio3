@@ -364,20 +364,22 @@ body {
 /* line 253, ../sass/screen.scss */
 .thumbnail-desc-small {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1em;
+  font-size: .9em;
 }
 
 /* line 258, ../sass/screen.scss */
 .thumb-button {
   margin-top: 10px;
+  background-color: black;
+  color: yellow;
 }
 
-/* line 262, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .thumbnail {
   background-color: #c9c9c9;
   height: 340px;
 }
-/* line 265, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 .thumbnail img {
   max-height: 180px;
 }

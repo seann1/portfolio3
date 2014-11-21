@@ -252,11 +252,13 @@ margin-bottom: 20px;
 
 .thumbnail-desc-small {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
+	font-size: .9em;
 }
 
 .thumb-button {
 	margin-top: 10px;
+	background-color: black;
+	color: yellow;
 }
 
 .thumbnail {
@@ -266,6 +268,8 @@ margin-bottom: 20px;
 		max-height: 180px;
 	}
 }
+
+
 
 
 
