@@ -320,3 +320,10 @@ body {
 .aboutme {
   margin-bottom: 60px;
 }
+
+/* line 219, ../sass/screen.scss */
+#map-canvas {
+  width: 500px;
+  height: 400px;
+  background-color: #CCC;
+}
