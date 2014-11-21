@@ -352,11 +352,22 @@ body {
 }
 
 /* line 245, ../sass/screen.scss */
+.thumbnail-desc-small {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+/* line 250, ../sass/screen.scss */
 .thumb-button {
   margin-top: 10px;
 }
 
-/* line 249, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 .thumbnail {
   background-color: #c9c9c9;
+  height: 340px;
+}
+/* line 257, ../sass/screen.scss */
+.thumbnail img {
+  max-height: 180px;
 }
