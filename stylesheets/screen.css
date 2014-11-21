@@ -345,3 +345,18 @@ body {
 .top {
   padding-top: 20px;
 }
+
+/* line 241, ../sass/screen.scss */
+.thumbnail-desc {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 245, ../sass/screen.scss */
+.thumb-button {
+  margin-top: 10px;
+}
+
+/* line 249, ../sass/screen.scss */
+.thumbnail {
+  background-color: #c9c9c9;
+}
