@@ -251,11 +251,21 @@ body {
 }
 
 /* line 159, ../sass/screen.scss */
+.glitch-background4 {
+  background-image: url("../images/galaxy.jpg");
+}
+
+/* line 163, ../sass/screen.scss */
+.glitch-background5 {
+  background-image: url("../images/galaxy2.jpg");
+}
+
+/* line 167, ../sass/screen.scss */
 .turn-on {
   margin-bottom: 20px;
 }
 
-/* line 162, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 .footer {
   height: 200px;
   background-color: #cccccc;
@@ -263,7 +273,7 @@ body {
   padding-top: 40px;
 }
 
-/* line 169, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 .phone {
   padding: 15px;
   background-color: #00bfe5;
@@ -271,7 +281,7 @@ body {
   margin: 10px;
 }
 
-/* line 176, ../sass/screen.scss */
+/* line 184, ../sass/screen.scss */
 .email {
   padding: 15px;
   background-color: #00bfe5;
@@ -280,7 +290,7 @@ body {
   width: auto;
 }
 
-/* line 184, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 .social {
   background-color: gray;
   padding: 20px;
@@ -289,7 +299,7 @@ body {
   margin-top: 100px;
 }
 
-/* line 192, ../sass/screen.scss */
+/* line 200, ../sass/screen.scss */
 .icon {
   height: 60px;
   -webkit-transform: rotate(0deg);
@@ -297,40 +307,40 @@ body {
   -webkit-transition: -webkit-transform, .5s;
 }
 
-/* line 199, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 .icon:hover {
   -webkit-transform: rotate(360deg);
   -webkit-filter: hue-rotate(180deg);
 }
 
-/* line 204, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 .about {
   padding: 100px;
   background-color: white;
   margin-top: 30px;
   font-family: 'Montserrat', sans-serif;
 }
-/* line 209, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .about h1 {
   font-size: 40px;
   margin-bottom: 20px;
 }
-/* line 213, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 .about .desc {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 218, ../sass/screen.scss */
+/* line 226, ../sass/screen.scss */
 .about .list {
   margin-left: 20px;
 }
 
-/* line 223, ../sass/screen.scss */
+/* line 231, ../sass/screen.scss */
 .aboutme {
   margin-bottom: 60px;
 }
 
-/* line 227, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 #map-canvas {
   width: 500px;
   height: 400px;
@@ -341,33 +351,33 @@ body {
   border-color: #a5a5a5;
 }
 
-/* line 237, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 .top {
   padding-top: 20px;
 }
 
-/* line 241, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 .thumbnail-desc {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 245, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 .thumbnail-desc-small {
   font-family: 'Montserrat', sans-serif;
   font-size: 1em;
 }
 
-/* line 250, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 .thumb-button {
   margin-top: 10px;
 }
 
-/* line 254, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 .thumbnail {
   background-color: #c9c9c9;
   height: 340px;
 }
-/* line 257, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 .thumbnail img {
   max-height: 180px;
 }

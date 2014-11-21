@@ -146,12 +146,14 @@ randomtext();
 		var n = d.getTime();
 		n = n.toString();
 		if ((parseInt(n.charAt(10)) % 2 === 0) && (parseInt(n.charAt(9)) % 4 > 2) && (parseInt(n.charAt(11)) / 2 == 2))  {
-			randomBackground = ["glitch-background", "glitch-background2", "glitch-background3"]
+			randomBackground = ["glitch-background", "glitch-background2", "glitch-background3", "glitch-background4", "glitch-background5"]
 				$(".body").addClass(randomBackground[Math.floor(Math.random() * randomBackground.length)]); 
 		}
 		else { $(".body").removeClass("glitch-background");
 					 $(".body").removeClass("glitch-background2");
 					 $(".body").removeClass("glitch-background3");
+					 $(".body").removeClass("glitch-background4");
+					 $(".body").removeClass("glitch-background5");
 
 		}
 
