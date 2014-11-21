@@ -191,6 +191,12 @@ margin-bottom: 20px;
 
 .icon {
 	height: 60px;
+	-webkit-transform: rotate(0deg);
+	-webkit-transition: -webkit-transform, .5s;
+}
+
+.icon:hover {
+	-webkit-transform:rotate(360deg);
 }
 
 .about {

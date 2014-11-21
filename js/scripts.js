@@ -145,7 +145,7 @@ randomtext();
 		var d = new Date();
 		var n = d.getTime();
 		n = n.toString();
-		if ((parseInt(n.charAt(9)) % 4 > 2) && (parseInt(n.charAt(11)) / 2 == 2))  {
+		if ((parseInt(n.charAt(10)) % 2 === 0) && (parseInt(n.charAt(9)) % 4 > 2) && (parseInt(n.charAt(11)) / 2 == 2))  {
 			randomBackground = ["glitch-background", "glitch-background2", "glitch-background3"]
 				$(".body").addClass(randomBackground[Math.floor(Math.random() * randomBackground.length)]); 
 		}
