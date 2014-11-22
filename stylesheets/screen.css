@@ -372,14 +372,22 @@ body {
   margin-top: 10px;
   background-color: black;
   color: yellow;
+  border-width: 0px;
+  -webkit-transition: background-color, 1s;
 }
 
-/* line 264, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
+.thumb-button:hover {
+  background-color: #8c00ff;
+  color: #00f2ff;
+}
+
+/* line 270, ../sass/screen.scss */
 .thumbnail {
   background-color: #c9c9c9;
   height: 340px;
 }
-/* line 267, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 .thumbnail img {
   max-height: 180px;
 }
