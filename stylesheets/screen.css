@@ -315,32 +315,31 @@ body {
 
 /* line 212, ../sass/screen.scss */
 .about {
-  padding: 100px;
-  background-color: white;
-  margin-top: 30px;
+  background-color: black;
   font-family: 'Montserrat', sans-serif;
+  color: white;
 }
-/* line 217, ../sass/screen.scss */
+/* line 218, ../sass/screen.scss */
 .about h1 {
   font-size: 40px;
   margin-bottom: 20px;
 }
-/* line 221, ../sass/screen.scss */
+/* line 222, ../sass/screen.scss */
 .about .desc {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-/* line 226, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 .about .list {
   margin-left: 20px;
 }
 
-/* line 231, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 .aboutme {
   margin-bottom: 60px;
 }
 
-/* line 235, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 #map-canvas {
   width: 500px;
   height: 400px;
@@ -351,23 +350,23 @@ body {
   border-color: #a5a5a5;
 }
 
-/* line 245, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 .top {
   padding-top: 20px;
 }
 
-/* line 249, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 .thumbnail-desc {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* line 253, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 .thumbnail-desc-small {
   font-family: 'Montserrat', sans-serif;
   font-size: .9em;
 }
 
-/* line 258, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 .thumb-button {
   margin-top: 10px;
   background-color: black;
@@ -376,18 +375,18 @@ body {
   -webkit-transition: background-color, 1s;
 }
 
-/* line 266, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 .thumb-button:hover {
   background-color: #8c00ff;
   color: #00f2ff;
 }
 
-/* line 270, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 .thumbnail {
   background-color: #c9c9c9;
   height: 340px;
 }
-/* line 273, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 .thumbnail img {
   max-height: 180px;
 }
