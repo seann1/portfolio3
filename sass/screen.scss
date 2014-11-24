@@ -26,6 +26,11 @@ src: url("../fonts/Venera-500.otf") format("opentype");
 	src: url("../fonts/bebas/BebasNeue Bold.otf") format("opentype");
 }
 
+@font-face {
+	font-family: voyager;
+	src: url("../fonts/Voyager-Grotesque/V-GERB(bold).ttf") format("opentype");
+}
+
 body {
 	font-family: Venerafive;
 }
@@ -282,14 +287,13 @@ margin-bottom: 20px;
 }
 
 .index-title {
-	margin-top: 20px;
+	margin-top: 60px;
 	margin-bottom: 10px;
-	font-family: 'bebas', sans-serif;
-	letter-spacing: 20px;
-	font-size: 170px;
-	text-align: center;
+	font-family: 'voyager', sans-serif;
+	letter-spacing: 5px;
+	font-size: 80px;
+	// text-align: center;
 	color: #5e5e5e;
-
 }
 
 #subtitle {
@@ -301,7 +305,10 @@ margin-bottom: 20px;
 	float: left;
 	margin-left: 60px;
 	color: #5e5e5e;
+}
 
+.navbar {
+	height: 10px !important;
 }
 
 

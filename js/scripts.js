@@ -1,6 +1,8 @@
 $(document).ready(function() {
 	ani();
 
+	$("#shuffle").shuffleLetters();
+
 	function revani() {
 		$.when(
 			$(".pinkcloud1").animate({
@@ -160,10 +162,10 @@ randomtext();
 	}, 20);
 
 	setInterval(function() {
-		var randomWord = ["<h1>Coder</h1>", "<h1>Designer</h1>", "<h1>Engineer</h1>", "<h1>Problem Solver</h1>"]
+		var randomWord = ["<h1>Coder</h1>", "<h1>Designer</h1>", "<h1>Engineer</h1>", "<h1>Problem Solver</h1>", "<h1>Artist</h1>"]
 		$("#subtitle").html(randomWord[Math.floor(Math.random() * randomWord.length)]).shuffleLetters();
 
-	}, 5000)
+	}, 5000);
 
 
 });
