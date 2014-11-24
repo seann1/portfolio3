@@ -21,6 +21,11 @@ font-family: Venerafive;
 src: url("../fonts/Venera-500.otf") format("opentype");
 }
 
+@font-face {
+	font-family: bebas;
+	src: url("../fonts/bebas/BebasNeue Bold.otf") format("opentype");
+}
+
 body {
 	font-family: Venerafive;
 }
@@ -274,6 +279,29 @@ margin-bottom: 20px;
 	img {
 		max-height: 180px;
 	}
+}
+
+.index-title {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: 'bebas', sans-serif;
+	letter-spacing: 20px;
+	font-size: 170px;
+	text-align: center;
+	color: #5e5e5e;
+
+}
+
+#subtitle {
+	height: 60px;
+	margin-bottom: 20px;
+	font-family: 'Venera', sans-serif;
+	letter-spacing: 10px;
+	font-size: 40px;
+	float: left;
+	margin-left: 60px;
+	color: #5e5e5e;
+
 }
 
 
