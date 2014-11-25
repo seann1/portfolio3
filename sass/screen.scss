@@ -310,23 +310,34 @@ margin-bottom: 20px;
 .e {
 	font-size: 68px;
 	color: #8baa00;
-	-webkit-transform: rotate(20deg);
 }
 
 .s {
 	font-size: 70px;
 	color: #999999;
-	-webkit-transform: rotate(20deg);
 }
 
- .navbar { height: 28px;
+ .navbar-default { height: 28px;
+ 	.active {
+		height: 35px;
+	}
  }
 
- .collapse {
- .nav {
- 	 	.active { height: 28px; }
- }
-}
+
+	.active {
+		a {
+		height: 45px;
+		// border-radius: 0px 0px 5px 5px;
+		background-color: #b6f9e1;
+	}
+	}
+
+	.nav {
+		a {
+			margin-top: -8px;
+		}
+	}
+
 
 
 
