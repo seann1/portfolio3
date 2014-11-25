@@ -307,10 +307,6 @@ margin-bottom: 20px;
 	color: #5e5e5e;
 }
 
-.navbar {
-	height: 10px !important;
-}
-
 .e {
 	font-size: 68px;
 	color: #8baa00;
@@ -321,6 +317,15 @@ margin-bottom: 20px;
 	font-size: 70px;
 	color: #999999;
 	-webkit-transform: rotate(20deg);
+}
+
+ .navbar { height: 28px;
+ }
+
+ .collapse {
+ .nav {
+ 	 	.active { height: 28px; }
+ }
 }
 
 

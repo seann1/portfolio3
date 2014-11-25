@@ -422,20 +422,25 @@ body {
 }
 
 /* line 310, ../sass/screen.scss */
-.navbar {
-  height: 10px !important;
-}
-
-/* line 314, ../sass/screen.scss */
 .e {
   font-size: 68px;
   color: #8baa00;
   -webkit-transform: rotate(20deg);
 }
 
-/* line 320, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 .s {
   font-size: 70px;
   color: #999999;
   -webkit-transform: rotate(20deg);
+}
+
+/* line 322, ../sass/screen.scss */
+.navbar {
+  height: 28px;
+}
+
+/* line 327, ../sass/screen.scss */
+.collapse .nav .active {
+  height: 28px;
 }
