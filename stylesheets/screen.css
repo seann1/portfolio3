@@ -273,18 +273,10 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 180, ../sass/screen.scss */
-.footer {
-  height: 200px;
-  background-color: #cccccc;
-  text-align: center;
-  padding-top: 40px;
-}
-
 /* line 187, ../sass/screen.scss */
 .social {
   background-color: gray;
-  padding: 20px;
+  padding-top: 20px;
   float: left;
   z-index: 200;
   width: 100%;
@@ -441,4 +433,32 @@ body {
 .phone {
   postion: absolute;
   left: 600px;
+}
+
+/* line 332, ../sass/screen.scss */
+* {
+  margin: 0;
+}
+
+/* line 336, ../sass/screen.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 340, ../sass/screen.scss */
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -120px;
+}
+
+/* line 345, ../sass/screen.scss */
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+/* line 350, ../sass/screen.scss */
+.site-footer, .page-wrap:after {
+  height: 120px;
 }
