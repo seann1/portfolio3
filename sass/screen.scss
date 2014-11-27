@@ -320,8 +320,11 @@ margin-bottom: 20px;
 	}
 
 	.phone {
-		postion: absolute;
-		left: 600px;
+		float: right;
+	}
+
+	.email {
+		float: right;
 	}
 
 * {
