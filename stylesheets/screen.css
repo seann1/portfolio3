@@ -467,3 +467,8 @@ html, body {
 .site-footer, .page-wrap:after {
   height: 120px;
 }
+
+/* line 352, ../sass/screen.scss */
+.space {
+  margin-top: 25px;
+}
