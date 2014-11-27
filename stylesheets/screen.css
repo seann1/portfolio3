@@ -472,3 +472,30 @@ html, body {
 .space {
   margin-top: 25px;
 }
+
+/* line 356, ../sass/screen.scss */
+.phone {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  position: relative;
+  bottom: 65px;
+}
+
+/* line 366, ../sass/screen.scss */
+.email {
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px 0px 0px 10px;
+  position: relative;
+  bottom: 55px;
+}
+
+/* line 376, ../sass/screen.scss */
+.social {
+  display: inline;
+}
