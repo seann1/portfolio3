@@ -357,7 +357,7 @@ html, body {
 	display: block;
 	background-color: black;
 	color: white;
-	padding: 10px;
+	padding: 10px 10px 11px 10px;
 	border-radius: 10px 0px 0px 10px;
 	position: relative;
 	bottom: 5px;
@@ -368,10 +368,10 @@ html, body {
 	display: block;
 	background-color: black;
 	color: white;
-	padding: 10px;
+	padding: 10px 10px 11px 10px;
 	border-radius: 10px 0px 0px 10px;
 	position: relative;
-	bottom: 25px;
+	bottom: 29px;
 	// visibility: hidden;
 }
 
@@ -381,18 +381,34 @@ html, body {
 
 .fa {
 	float: right;
-	margin: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-right: 10px;
 	color: white;
 }
 
 .fa-phone {
 	position: relative;
-	bottom: 17px;
+	bottom: 20px;
+	background-color: black;
+	padding-top: 5px;
+	padding-right: 10px;
+	left: 10px;
+	padding-left: 15px;
+	border-radius: 10px 0px 0px 10px;
 }
 
 .fa-envelope {
 	position: relative;
-	bottom: 38px;
+	bottom: 43px;
+	background-color: black;
+	padding-left: 15px;
+	padding-right: 10px;
+	left: 10px;
+	// padding-top: 3px;
+	padding-bottom: 4px;
+	border-radius: 10px 0px 0px 10px;
 }
 
 

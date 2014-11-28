@@ -478,7 +478,7 @@ html, body {
   display: block;
   background-color: black;
   color: white;
-  padding: 10px;
+  padding: 10px 10px 11px 10px;
   border-radius: 10px 0px 0px 10px;
   position: relative;
   bottom: 5px;
@@ -489,10 +489,10 @@ html, body {
   display: block;
   background-color: black;
   color: white;
-  padding: 10px;
+  padding: 10px 10px 11px 10px;
   border-radius: 10px 0px 0px 10px;
   position: relative;
-  bottom: 25px;
+  bottom: 29px;
 }
 
 /* line 378, ../sass/screen.scss */
@@ -503,18 +503,33 @@ html, body {
 /* line 382, ../sass/screen.scss */
 .fa {
   float: right;
-  margin: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 10px;
   color: white;
 }
 
-/* line 388, ../sass/screen.scss */
+/* line 391, ../sass/screen.scss */
 .fa-phone {
   position: relative;
-  bottom: 17px;
+  bottom: 20px;
+  background-color: black;
+  padding-top: 5px;
+  padding-right: 10px;
+  left: 10px;
+  padding-left: 15px;
+  border-radius: 10px 0px 0px 10px;
 }
 
-/* line 393, ../sass/screen.scss */
+/* line 402, ../sass/screen.scss */
 .fa-envelope {
   position: relative;
-  bottom: 38px;
+  bottom: 43px;
+  background-color: black;
+  padding-left: 15px;
+  padding-right: 10px;
+  left: 10px;
+  padding-bottom: 4px;
+  border-radius: 10px 0px 0px 10px;
 }
