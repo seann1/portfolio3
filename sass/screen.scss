@@ -359,6 +359,7 @@ html, body {
 	color: white;
 	padding: 10px;
 	border-radius: 10px 0px 0px 10px;
+	visibility: hidden;
 }
 
 .email {
@@ -369,12 +370,16 @@ html, body {
 	border-radius: 10px 0px 0px 10px;
 	position: relative;
 	bottom: 20px;
+	visibility: hidden;
 }
 
 .social {
 	display: inline;
 }
 
+.fa {
+	float: right;
+}
 
 
 

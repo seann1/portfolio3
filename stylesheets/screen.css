@@ -480,9 +480,10 @@ html, body {
   color: white;
   padding: 10px;
   border-radius: 10px 0px 0px 10px;
+  visibility: hidden;
 }
 
-/* line 364, ../sass/screen.scss */
+/* line 365, ../sass/screen.scss */
 .email {
   display: block;
   background-color: black;
@@ -491,9 +492,15 @@ html, body {
   border-radius: 10px 0px 0px 10px;
   position: relative;
   bottom: 20px;
+  visibility: hidden;
 }
 
-/* line 374, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 .social {
   display: inline;
+}
+
+/* line 380, ../sass/screen.scss */
+.fa {
+  float: right;
 }
