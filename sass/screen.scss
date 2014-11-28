@@ -361,7 +361,8 @@ html, body {
 	border-radius: 10px 0px 0px 10px;
 	position: relative;
 	bottom: 5px;
-	// visibility: hidden;
+	left: 81px;
+	margin-bottom: 30px;
 }
 
 .email {
@@ -372,7 +373,7 @@ html, body {
 	border-radius: 10px 0px 0px 10px;
 	position: relative;
 	bottom: 29px;
-	// visibility: hidden;
+	left: 82px;
 }
 
 .social {
@@ -406,9 +407,12 @@ html, body {
 	padding-left: 15px;
 	padding-right: 10px;
 	left: 10px;
-	// padding-top: 3px;
 	padding-bottom: 4px;
 	border-radius: 10px 0px 0px 10px;
+}
+
+.hidden {
+	visibility: hidden;
 }
 
 

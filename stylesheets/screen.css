@@ -482,9 +482,11 @@ html, body {
   border-radius: 10px 0px 0px 10px;
   position: relative;
   bottom: 5px;
+  left: 81px;
+  margin-bottom: 30px;
 }
 
-/* line 367, ../sass/screen.scss */
+/* line 368, ../sass/screen.scss */
 .email {
   display: block;
   background-color: black;
@@ -493,14 +495,15 @@ html, body {
   border-radius: 10px 0px 0px 10px;
   position: relative;
   bottom: 29px;
+  left: 82px;
 }
 
-/* line 378, ../sass/screen.scss */
+/* line 379, ../sass/screen.scss */
 .social {
   display: inline;
 }
 
-/* line 382, ../sass/screen.scss */
+/* line 383, ../sass/screen.scss */
 .fa {
   float: right;
   margin-top: 15px;
@@ -510,7 +513,7 @@ html, body {
   color: white;
 }
 
-/* line 391, ../sass/screen.scss */
+/* line 392, ../sass/screen.scss */
 .fa-phone {
   position: relative;
   bottom: 20px;
@@ -522,7 +525,7 @@ html, body {
   border-radius: 10px 0px 0px 10px;
 }
 
-/* line 402, ../sass/screen.scss */
+/* line 403, ../sass/screen.scss */
 .fa-envelope {
   position: relative;
   bottom: 43px;
@@ -532,4 +535,9 @@ html, body {
   left: 10px;
   padding-bottom: 4px;
   border-radius: 10px 0px 0px 10px;
+}
+
+/* line 414, ../sass/screen.scss */
+.hidden {
+  visibility: hidden;
 }
