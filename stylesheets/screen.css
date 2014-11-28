@@ -480,10 +480,11 @@ html, body {
   color: white;
   padding: 10px;
   border-radius: 10px 0px 0px 10px;
-  visibility: hidden;
+  position: relative;
+  bottom: 5px;
 }
 
-/* line 365, ../sass/screen.scss */
+/* line 367, ../sass/screen.scss */
 .email {
   display: block;
   background-color: black;
@@ -491,16 +492,29 @@ html, body {
   padding: 10px;
   border-radius: 10px 0px 0px 10px;
   position: relative;
-  bottom: 20px;
-  visibility: hidden;
+  bottom: 25px;
 }
 
-/* line 376, ../sass/screen.scss */
+/* line 378, ../sass/screen.scss */
 .social {
   display: inline;
 }
 
-/* line 380, ../sass/screen.scss */
+/* line 382, ../sass/screen.scss */
 .fa {
   float: right;
+  margin: 15px;
+  color: white;
+}
+
+/* line 388, ../sass/screen.scss */
+.fa-phone {
+  position: relative;
+  bottom: 17px;
+}
+
+/* line 393, ../sass/screen.scss */
+.fa-envelope {
+  position: relative;
+  bottom: 38px;
 }

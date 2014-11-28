@@ -359,7 +359,9 @@ html, body {
 	color: white;
 	padding: 10px;
 	border-radius: 10px 0px 0px 10px;
-	visibility: hidden;
+	position: relative;
+	bottom: 5px;
+	// visibility: hidden;
 }
 
 .email {
@@ -369,8 +371,8 @@ html, body {
 	padding: 10px;
 	border-radius: 10px 0px 0px 10px;
 	position: relative;
-	bottom: 20px;
-	visibility: hidden;
+	bottom: 25px;
+	// visibility: hidden;
 }
 
 .social {
@@ -379,6 +381,18 @@ html, body {
 
 .fa {
 	float: right;
+	margin: 15px;
+	color: white;
+}
+
+.fa-phone {
+	position: relative;
+	bottom: 17px;
+}
+
+.fa-envelope {
+	position: relative;
+	bottom: 38px;
 }
 
 
