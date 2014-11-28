@@ -191,15 +191,8 @@ $(".email").click(function() {
 	//audio
 
 	var audioElement = document.createElement('audio');
-        audioElement.setAttribute('src', 'audio.mp3');
-        audioElement.setAttribute('autoplay', 'autoplay');
-        //audioElement.load()
+        audioElement.setAttribute('src', 'sounds/sound3.wav');
 
-        $.get();
-
-        audioElement.addEventListener("load", function() {
-            audioElement.play();
-        }, true);
 
         $('.play').click(function() {
             audioElement.play();
