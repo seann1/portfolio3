@@ -188,6 +188,24 @@ $(".email").click(function() {
 	}, 5000);
 
 
+	//audio
+
+	var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', 'audio.mp3');
+        audioElement.setAttribute('autoplay', 'autoplay');
+        //audioElement.load()
+
+        $.get();
+
+        audioElement.addEventListener("load", function() {
+            audioElement.play();
+        }, true);
+
+        $('.play').click(function() {
+            audioElement.play();
+        });
+
+
 });
       function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
