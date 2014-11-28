@@ -465,7 +465,7 @@ html, body {
 
 /* line 348, ../sass/screen.scss */
 .site-footer, .page-wrap:after {
-  height: 120px;
+  height: 100px;
 }
 
 /* line 352, ../sass/screen.scss */
@@ -480,11 +480,9 @@ html, body {
   color: white;
   padding: 10px;
   border-radius: 10px 0px 0px 10px;
-  position: relative;
-  bottom: 65px;
 }
 
-/* line 366, ../sass/screen.scss */
+/* line 364, ../sass/screen.scss */
 .email {
   display: block;
   background-color: black;
@@ -492,10 +490,10 @@ html, body {
   padding: 10px;
   border-radius: 10px 0px 0px 10px;
   position: relative;
-  bottom: 55px;
+  bottom: 20px;
 }
 
-/* line 376, ../sass/screen.scss */
+/* line 374, ../sass/screen.scss */
 .social {
   display: inline;
 }

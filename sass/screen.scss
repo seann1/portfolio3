@@ -346,7 +346,7 @@ html, body {
 }
 
 .site-footer, .page-wrap:after {
-  height: 120px; 
+  height: 100px; 
 }
 
 .space {
@@ -359,8 +359,6 @@ html, body {
 	color: white;
 	padding: 10px;
 	border-radius: 10px 0px 0px 10px;
-	position: relative;
-	bottom: 65px;
 }
 
 .email {
@@ -370,7 +368,7 @@ html, body {
 	padding: 10px;
 	border-radius: 10px 0px 0px 10px;
 	position: relative;
-	bottom: 55px;
+	bottom: 20px;
 }
 
 .social {
