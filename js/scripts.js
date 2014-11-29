@@ -191,11 +191,23 @@ $(".email").click(function() {
 	//audio
 
 	var audioElement = document.createElement('audio');
-        audioElement.setAttribute('src', 'sounds/sound3.wav');
+  audioElement.setAttribute('src', 'sounds/sound3.wav');
+
+  var audioElement1 = document.createElement('audio');
+  audioElement1.setAttribute('src', 'sounds/sound1.wav');
+
+  var audioElement2 = document.createElement('audio');
+  audioElement2.setAttribute('src', 'sounds/sound4.wav');
+
+  var audioElement3 = document.createElement('audio');
+  audioElement3.setAttribute('src', 'sounds/sound5.wav');
+
+  var randomSound = [audioElement, audioElement1, audioElement2, audioElement3]
+
 
 
         $('.play').click(function() {
-            audioElement.play();
+            randomSound[Math.floor(Math.random() * randomSound.length)].play();
         });
 
 
