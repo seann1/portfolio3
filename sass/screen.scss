@@ -52,6 +52,12 @@ body {
 	width: 50%;
 	color: black;
 	border-radius: 0px 10px 0px 0px;
+	z-index: 500;
+}
+
+.turn-sound {
+	position: relative;
+	z-index: 500;
 }
 
 .title {
@@ -185,6 +191,7 @@ margin-bottom: 20px;
 	z-index: 200;
 	width: 100%;
 	padding-left: 20px;
+	margin-top: 50px;
 }
 
 .icon {
@@ -411,6 +418,43 @@ html, body {
 
 .hidden {
 	visibility: hidden;
+}
+
+.sticker {
+	height: 100px;
+	background-color: green;
+	border-radius: 100%;
+	width: 100px;
+	position: absolute;
+	left: 180px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: white;
+	top: 30px;
+	z-index: 1;
+
+}
+
+.sticker2 {
+	height: 110px;
+	background-color: green;
+	border-radius: 100%;
+	width: 110px;
+	position: absolute;
+	left: 175px;
+	border-width: 7px;
+	border-style: solid;
+	border-color: green;
+	top: 25px;
+	z-index: 1;
+
+}
+
+.sticker-container {
+	position: absolute;
+	top: 200px;
+	right: 1200px;
+	z-index: 1;
 }
 
 
