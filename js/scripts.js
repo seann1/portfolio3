@@ -202,12 +202,14 @@ $(".email").click(function() {
   var audioElement3 = document.createElement('audio');
   audioElement3.setAttribute('src', 'sounds/sound5.wav');
 
-  var randomSound = [audioElement, audioElement1, audioElement2, audioElement3]
+  var randomSound = [audioElement, audioElement1, audioElement2, audioElement3];
 
 
 
         $('.play').click(function() {
-            randomSound[Math.floor(Math.random() * randomSound.length)].play();
+        	var chosenSound = randomSound[Math.floor(Math.random() * randomSound.length)];
+        	chosenSound.volume = 0.5;
+            chosenSound.play();
         });
 
 
