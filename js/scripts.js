@@ -202,7 +202,19 @@ $(".email").click(function() {
   var audioElement3 = document.createElement('audio');
   audioElement3.setAttribute('src', 'sounds/sound5.wav');
 
-  var randomSound = [audioElement, audioElement1, audioElement2, audioElement3];
+  var audioElement4 = document.createElement('audio');
+  audioElement4.setAttribute('src', 'sounds/sound6.wav');
+
+  var audioElement5 = document.createElement('audio');
+  audioElement5.setAttribute('src', 'sounds/sound7.wav');
+
+  var audioElement6 = document.createElement('audio');
+  audioElement6.setAttribute('src', 'sounds/sound8.wav');
+
+  var audioElement7 = document.createElement('audio');
+  audioElement7.setAttribute('src', 'sounds/sound9.wav');
+
+  var randomSound = [audioElement, audioElement1, audioElement2, audioElement3, audioElement4, audioElement5, audioElement6, audioElement7];
 
 
 
