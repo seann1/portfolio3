@@ -397,6 +397,7 @@ body {
 /* line 287, ../sass/screen.scss */
 #subtitle {
   height: 60px;
+  position: relative;
   margin-bottom: 20px;
   font-family: 'Venera', sans-serif;
   letter-spacing: 10px;
@@ -404,84 +405,85 @@ body {
   float: left;
   margin-left: 60px;
   color: #5e5e5e;
+  z-index: 500;
 }
 
-/* line 298, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 .e {
   font-size: 68px;
   color: #8baa00;
 }
 
-/* line 303, ../sass/screen.scss */
+/* line 305, ../sass/screen.scss */
 .s {
   font-size: 70px;
   color: #999999;
 }
 
-/* line 308, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 .navbar-default {
   height: 28px;
 }
-/* line 309, ../sass/screen.scss */
+/* line 311, ../sass/screen.scss */
 .navbar-default .active {
   height: 35px;
 }
 
-/* line 316, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 .active a {
   height: 45px;
   background-color: #b6f9e1;
 }
 
-/* line 324, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 .nav a {
   margin-top: -8px;
 }
 
-/* line 329, ../sass/screen.scss */
+/* line 331, ../sass/screen.scss */
 .phone {
   float: right;
 }
 
-/* line 333, ../sass/screen.scss */
+/* line 335, ../sass/screen.scss */
 .email {
   float: right;
 }
 
-/* line 337, ../sass/screen.scss */
+/* line 339, ../sass/screen.scss */
 * {
   margin: 0;
 }
 
-/* line 341, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 html, body {
   height: 100%;
 }
 
-/* line 345, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -120px;
 }
 
-/* line 350, ../sass/screen.scss */
+/* line 352, ../sass/screen.scss */
 .page-wrap:after {
   content: "";
   display: block;
 }
 
-/* line 355, ../sass/screen.scss */
+/* line 357, ../sass/screen.scss */
 .site-footer, .page-wrap:after {
   height: 100px;
 }
 
-/* line 359, ../sass/screen.scss */
+/* line 361, ../sass/screen.scss */
 .space {
   margin-top: 25px;
 }
 
-/* line 363, ../sass/screen.scss */
+/* line 365, ../sass/screen.scss */
 .phone {
   display: block;
   background-color: black;
@@ -493,7 +495,7 @@ html, body {
   margin-bottom: 30px;
 }
 
-/* line 374, ../sass/screen.scss */
+/* line 376, ../sass/screen.scss */
 .email {
   display: block;
   background-color: black;
@@ -504,12 +506,12 @@ html, body {
   bottom: 29px;
 }
 
-/* line 384, ../sass/screen.scss */
+/* line 386, ../sass/screen.scss */
 .social {
   display: inline;
 }
 
-/* line 388, ../sass/screen.scss */
+/* line 390, ../sass/screen.scss */
 .fa {
   float: right;
   margin-top: 15px;
@@ -519,7 +521,7 @@ html, body {
   color: white;
 }
 
-/* line 397, ../sass/screen.scss */
+/* line 399, ../sass/screen.scss */
 .fa-phone {
   position: relative;
   bottom: 20px;
@@ -531,7 +533,7 @@ html, body {
   border-radius: 10px 0px 0px 10px;
 }
 
-/* line 408, ../sass/screen.scss */
+/* line 410, ../sass/screen.scss */
 .fa-envelope {
   position: relative;
   bottom: 43px;
@@ -543,12 +545,12 @@ html, body {
   border-radius: 10px 0px 0px 10px;
 }
 
-/* line 419, ../sass/screen.scss */
+/* line 421, ../sass/screen.scss */
 .hidden {
   visibility: hidden;
 }
 
-/* line 423, ../sass/screen.scss */
+/* line 425, ../sass/screen.scss */
 .sticker {
   height: 100px;
   background-color: green;
@@ -563,7 +565,7 @@ html, body {
   z-index: 1;
 }
 
-/* line 438, ../sass/screen.scss */
+/* line 440, ../sass/screen.scss */
 .sticker2 {
   height: 110px;
   background-color: green;
@@ -578,10 +580,16 @@ html, body {
   z-index: 1;
 }
 
-/* line 453, ../sass/screen.scss */
+/* line 455, ../sass/screen.scss */
 .sticker-container {
   position: absolute;
   top: 200px;
   right: 1200px;
   z-index: 1;
+}
+
+/* line 462, ../sass/screen.scss */
+.cloud1 {
+  position: relative;
+  z-index: 500;
 }

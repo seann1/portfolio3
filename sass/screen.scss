@@ -286,6 +286,7 @@ margin-bottom: 20px;
 
 #subtitle {
 	height: 60px;
+	position: relative;
 	margin-bottom: 20px;
 	font-family: 'Venera', sans-serif;
 	letter-spacing: 10px;
@@ -293,6 +294,7 @@ margin-bottom: 20px;
 	float: left;
 	margin-left: 60px;
 	color: #5e5e5e;
+	z-index: 500;
 }
 
 .e {
@@ -455,6 +457,11 @@ html, body {
 	top: 200px;
 	right: 1200px;
 	z-index: 1;
+}
+
+.cloud1 {
+	position: relative;
+	z-index: 500;
 }
 
 
