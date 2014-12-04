@@ -12,6 +12,11 @@ src: url("../fonts/Venera-100.otf") format("opentype");
 }
 
 @font-face {
+font-family: marker;
+src: url("../fonts/marker.ttf") format("opentype");
+}
+
+@font-face {
 font-family: Venerathree;
 src: url("../fonts/Venera-300.otf") format("opentype");
 }
@@ -423,10 +428,10 @@ html, body {
 }
 
 .sticker {
-	height: 100px;
+	height: 130px;
 	background-color: green;
 	border-radius: 100%;
-	width: 100px;
+	width: 130px;
 	position: absolute;
 	left: 180px;
 	border-width: 5px;
@@ -438,10 +443,10 @@ html, body {
 }
 
 .sticker2 {
-	height: 110px;
+	height: 140px;
 	background-color: green;
 	border-radius: 100%;
-	width: 110px;
+	width: 140px;
 	position: absolute;
 	left: 175px;
 	border-width: 7px;
@@ -464,6 +469,14 @@ html, body {
 	z-index: 500;
 }
 
+.click-play {
+	margin-top: 10px;
+	margin-left: 20px;
+	-webkit-transform: rotate(-15deg);
+	font-family: marker;
+	font-size: 1.4em;
+	color: white;
+}
 
 
 
