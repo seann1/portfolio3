@@ -187,6 +187,8 @@ body {
 
 .turn-on {
 margin-bottom: 20px;
+position: relative;
+	z-index: 1000;
 }
 
 .social {
@@ -429,7 +431,9 @@ html, body {
 
 .sticker {
 	height: 130px;
-	background-color: green;
+	background: -moz-linear-gradient(left, #ff32cf 0%, #30ffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ff32cf), color-stop(100%,#30ffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #ff32cf 0%,#30ffff 100%); /* Chrome10+,Safari5.1+ */
 	border-radius: 100%;
 	width: 130px;
 	position: absolute;
@@ -444,14 +448,11 @@ html, body {
 
 .sticker2 {
 	height: 140px;
-	background-color: green;
+	background-color: #ffc700;
 	border-radius: 100%;
 	width: 140px;
 	position: absolute;
 	left: 175px;
-	border-width: 7px;
-	border-style: solid;
-	border-color: green;
 	top: 25px;
 	z-index: 1;
 
