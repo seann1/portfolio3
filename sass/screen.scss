@@ -443,6 +443,13 @@ html, body {
 	border-color: white;
 	top: 30px;
 	z-index: 1;
+	-webkit-transform: rotate(-15deg); 
+	-webkit-transition: -webkit-transform 1s;
+
+}
+
+.sticker:hover {
+	-webkit-transform: rotate(0deg);
 
 }
 
@@ -471,9 +478,8 @@ html, body {
 }
 
 .click-play {
-	margin-top: 10px;
+	margin-top: 12px;
 	margin-left: 20px;
-	-webkit-transform: rotate(-15deg);
 	font-family: marker;
 	font-size: 1.4em;
 	color: white;

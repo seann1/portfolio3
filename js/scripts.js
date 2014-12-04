@@ -103,7 +103,6 @@ $(document).ready(function() {
   	).then(revani);
 };
 
-
 function randomtext() {
 	var messages = [
 	 "<img src='images/skull.png' class='skull'></img>", "<img src='images/jackolantern.png' class='skull'></img>"].reverse();
