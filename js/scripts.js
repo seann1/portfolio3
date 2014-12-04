@@ -223,7 +223,6 @@ $(".email").click(function() {
             chosenSound.play();
         });
 
-
 });
       function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
