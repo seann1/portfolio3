@@ -1,9 +1,11 @@
-$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-});
+
 
 $(document).ready(function() {
+	$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+	}); 
+
 
 	$(".fa-phone").click(function() {
 		$(".fa-phone").addClass("hidden");
