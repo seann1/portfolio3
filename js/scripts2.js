@@ -1,3 +1,8 @@
+$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
+});
+
 $(document).ready(function() {
 
 	$(".fa-phone").click(function() {
