@@ -1,6 +1,12 @@
 $(document).ready(function() {
 	ani();
 
+	$(".demo").hide();
+	$(".jsdemo").click(function() {
+		$(".demo").show();
+		$("body").addClass("demo");
+	});
+
 	$("#shuffle").shuffleLetters();
 
 	function revani() {
@@ -151,6 +157,7 @@ $(".email").click(function() {
 
 	randomText.shuffleLetters();
 	$(".randomized").glitch();
+
 	
 	var timesRun = 0;
 	
@@ -167,7 +174,9 @@ $(".email").click(function() {
 		var n = d.getTime();
 		n = n.toString();
 		if ((parseInt(n.charAt(10)) % 2 === 0) && (parseInt(n.charAt(9)) % 4 > 2) && (parseInt(n.charAt(11)) / 2 == 2))  {
+			if ($('body').hasClass("demo")) {
 			randomBackground = ["glitch-background", "glitch-background2", "glitch-background3", "glitch-background4", "glitch-background5"]
+		} else {randomBackground = []};
 				$(".body").addClass(randomBackground[Math.floor(Math.random() * randomBackground.length)]); 
 		}
 		else { $(".body").removeClass("glitch-background");
