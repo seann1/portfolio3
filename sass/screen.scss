@@ -38,6 +38,7 @@ src: url("../fonts/Venera-500.otf") format("opentype");
 
 body {
 	font-family: Venerafive;
+	cursor: url(../cursors/mickey.cur);
 }
 
 .btn-default {
@@ -490,7 +491,7 @@ html, body {
 }
 
 .modal-container {
-	background-color: #5e5e5e;
+	background-color: #3d3d3d;
 	padding-top: 20px;
 	padding-bottom: 5px;
 	padding-right: 5px;

@@ -53,18 +53,6 @@ $(document).ready(function() {
 
 	$("#shuffle, #shuffle3, #shuffle4, #shuffle5, #shuffle6, #shuffle7, #shuffle8, #shuffle9, #shuffle10, #shuffle11, #shuffle12, #shuffle13, #shuffle14, #shuffle15, #shuffle16, #shuffle17, #shuffle18, #shuffle19").shuffleLetters();
 
-	// function httpGet(theUrl)
-	// {
-	//     var xmlHttp = null;
-
-	//     xmlHttp = new XMLHttpRequest();
-	//     xmlHttp.open( "GET", theUrl, false );
-	//     xmlHttp.send( null );
-	//     return xmlHttp.responseText;
-	// }
-	// var getresponse = httpGet("http://google.com");
-	// $(".api").text(getresponse);
-
 	$(window).scroll(function() {
     if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
         $('#return-to-top').fadeIn(200);    // Fade in the arrow
@@ -82,6 +70,18 @@ $(document).ready(function() {
 
 
 });
+
+	// function httpGet(theUrl)
+	// {
+	//     var xmlHttp = null;
+
+	//     xmlHttp = new XMLHttpRequest();
+	//     xmlHttp.open( "GET", theUrl, false );
+	//     xmlHttp.send( null );
+	//     return xmlHttp.responseText;
+	// }
+	// var getresponse = httpGet("http://google.com");
+	// $(".api").text(getresponse);
 
      function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
