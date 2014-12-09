@@ -5,6 +5,10 @@ $(document).ready(function() {
    $(this).parent().addClass("active");
 });
 
+	$(".index").click(function() {
+		window.scrollTo(0, 0);
+	});
+
 	$(".portfolio-link").click(function() {
 		$(this).addClass("active");
 	})
