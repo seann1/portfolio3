@@ -38,7 +38,6 @@ src: url("../fonts/Venera-500.otf") format("opentype");
 
 body {
 	font-family: Venerafive;
-	cursor: url(../cursors/mickey.cur);
 }
 
 .btn-default {
@@ -111,16 +110,6 @@ body {
 	height: 120px;
 }
 
-.random-text2 {
-	color: yellow;
-	float: left;
-}
-
-.skull {
-	height: 80px;
-	width: auto;
-}
-
 .right {
 	float: left;
 	img {
@@ -163,6 +152,11 @@ body {
 	opacity: 50%;
 }
 
+.nav {
+	a {
+		color: black !important;
+	}
+}
 .glitch-background2 {
 	background-image: url('../images/blue-screen.gif');
 	opacity: 50%;
@@ -513,7 +507,7 @@ html, body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: rgba(0,0,255, 0.5);
+    background: rgba(255,255,255, 0.5);
     width: 50px;
     height: 50px;
     display: block;
@@ -530,7 +524,7 @@ html, body {
     transition: all 0.3s ease;
 }
 #return-to-top i {
-    color: #fff;
+    color: black;
     margin-right: 28px;
     position: relative;
     bottom: 20px;
@@ -543,10 +537,10 @@ html, body {
     transition: all 0.3s ease;
 }
 #return-to-top:hover {
-    background: red;
+    background: black;
 }
 #return-to-top:hover i {
-    color: purple;
+    color: white;
     bottom: 30px;
 }
 
