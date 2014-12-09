@@ -574,10 +574,11 @@ html, body {
 
 /* line 456, ../sass/screen.scss */
 .modal-container {
-  padding-left: 15spx;
+  padding-left: 15px;
+  margin-bottom: 10px;
 }
 
-/* line 460, ../sass/screen.scss */
+/* line 461, ../sass/screen.scss */
 .vid-title {
   background: rgba(255, 255, 255, 0.5);
   font-size: 40px;
@@ -589,7 +590,7 @@ html, body {
   font-family: bebas;
 }
 
-/* line 471, ../sass/screen.scss */
+/* line 472, ../sass/screen.scss */
 #return-to-top {
   position: fixed;
   bottom: 20px;
@@ -611,7 +612,7 @@ html, body {
   transition: all 0.3s ease;
 }
 
-/* line 491, ../sass/screen.scss */
+/* line 492, ../sass/screen.scss */
 #return-to-top i {
   color: black;
   margin-right: 28px;
@@ -626,18 +627,18 @@ html, body {
   transition: all 0.3s ease;
 }
 
-/* line 505, ../sass/screen.scss */
+/* line 506, ../sass/screen.scss */
 #return-to-top:hover {
   background: black;
 }
 
-/* line 509, ../sass/screen.scss */
+/* line 510, ../sass/screen.scss */
 #return-to-top:hover i {
   color: white;
   bottom: 30px;
 }
 
-/* line 514, ../sass/screen.scss */
+/* line 515, ../sass/screen.scss */
 .jsdemo {
   margin-left: 30px;
   margin-bottom: 40px;
