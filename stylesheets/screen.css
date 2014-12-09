@@ -574,27 +574,22 @@ html, body {
 
 /* line 456, ../sass/screen.scss */
 .modal-container {
-  background-color: #3d3d3d;
-  padding-top: 20px;
-  padding-bottom: 5px;
-  padding-right: 5px;
-  padding-left: 5px;
-  border-radius: 0px 20px 20px 20px;
+  padding-left: 15px;
 }
 
-/* line 465, ../sass/screen.scss */
+/* line 460, ../sass/screen.scss */
 .vid-title {
-  background-color: #ccff00;
-  font-size: 20px;
-  border-radius: 0px 15px 0px 0px;
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 40px;
   padding-top: 20px;
   padding-left: 5px;
   margin-left: -15px;
-  color: purple;
-  margin-bottom: 3px;
+  color: black;
+  margin-bottom: 10px;
+  font-family: bebas;
 }
 
-/* line 476, ../sass/screen.scss */
+/* line 471, ../sass/screen.scss */
 #return-to-top {
   position: fixed;
   bottom: 20px;
@@ -616,7 +611,7 @@ html, body {
   transition: all 0.3s ease;
 }
 
-/* line 496, ../sass/screen.scss */
+/* line 491, ../sass/screen.scss */
 #return-to-top i {
   color: black;
   margin-right: 28px;
@@ -631,18 +626,18 @@ html, body {
   transition: all 0.3s ease;
 }
 
-/* line 510, ../sass/screen.scss */
+/* line 505, ../sass/screen.scss */
 #return-to-top:hover {
   background: black;
 }
 
-/* line 514, ../sass/screen.scss */
+/* line 509, ../sass/screen.scss */
 #return-to-top:hover i {
   color: white;
   bottom: 30px;
 }
 
-/* line 519, ../sass/screen.scss */
+/* line 514, ../sass/screen.scss */
 .jsdemo {
   margin-left: 30px;
   margin-bottom: 40px;
