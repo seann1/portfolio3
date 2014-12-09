@@ -358,8 +358,8 @@ body {
 .index-title {
   margin-top: 60px;
   margin-bottom: 10px;
-  font-family: 'voyager', sans-serif;
-  letter-spacing: 5px;
+  font-family: 'bebas', sans-serif;
+  letter-spacing: 20px;
   font-size: 80px;
   color: #5e5e5e;
 }
@@ -379,80 +379,68 @@ body {
 }
 
 /* line 280, ../sass/screen.scss */
-.e {
-  font-size: 68px;
-  color: #8baa00;
-}
-
-/* line 285, ../sass/screen.scss */
-.s {
-  font-size: 70px;
-  color: #999999;
-}
-
-/* line 290, ../sass/screen.scss */
 .navbar-default {
   height: 28px;
 }
-/* line 291, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 .navbar-default .active {
   height: 35px;
 }
 
-/* line 298, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 .active a {
   height: 45px;
   background-color: #b6f9e1;
 }
 
-/* line 305, ../sass/screen.scss */
+/* line 295, ../sass/screen.scss */
 .nav a {
   margin-top: -8px;
 }
 
-/* line 310, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 .phone {
   float: right;
 }
 
-/* line 314, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 .email {
   float: right;
 }
 
-/* line 318, ../sass/screen.scss */
+/* line 308, ../sass/screen.scss */
 * {
   margin: 0;
 }
 
-/* line 322, ../sass/screen.scss */
+/* line 312, ../sass/screen.scss */
 html, body {
   height: 100%;
 }
 
-/* line 326, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 .page-wrap {
   min-height: 100%;
   margin-bottom: -120px;
 }
 
-/* line 330, ../sass/screen.scss */
+/* line 320, ../sass/screen.scss */
 .page-wrap:after {
   content: "";
   display: block;
 }
 
-/* line 335, ../sass/screen.scss */
+/* line 325, ../sass/screen.scss */
 .site-footer, .page-wrap:after {
   height: 100px;
 }
 
-/* line 339, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 .space {
   margin-top: 25px;
 }
 
-/* line 343, ../sass/screen.scss */
+/* line 333, ../sass/screen.scss */
 .phone {
   display: block;
   background-color: black;
@@ -464,7 +452,7 @@ html, body {
   margin-bottom: 30px;
 }
 
-/* line 354, ../sass/screen.scss */
+/* line 344, ../sass/screen.scss */
 .email {
   display: block;
   background-color: black;
@@ -475,26 +463,20 @@ html, body {
   bottom: 29px;
 }
 
-/* line 364, ../sass/screen.scss */
+/* line 354, ../sass/screen.scss */
 .social {
   display: inline;
 }
 
-/* line 368, ../sass/screen.scss */
-.vid-thumb-title {
-  padding: 60px;
-}
-
-/* line 372, ../sass/screen.scss */
+/* line 358, ../sass/screen.scss */
 .vid-container {
   position: relative;
   width: 382px;
   height: 282px;
 }
 
-/* line 378, ../sass/screen.scss */
-.spiral,
-.sprial-text {
+/* line 370, ../sass/screen.scss */
+.spiral, .spiral-text {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -502,7 +484,7 @@ html, body {
   left: 0;
 }
 
-/* line 387, ../sass/screen.scss */
+/* line 378, ../sass/screen.scss */
 .power,
 .power-text {
   width: 100%;
@@ -512,7 +494,18 @@ html, body {
   left: 0;
 }
 
-/* line 396, ../sass/screen.scss */
+/* line 387, ../sass/screen.scss */
+.vid-text {
+  margin-top: 150px;
+  font-family: bebas;
+  color: black;
+  font-size: 60px;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100px;
+}
+
+/* line 397, ../sass/screen.scss */
 .fa {
   float: right;
   margin-top: 15px;
@@ -522,7 +515,7 @@ html, body {
   color: white;
 }
 
-/* line 405, ../sass/screen.scss */
+/* line 406, ../sass/screen.scss */
 .fa-phone {
   position: relative;
   bottom: 20px;
@@ -534,7 +527,7 @@ html, body {
   border-radius: 10px 0px 0px 10px;
 }
 
-/* line 416, ../sass/screen.scss */
+/* line 417, ../sass/screen.scss */
 .fa-envelope {
   position: relative;
   bottom: 43px;
@@ -546,51 +539,12 @@ html, body {
   border-radius: 10px 0px 0px 10px;
 }
 
-/* line 427, ../sass/screen.scss */
+/* line 428, ../sass/screen.scss */
 .hidden {
   visibility: hidden;
 }
 
-/* line 431, ../sass/screen.scss */
-.sticker {
-  height: 130px;
-  background: -moz-linear-gradient(left, #ff32cf 0%, #30ffff 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #ff32cf), color-stop(100%, #30ffff));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(left, #ff32cf 0%, #30ffff 100%);
-  /* Chrome10+,Safari5.1+ */
-  border-radius: 100%;
-  width: 130px;
-  position: absolute;
-  left: 180px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: white;
-  top: 30px;
-  z-index: 1;
-  -webkit-transform: rotate(-15deg);
-  -webkit-transition: -webkit-transform 1s;
-}
-
-/* line 450, ../sass/screen.scss */
-.sticker:hover {
-  -webkit-transform: rotate(0deg);
-}
-
-/* line 455, ../sass/screen.scss */
-.sticker2 {
-  height: 140px;
-  background-color: #ffc700;
-  border-radius: 100%;
-  width: 140px;
-  position: absolute;
-  left: 175px;
-  top: 25px;
-  z-index: 1;
-}
-
-/* line 467, ../sass/screen.scss */
+/* line 432, ../sass/screen.scss */
 .sticker-container {
   position: absolute;
   top: 200px;
@@ -598,13 +552,13 @@ html, body {
   z-index: 1;
 }
 
-/* line 474, ../sass/screen.scss */
+/* line 439, ../sass/screen.scss */
 .cloud1 {
   position: relative;
   z-index: 500;
 }
 
-/* line 479, ../sass/screen.scss */
+/* line 444, ../sass/screen.scss */
 .click-play {
   margin-top: 12px;
   margin-left: 20px;
@@ -613,12 +567,12 @@ html, body {
   color: white;
 }
 
-/* line 487, ../sass/screen.scss */
+/* line 452, ../sass/screen.scss */
 .video {
   float: right;
 }
 
-/* line 491, ../sass/screen.scss */
+/* line 456, ../sass/screen.scss */
 .modal-container {
   background-color: #3d3d3d;
   padding-top: 20px;
@@ -628,7 +582,7 @@ html, body {
   border-radius: 0px 20px 20px 20px;
 }
 
-/* line 500, ../sass/screen.scss */
+/* line 465, ../sass/screen.scss */
 .vid-title {
   background-color: #ccff00;
   font-size: 20px;
@@ -640,7 +594,7 @@ html, body {
   margin-bottom: 3px;
 }
 
-/* line 511, ../sass/screen.scss */
+/* line 476, ../sass/screen.scss */
 #return-to-top {
   position: fixed;
   bottom: 20px;
@@ -662,7 +616,7 @@ html, body {
   transition: all 0.3s ease;
 }
 
-/* line 531, ../sass/screen.scss */
+/* line 496, ../sass/screen.scss */
 #return-to-top i {
   color: black;
   margin-right: 28px;
@@ -677,18 +631,18 @@ html, body {
   transition: all 0.3s ease;
 }
 
-/* line 544, ../sass/screen.scss */
+/* line 510, ../sass/screen.scss */
 #return-to-top:hover {
   background: black;
 }
 
-/* line 547, ../sass/screen.scss */
+/* line 514, ../sass/screen.scss */
 #return-to-top:hover i {
   color: white;
   bottom: 30px;
 }
 
-/* line 552, ../sass/screen.scss */
+/* line 519, ../sass/screen.scss */
 .jsdemo {
   margin-left: 30px;
   margin-bottom: 40px;
