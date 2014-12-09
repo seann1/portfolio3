@@ -78,7 +78,7 @@ body {
 
 .title-inner {
 	height: 100%;
-	width: 100%;
+	// width: 100%;
  -webkit-animation: title 5s infinite alternate;
 }
 .cloud1 {
@@ -149,7 +149,6 @@ body {
 
 .glitch-background {
 	background-image: url('../images/background1.jpg');
-	opacity: 50%;
 }
 
 .nav {
@@ -173,12 +172,6 @@ body {
 
 .glitch-background5 {
 	background-image: url('../images/galaxy2.jpg');
-}
-
-.turn-on {
-margin-bottom: 20px;
-position: relative;
-	z-index: 1000;
 }
 
 .social {
@@ -205,9 +198,7 @@ position: relative;
 }
 
 .about {
-	// padding: 100px;
 	background-color: black;
-	// margin-top: 30px;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
 	h1 {
@@ -249,14 +240,6 @@ position: relative;
 .thumbnail-desc-small {
 	font-family: 'Montserrat', sans-serif;
 	font-size: .9em;
-}
-
-.thumb-button {
-	margin-top: 10px;
-	background-color: black;
-	color: yellow;
-	border-width: 0px;
-	-webkit-transition: background-color, 1s;
 }
 
 .thumb-button:hover {
@@ -314,7 +297,6 @@ position: relative;
 	.active {
 		a {
 		height: 45px;
-		// border-radius: 0px 0px 5px 5px;
 		background-color: #b6f9e1;
 	}
 	}
@@ -343,7 +325,6 @@ html, body {
 
 .page-wrap {
   min-height: 100%;
-  /* equal to footer height */
   margin-bottom: -120px; 
 }
 .page-wrap:after {
