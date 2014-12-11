@@ -1,21 +1,34 @@
 $(document).ready(function() {
 
+	$(".portfolio-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#portfolio").offset().top
+    }, 2000);
+});
+
+	$(".about-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#about").offset().top
+    }, 2000);
+});
+
+// add active class to li in navbar on click
 	$(".nav a").on("click", function(){
    $(".nav").find(".active").removeClass("active");
    $(this).parent().addClass("active");
 });
 
+
+//scroll to top on click of home link in navbar
 	$("#index").click(function() {
 		window.scrollTo(0, 0);
 	});
 
-	$(".portfolio-link").click(function() {
-		$(this).addClass("active");
-	})
-
 
 	$("#shuffle").shuffleLetters();
 
+
+//show phone and email on click of icons in footer
 $(".fa-phone").click(function() {
 	$(".fa-phone").addClass("hidden");
 	$(".phone").removeClass("hidden");
@@ -35,6 +48,8 @@ $(".email").click(function() {
 	$(".email").addClass("hidden");
 	$(".fa-envelope").removeClass("hidden");
 });
+
+
 
 	var randomText = $(".randomized")
 
@@ -116,6 +131,9 @@ $(".email").click(function() {
         });
 
 });
+
+
+//google maps
       function initialize() {
         var mapCanvas = document.getElementById('map-canvas');
         var myLatlng = new google.maps.LatLng(45.422615, -122.716294);
