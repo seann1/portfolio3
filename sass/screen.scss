@@ -517,6 +517,16 @@ html, body {
 	margin-bottom: 40px;
 }
 
+.inline-link {
+	color: #ffe900;
+	-webkit-transition: color 1s;
+	transition: color 1s;
+}
+
+.inline-link:hover {
+	color: #ff8307;
+	text-decoration: none;
+}
 
 
 

@@ -643,3 +643,16 @@ html, body {
   margin-left: 30px;
   margin-bottom: 40px;
 }
+
+/* line 520, ../sass/screen.scss */
+.inline-link {
+  color: #ffe900;
+  -webkit-transition: color 1s;
+  transition: color 1s;
+}
+
+/* line 526, ../sass/screen.scss */
+.inline-link:hover {
+  color: #ff8307;
+  text-decoration: none;
+}
