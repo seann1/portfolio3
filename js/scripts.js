@@ -1,16 +1,28 @@
 $(document).ready(function() {
 
+	$(".home-link").click(function() {
+    $('html, body').animate({
+   		scrollTop: $("#index").offset().top
+    }, 700);
+	});
+
 	$(".portfolio-link").click(function() {
     $('html, body').animate({
         scrollTop: $("#portfolio").offset().top
-    }, 2000);
-});
+    }, 700);
+	});
 
 	$(".about-link").click(function() {
     $('html, body').animate({
         scrollTop: $("#about").offset().top
-    }, 2000);
-});
+    }, 700);
+	});
+
+	$(".contact-link").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 700);
+	});
 
 // add active class to li in navbar on click
 	$(".nav a").on("click", function(){
