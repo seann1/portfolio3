@@ -10,25 +10,25 @@ $(document).ready(function() {
 	}); 
 
 
-	$(".fa-phone").click(function() {
-		$(".fa-phone").addClass("hidden");
-		$(".phone").removeClass("hidden");
-	});
+	// $(".fa-phone").click(function() {
+	// 	$(".fa-phone").addClass("hidden");
+	// 	$(".phone").removeClass("hidden");
+	// });
 
-	$(".phone").click(function() {
-		$(".phone").addClass("hidden");
-		$(".fa-phone").removeClass("hidden");
-	});
+	// $(".phone").click(function() {
+	// 	$(".phone").addClass("hidden");
+	// 	$(".fa-phone").removeClass("hidden");
+	// });
 
-	$(".fa-envelope").click(function() {
-		$(".fa-envelope").addClass("hidden");
-		$(".email").removeClass("hidden");
-	});
+	// $(".fa-envelope").click(function() {
+	// 	$(".fa-envelope").addClass("hidden");
+	// 	$(".email").removeClass("hidden");
+	// });
 
-	$(".email").click(function() {
-		$(".email").addClass("hidden");
-		$(".fa-envelope").removeClass("hidden");
-	});
+	// $(".email").click(function() {
+	// 	$(".email").addClass("hidden");
+	// 	$(".fa-envelope").removeClass("hidden");
+	// });
 
 	$("#shuffle, #shuffle3, #shuffle4, #shuffle5, #shuffle6, #shuffle7, #shuffle8, #shuffle9, #shuffle10, #shuffle11, #shuffle12, #shuffle13, #shuffle14, #shuffle15, #shuffle16, #shuffle17, #shuffle18, #shuffle19").shuffleLetters();
 

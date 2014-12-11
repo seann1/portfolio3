@@ -5,7 +5,7 @@ $(document).ready(function() {
    $(this).parent().addClass("active");
 });
 
-	$(".index").click(function() {
+	$("#index").click(function() {
 		window.scrollTo(0, 0);
 	});
 
