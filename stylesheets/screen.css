@@ -656,3 +656,9 @@ html, body {
   color: #00c7ff;
   text-decoration: none;
 }
+
+/* line 532, ../sass/screen.scss */
+.navbar-collapse a {
+  cursor: pointer;
+  cursor: hand;
+}

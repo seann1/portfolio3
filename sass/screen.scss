@@ -528,5 +528,10 @@ html, body {
 	text-decoration: none;
 }
 
+.navbar-collapse {
+	a {
+		cursor: pointer; cursor: hand;
+	}
+}
 
 
