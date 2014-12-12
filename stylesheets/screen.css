@@ -645,20 +645,27 @@ html, body {
 }
 
 /* line 520, ../sass/screen.scss */
-.inline-link {
+.inline-link, .inline-link:visited {
   color: #ffe900;
   -webkit-transition: color 1s;
   transition: color 1s;
+  text-decoration: none;
 }
 
-/* line 526, ../sass/screen.scss */
+/* line 527, ../sass/screen.scss */
 .inline-link:hover {
   color: #00c7ff;
   text-decoration: none;
 }
 
-/* line 532, ../sass/screen.scss */
+/* line 533, ../sass/screen.scss */
 .navbar-collapse a {
+  cursor: pointer;
+  cursor: hand;
+}
+
+/* line 539, ../sass/screen.scss */
+.fa-phone, .phone, .email, .fa-envelope {
   cursor: pointer;
   cursor: hand;
 }

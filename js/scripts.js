@@ -31,12 +31,6 @@ $(document).ready(function() {
 });
 
 
-//scroll to top on click of home link in navbar
-	$("#index").click(function() {
-		window.scrollTo(0, 0);
-	});
-
-
 	$("#shuffle").shuffleLetters();
 
 

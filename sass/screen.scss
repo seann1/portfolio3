@@ -517,10 +517,11 @@ html, body {
 	margin-bottom: 40px;
 }
 
-.inline-link {
+.inline-link, .inline-link:visited {
 	color: #ffe900;
 	-webkit-transition: color 1s;
 	transition: color 1s;
+	text-decoration: none;
 }
 
 .inline-link:hover {
@@ -530,8 +531,13 @@ html, body {
 
 .navbar-collapse {
 	a {
-		cursor: pointer; cursor: hand;
+		cursor: pointer; 
+		cursor: hand;
 	}
 }
 
+.fa-phone, .phone, .email, .fa-envelope {
+	cursor: pointer; 
+	cursor: hand;
+}
 
