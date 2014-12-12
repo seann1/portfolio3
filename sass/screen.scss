@@ -521,7 +521,7 @@ html, body {
 	color: #ffe900;
 	-webkit-transition: color 1s;
 	transition: color 1s;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 .inline-link:hover {
