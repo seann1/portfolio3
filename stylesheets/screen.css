@@ -563,7 +563,19 @@ html, body {
   z-index: 500;
 }
 
-/* line 448, ../sass/screen.scss */
+/* line 449, ../sass/screen.scss */
+.caption h3 {
+  position: absolute;
+  top: 170px;
+}
+/* line 453, ../sass/screen.scss */
+.caption p {
+  position: absolute;
+  top: 200px;
+  max-width: 200px;
+}
+
+/* line 460, ../sass/screen.scss */
 .click-play {
   margin-top: 12px;
   margin-left: 20px;
@@ -572,18 +584,18 @@ html, body {
   color: white;
 }
 
-/* line 456, ../sass/screen.scss */
+/* line 468, ../sass/screen.scss */
 .video {
   float: right;
 }
 
-/* line 460, ../sass/screen.scss */
+/* line 472, ../sass/screen.scss */
 .modal-container {
   padding-left: 15px;
   margin-bottom: 10px;
 }
 
-/* line 465, ../sass/screen.scss */
+/* line 477, ../sass/screen.scss */
 .vid-title {
   background: rgba(255, 255, 255, 0.5);
   font-size: 40px;
@@ -595,7 +607,7 @@ html, body {
   font-family: bebas;
 }
 
-/* line 476, ../sass/screen.scss */
+/* line 488, ../sass/screen.scss */
 #return-to-top {
   position: fixed;
   bottom: 20px;
@@ -617,7 +629,7 @@ html, body {
   transition: all 0.3s ease;
 }
 
-/* line 496, ../sass/screen.scss */
+/* line 508, ../sass/screen.scss */
 #return-to-top i {
   color: black;
   margin-right: 28px;
@@ -632,24 +644,24 @@ html, body {
   transition: all 0.3s ease;
 }
 
-/* line 510, ../sass/screen.scss */
+/* line 522, ../sass/screen.scss */
 #return-to-top:hover {
   background: black;
 }
 
-/* line 514, ../sass/screen.scss */
+/* line 526, ../sass/screen.scss */
 #return-to-top:hover i {
   color: white;
   bottom: 30px;
 }
 
-/* line 519, ../sass/screen.scss */
+/* line 531, ../sass/screen.scss */
 .jsdemo {
   margin-left: 30px;
   margin-bottom: 40px;
 }
 
-/* line 524, ../sass/screen.scss */
+/* line 536, ../sass/screen.scss */
 .inline-link, .inline-link:visited {
   color: #ffe900;
   -webkit-transition: color 1s;
@@ -657,19 +669,19 @@ html, body {
   text-decoration: none !important;
 }
 
-/* line 531, ../sass/screen.scss */
+/* line 543, ../sass/screen.scss */
 .inline-link:hover {
   color: #00c7ff;
   text-decoration: none;
 }
 
-/* line 537, ../sass/screen.scss */
+/* line 549, ../sass/screen.scss */
 .navbar-collapse a {
   cursor: pointer;
   cursor: hand;
 }
 
-/* line 543, ../sass/screen.scss */
+/* line 555, ../sass/screen.scss */
 .fa-phone, .phone, .email, .fa-envelope {
   cursor: pointer;
   cursor: hand;
