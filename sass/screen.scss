@@ -258,6 +258,14 @@ body {
 	}
 }
 
+.github {
+	position: absolute;
+	height: 50px;
+	top: 285px;
+	left: 20px;
+
+}
+
 .index-title {
 	margin-top: 60px;
 	margin-bottom: 10px;
@@ -560,5 +568,8 @@ html, body {
 .desc-btn {
 	position: absolute;
 	top: 200px;
+	background-color: #707070;
+	color: white;
+	border-width: 0px;
 }
 
