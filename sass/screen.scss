@@ -250,7 +250,11 @@ body {
 	background-color: #c9c9c9;
 	height: 340px;
 	img {
-		max-height: 180px;
+		width: 270px;
+		-webkit-transition: width .25s ease;
+	}
+	img:hover {
+		width: 295px;
 	}
 }
 
