@@ -250,11 +250,11 @@ body {
 	background-color: #c9c9c9;
 	height: 340px;
 	.site-link {
-		width: 270px;
+		width: 295px;
 		-webkit-transition: width .25s ease;
 	}
 	.site-link:hover {
-		width: 295px;
+		width: 305px;
 	}
 }
 
@@ -263,6 +263,7 @@ body {
 	height: 50px;
 	top: 285px;
 	left: 20px;
+	fill: #ffffff;
 
 }
 
@@ -406,7 +407,7 @@ html, body {
 	height: 100px;
 }
 
-.fa {
+.fa-phone, .fa-envelope {
 	float: right;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -571,5 +572,6 @@ html, body {
 	background-color: #707070;
 	color: white;
 	border-width: 0px;
+	font-family: venera;
 }
 
