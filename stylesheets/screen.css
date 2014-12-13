@@ -350,12 +350,12 @@ body {
   height: 340px;
 }
 /* line 252, ../sass/screen.scss */
-.thumbnail img {
+.thumbnail .site-link {
   width: 270px;
   -webkit-transition: width .25s ease;
 }
 /* line 256, ../sass/screen.scss */
-.thumbnail img:hover {
+.thumbnail .site-link:hover {
   width: 295px;
 }
 
@@ -685,4 +685,10 @@ html, body {
 .fa-phone, .phone, .email, .fa-envelope {
   cursor: pointer;
   cursor: hand;
+}
+
+/* line 560, ../sass/screen.scss */
+.desc-btn {
+  position: absolute;
+  top: 200px;
 }

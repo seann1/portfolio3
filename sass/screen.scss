@@ -249,11 +249,11 @@ body {
 .thumbnail {
 	background-color: #c9c9c9;
 	height: 340px;
-	img {
+	.site-link {
 		width: 270px;
 		-webkit-transition: width .25s ease;
 	}
-	img:hover {
+	.site-link:hover {
 		width: 295px;
 	}
 }
@@ -555,5 +555,10 @@ html, body {
 .fa-phone, .phone, .email, .fa-envelope {
 	cursor: pointer; 
 	cursor: hand;
+}
+
+.desc-btn {
+	position: absolute;
+	top: 200px;
 }
 
