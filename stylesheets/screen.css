@@ -362,9 +362,9 @@ body {
 /* line 261, ../sass/screen.scss */
 .github {
   position: absolute;
-  height: 70px;
-  top: 270px;
-  left: 20px;
+  height: 40px;
+  top: 180px;
+  left: 5px;
   fill: #ffffff;
 }
 
