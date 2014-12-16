@@ -260,8 +260,8 @@ body {
 
 .github {
 	position: absolute;
-	height: 50px;
-	top: 285px;
+	height: 70px;
+	top: 270px;
 	left: 20px;
 	fill: #ffffff;
 
@@ -587,4 +587,22 @@ html, body {
 .modal-content {
 	font-family: 'Montserrat', sans-serif;
 	line-height: 150%;
+}
+
+.close {
+    color: black; 
+    opacity: 1;
+}
+
+.close:hover {
+	color: #00a1ff;
+}
+
+a.svg:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
 }

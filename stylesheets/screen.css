@@ -362,8 +362,8 @@ body {
 /* line 261, ../sass/screen.scss */
 .github {
   position: absolute;
-  height: 50px;
-  top: 285px;
+  height: 70px;
+  top: 270px;
   left: 20px;
   fill: #ffffff;
 }
@@ -721,4 +721,25 @@ html, body {
 .modal-content {
   font-family: 'Montserrat', sans-serif;
   line-height: 150%;
+}
+
+/* line 592, ../sass/screen.scss */
+.close {
+  color: black;
+  opacity: 1;
+}
+
+/* line 597, ../sass/screen.scss */
+.close:hover {
+  color: #00a1ff;
+}
+
+/* line 601, ../sass/screen.scss */
+a.svg:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
