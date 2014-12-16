@@ -516,10 +516,10 @@ html, body {
 }
 #return-to-top i {
     color: black;
-    margin-right: 28px;
+    margin-right: 10px;
     position: relative;
-    bottom: 20px;
-    left: 22px;
+    bottom: 14px;
+    left: 6px;
     font-size: 60px;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -575,3 +575,6 @@ html, body {
 	font-family: venera;
 }
 
+.modal-content {
+	font-family: 'Montserrat', sans-serif;
+}

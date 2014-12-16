@@ -641,10 +641,10 @@ html, body {
 /* line 517, ../sass/screen.scss */
 #return-to-top i {
   color: black;
-  margin-right: 28px;
+  margin-right: 10px;
   position: relative;
-  bottom: 20px;
-  left: 22px;
+  bottom: 14px;
+  left: 6px;
   font-size: 60px;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -704,4 +704,9 @@ html, body {
   color: white;
   border-width: 0px;
   font-family: venera;
+}
+
+/* line 578, ../sass/screen.scss */
+.modal-content {
+  font-family: 'Montserrat', sans-serif;
 }
