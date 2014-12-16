@@ -82,22 +82,25 @@
           </a>
           <div class="caption">
             <h3>Draggable Video</h3>
-            <button class="btn btn-primary desc-btn" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="fa fa-book"></i> description</button>
+            <button class="btn btn-primary desc-btn" data-toggle="modal" data-target="#draggable-modal"><i class="fa fa-book"></i> description</button>
               <img class="github" src="images/github.svg"></img>
           </div>
         </div>
       </div>
 
-      <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            An interactive webpage made with HTML, CSS, Javascript, JQuery and JQuery UI. 
-          </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-x"></i></button>
-            </div>
-        </div>
+      <div class="modal fade" id="draggable-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Draggable Video</h4>
       </div>
+      <div class="modal-body">
+        <p>An interactive webpage made with HTML, CSS, Javascript, JQuery and JQuery UI. A basic demonstration of test or challenge for training or educaational purposes.</p>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
       <div class="col-sm-6 col-md-4">
         <div class="thumbnail">

@@ -707,6 +707,18 @@ html, body {
 }
 
 /* line 578, ../sass/screen.scss */
+.desc-btn:hover {
+  background-color: black;
+  color: #f9dd04;
+}
+
+/* line 583, ../sass/screen.scss */
+.modal-title {
+  font-family: 'Venerafive';
+}
+
+/* line 587, ../sass/screen.scss */
 .modal-content {
   font-family: 'Montserrat', sans-serif;
+  line-height: 150%;
 }
