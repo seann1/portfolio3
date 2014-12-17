@@ -754,7 +754,8 @@ html, body {
 }
 
 /* line 617, ../sass/screen.scss */
-.fa-github {
+.fa-github, .fa-globe {
   float: left;
   color: black;
+  margin-right: 10px;
 }
