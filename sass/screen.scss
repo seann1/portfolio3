@@ -501,7 +501,7 @@ html, body {
     position: fixed;
     bottom: -135px;
     right: 20px;
-    background: rgba(255,255,255, 0.5);
+    background-color: rgba(255,255,255, 0.5);
     width: 50px;
     height: 50px;
     display: block;
@@ -509,15 +509,13 @@ html, body {
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
     border-radius: 35px;
-    display: none;
     margin-bottom: 150px;
     -webkit-transition: all 0.3s linear;
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
-}
-#return-to-top i {
+     i {
     color: black;
     margin-right: 10px;
     position: relative;
@@ -528,7 +526,9 @@ html, body {
     -moz-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    transition: all 1s ease;
+    transform: rotateY(0deg);
+  }
 }
 
 #return-to-top:hover {
@@ -538,6 +538,7 @@ html, body {
 #return-to-top:hover i {
     color: white;
     bottom: 30px;
+    transform: rotateY(720deg);
 }
 
 .jsdemo {
