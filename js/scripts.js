@@ -2,6 +2,34 @@
 
 $(document).ready(function() {
 
+  $(window).on('scroll', function() {
+    var scrollTop = $(window).scrollTop(),
+        portfolioOffset = $('#portfolio').offset().top,
+        portfolioDistance  = (portfolioOffset - scrollTop),
+        aboutOffset = $("#about").offset().top,
+        aboutDistance = (aboutOffset - scrollTop),
+        contactOffset = $('#contact').offset().top,
+        contactDistance = (contactOffset - scrollTop),
+        homeOffset = $('#home').offset().top,
+        homeDistance = (homeOffset - scrollTop);
+
+        if (homeDistance > -100 && homeDistance < 100) {
+          $(".nav").find(".active").removeClass("active");
+          $(".home-link").addClass("active");
+        } else if (portfolioDistance > -100 && portfolioDistance < 100) {
+          $(".nav").find(".active").removeClass("active");
+          $(".portfolio-link").addClass("active");
+        } else if (aboutDistance > -100 && aboutDistance < 100) {
+          $(".nav").find(".active").removeClass("active");
+          $(".about-link").addClass("active");
+        } else if (contactDistance > -100 && contactDistance < 100) {
+          $(".nav").find(".active").removeClass("active");
+          $(".contact-link").addClass("active");
+        } else {
+
+        }
+  });
+
   $(".home-link").click(function() {
     scrollToDiv('home');
   });
@@ -19,10 +47,10 @@ $(document).ready(function() {
   });
 
 // add active class to li in navbar on click
-  $(".nav a").on("click", function(){
-   $(".nav").find(".active").removeClass("active");
-   $(this).parent().addClass("active");
-});
+//   $(".nav a").on("click", function(){
+//    $(".nav").find(".active").removeClass("active");
+//    $(this).parent().addClass("active");
+// });
 
 function scrollToDiv(divid) {
   $('html, body').animate({
@@ -91,33 +119,6 @@ $(".email").click(function() {
 
   });
 
-  $(window).on('scroll', function() {
-    var scrollTop = $(window).scrollTop(),
-        portfolioOffset = $('#portfolio').offset().top,
-        portfolioDistance  = (portfolioOffset - scrollTop),
-        aboutOffset = $("#about").offset().top,
-        aboutDistance = (aboutOffset - scrollTop),
-        contactOffset = $('#contact').offset().top,
-        contactDistance = (contactOffset - scrollTop),
-        homeOffset = $('#home').offset().top,
-        homeDistance = (homeOffset - scrollTop);
-
-        if (homeDistance > -50 && homeDistance < 50) {
-          $(".nav").find(".active").removeClass("active");
-          $(".home-link").addClass("active");
-        } else if (portfolioDistance > -50 && portfolioDistance < 50) {
-          $(".nav").find(".active").removeClass("active");
-          $(".portfolio-link").addClass("active");
-        } else if (aboutDistance > -50 && aboutDistance < 50) {
-          $(".nav").find(".active").removeClass("active");
-          $(".about-link").addClass("active");
-        } else if (contactDistance > -50 && contactDistance < 50) {
-          $(".nav").find(".active").removeClass("active");
-          $(".contact-link").addClass("active");
-        } else {
-
-        }
-  });
   $('#return-to-top').click(function() {      // When arrow is clicked
       $('body,html').animate({
           scrollTop : 0                       // Scroll to top of body

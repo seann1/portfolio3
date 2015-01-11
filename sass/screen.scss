@@ -36,6 +36,15 @@ src: url("../fonts/Venera-500.otf") format("opentype");
 	src: url("../fonts/Voyager-Grotesque/V-GERB(bold).ttf") format("opentype");
 }
 
+@-webkit-keyframes rotate {
+    transform: rotateY(360);
+}
+
+@keyframes rotate {
+    from {transform: rotateY(0);}
+    to {transform: rotateY(360);}
+}
+
 body {
 	font-family: Venerafive;
 }
@@ -582,6 +591,10 @@ html, body {
 .desc-btn:hover {
 	background-color: black;
 	color: #f9dd04;
+	i {
+	-webkit-animation: rotate 1s infinite;
+	animation: rotate 1s infinite;
+	}
 }
 
 .desc-btn:visited {
