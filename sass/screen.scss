@@ -105,6 +105,25 @@ body {
     100% {background-image: url("../images/site-title3.png");}
 }
 
+@media all and (max-width: 767px) {
+    .navbar-nav {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .navbar-collapse {
+    	position: relative;
+    	bottom: 20px;
+    }
+
+    .nav {
+    	li {
+    		a {
+    			height: 35px;
+    		}
+    	}
+    }
+}
+
 #cloud2 {
 	float: right;
 }
@@ -584,7 +603,10 @@ html, body {
 
 .fa-phone, .phone, .email, .fa-envelope {
 	cursor: pointer; 
-	cursor: hand;
+}
+
+.navbar-toggle {
+	background-color: orange;
 }
 
 .footer-icon {
