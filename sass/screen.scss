@@ -479,6 +479,41 @@ html, body {
 	text-align: center;
 }
 
+.i-c-facebook:hover {
+	background-color: #3B5998;
+	i {
+		color: white;
+	}
+}
+
+.i-c-twitter:hover {
+	background-color: #4099FF;
+	i {
+		color: white;
+	}
+}
+
+.i-c-linkedin:hover {
+	background-color: #3b5998;
+	i {
+		color: white;
+	}
+}
+
+.i-c-mail:hover {
+	background-color: #444444;
+	i {
+		color: #f7e033;
+	}
+}
+
+.i-c-phone:hover {
+	background-color: #eac300;
+	i {
+		color: #119eaa;
+	}
+}
+
 #return-to-top {
     position: fixed;
     bottom: -135px;
