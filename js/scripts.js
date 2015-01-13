@@ -13,6 +13,14 @@ $(document).ready(function() {
     });
   });
 
+  $.get(
+    "https://api.github.com/repos/octokit/octokit.rb",
+    {paramOne : 1, paramX : 'abc'},
+    function(data) {
+       alert('page content: ' + data);
+    }
+);
+
   $(window).on('scroll', function() {
     var scrollTop = $(window).scrollTop(),
         portfolioOffset = $('#portfolio').offset().top,
