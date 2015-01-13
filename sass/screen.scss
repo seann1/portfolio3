@@ -416,41 +416,6 @@ html, body {
 	height: 100px;
 }
 
-.fa-phone, .fa-envelope {
-	float: right;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	margin-left: 15px;
-	margin-right: 10px;
-	color: white;
-}
-
-.fa-phone {
-	position: relative;
-	bottom: 20px;
-	background-color: black;
-	padding-top: 5px;
-	padding-right: 16px;
-	left: 10px;
-	padding-left: 15px;
-	border-radius: 10px 0px 0px 10px;
-}
-
-.fa-envelope {
-	position: relative;
-	bottom: 43px;
-	background-color: black;
-	padding-left: 15px;
-	padding-right: 10px;
-	left: 10px;
-	padding-bottom: 4px;
-	border-radius: 10px 0px 0px 10px;
-}
-
-.hidden {
-	visibility: hidden;
-}
-
 .sticker-container {
 	position: absolute;
 	top: 200px;
@@ -504,6 +469,14 @@ html, body {
 	color: black;
 	margin-bottom: 10px;
 	font-family: bebas;
+}
+
+.icon-container {
+	background-color: #7f7f7f;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 130%;
+	text-align: center;
 }
 
 #return-to-top {
@@ -577,6 +550,15 @@ html, body {
 .fa-phone, .phone, .email, .fa-envelope {
 	cursor: pointer; 
 	cursor: hand;
+}
+
+.footer-icon {
+	color: black;
+}
+
+.footer-row {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .desc-btn {

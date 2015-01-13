@@ -2,6 +2,17 @@
 
 $(document).ready(function() {
 
+  $(".icon-container").hover(function(){
+    if (!$(this).hasClass('animated')) {
+      $(this).dequeue().stop().transition({ perspective: '100px',
+      rotateX: '30deg' });
+    }
+  }, function() {
+      $(this).addClass('animated').transition({ rotateX: '0deg' }, "normal", "linear", function() {
+      $(this).removeClass('animated').dequeue();
+    });
+  });
+
   $(window).on('scroll', function() {
     var scrollTop = $(window).scrollTop(),
         portfolioOffset = $('#portfolio').offset().top,
@@ -111,11 +122,11 @@ $(".email").click(function() {
         $('#return-to-top').fadeOut(1000);
     }
 
-    if ($(this).scrollTop() >= 2000) {
-        $('#return-to-top').css({"bottom": "12px", "right": "20px"});
-    } else {
-       $('#return-to-top').css({"bottom": "-135px", "right": "20px"});
-    }
+    // if ($(this).scrollTop() >= 2000) {
+    //     $('#return-to-top').css({"bottom": "12px", "right": "20px"});
+    // } else {
+    //    $('#return-to-top').css({"bottom": "-135px", "right": "20px"});
+    // }
 
   });
 
