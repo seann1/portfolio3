@@ -2,6 +2,12 @@
 
 $(document).ready(function() {
 
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+
+    $(".i-c-mail, .i-c-phone").tooltip();
+
   $(".icon-container").hover(function(){
     if (!$(this).hasClass('animated')) {
       $(this).dequeue().stop().transition({ perspective: '100px',
@@ -13,13 +19,13 @@ $(document).ready(function() {
     });
   });
 
-  $.get(
-    "https://api.github.com/repos/octokit/octokit.rb",
-    {paramOne : 1, paramX : 'abc'},
-    function(data) {
-       alert('page content: ' + data);
-    }
-);
+  // $.get(
+  //   "https://api.github.com/repos/octokit/octokit.rb",
+  //   {paramOne : 1, paramX : 'abc'},
+  //   function(data) {
+  //      alert('page content: ' + data);
+  //   }
+  // );
 
   $(window).on('scroll', function() {
     var scrollTop = $(window).scrollTop(),
@@ -79,34 +85,9 @@ function scrollToDiv(divid) {
 
   $("#shuffle").shuffleLetters();
 
-
-//show phone and email on click of icons in footer
-$(".fa-phone").click(function() {
-  $(".fa-phone").addClass("hidden");
-  $(".phone").removeClass("hidden");
-});
-
-$(".phone").click(function() {
-  $(".phone").addClass("hidden");
-  $(".fa-phone").removeClass("hidden");
-});
-
-$(".fa-envelope").click(function() {
-  $(".fa-envelope").addClass("hidden");
-  $(".email").removeClass("hidden");
-});
-
-$(".email").click(function() {
-  $(".email").addClass("hidden");
-  $(".fa-envelope").removeClass("hidden");
-});
-
-
-
   var randomText = $(".randomized");
 
   randomText.shuffleLetters();
-  $(".randomized").glitch();
 
   setInterval(function() {
     var randomWord = ["<h1>Coder</h1>", "<h1>Designer</h1>", "<h1>Engineer</h1>", "<h1>Problem Solver</h1>", "<h1>Artist</h1>"];
