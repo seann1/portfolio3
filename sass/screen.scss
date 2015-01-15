@@ -87,6 +87,8 @@ div.tooltip-inner {
 .iphone-thumb {
 	height: 100px;
 	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .randomized {
@@ -608,15 +610,6 @@ html, body {
 	color: white;
 	border-width: 0px;
 	font-family: venera;
-}
-
-.desc-btn-carousel {
-
-	background-color: #707070;
-	color: white;
-	border-width: 0px;
-	font-family: venera;
-	float: left;
 }
 
 .desc-btn:hover {
