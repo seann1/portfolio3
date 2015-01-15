@@ -2,6 +2,16 @@
 
 $(document).ready(function() {
 
+  $(".large-home-screen").hide();
+
+  $(".iphone-home-thumb").click(function() {
+    $(".large-home-screen").show();
+  });
+
+  $(".large-home-screen").click(function() {
+    $(this).hide();
+  })
+
   $(function () {
     $('[data-toggle="tooltip"]').tooltip();
   });
