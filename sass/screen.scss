@@ -87,7 +87,7 @@ div.tooltip-inner {
 .large-home-screen {
 	position: fixed;
 	z-index: 2000;
-	// top: 100px;
+	top: 100px;
 	left: 100px;
 }
 
@@ -418,6 +418,26 @@ html, body {
     left: 0;
 }
 
+.portfolio-block {
+	background-color: #ffffff;
+}
+
+.design-block {
+	background-color: #FF0000;
+}
+
+.video-block {
+	background-color: #0ACC86;
+}
+
+.about-block {
+	background-color: #0659FF;
+}
+
+.contact-block {
+	background-color: #E9F40C;
+}
+
 .vid-text {
 	margin-top: 150px;
 	font-family: bebas;
@@ -473,7 +493,7 @@ html, body {
 }
 
 .vid-title {
-	background: rgba(255,255,255, 0.5);
+	// background: rgba(255,255,255, 0.5);
 	font-size: 40px;
 	padding-top: 20px;
 	padding-left: 5px;
