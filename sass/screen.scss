@@ -84,8 +84,10 @@ div.tooltip-inner {
 	// letter-spacing: 1.5px;
 }
 
-.large-home-screen, .large-add-screen, .large-settings-screen {
+.large-home-screen, .large-add-screen, .large-settings-screen, .fd-style-tile, .fd-style-tile-variant {
 	position: fixed;
+	height: 90%;
+	width: auto;
 	z-index: 2000;
 	top: 100px;
 	left: 100px;

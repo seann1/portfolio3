@@ -11,7 +11,7 @@ $(document).ready(function() {
     return this;
   };
 
-  $(".large-home-screen, .large-add-screen, .large-settings-screen").hide();
+  $(".large-home-screen, .large-add-screen, .large-settings-screen, .fd-style-tile, .fd-style-tile-variant").hide();
 
   $("#iphone-home-thumb").click(function() {
     $(".large-home-screen").show();
@@ -26,6 +26,24 @@ $(document).ready(function() {
   $("#iphone-settings-thumb").click(function() {
     $(".large-settings-screen").show();
     $(".large-settings-screen").center();
+  });
+
+  $("#style-tile-thumb").click(function() {
+    $(".fd-style-tile").show();
+    $(".fd-style-tile").center();
+  });
+
+  $("#style-tile-variant-thumb").click(function() {
+    $(".fd-style-tile-variant").show();
+    $(".fd-style-tile-variant").center();
+  });
+
+  $(".fd-style-tile").click(function() {
+    $(".fd-style-tile").hide();
+  });
+
+  $(".fd-style-tile-variant").click(function() {
+    $(".fd-style-tile-variant").hide();
   });
 
   $(".large-home-screen").click(function() {
