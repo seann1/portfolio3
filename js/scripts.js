@@ -9,17 +9,36 @@ $(document).ready(function() {
     this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + 
                                                 $(window).scrollLeft()) + "px");
     return this;
-  }
-  $(".large-home-screen").hide();
+  };
 
-  $(".iphone-home-thumb").click(function() {
+  $(".large-home-screen, .large-add-screen, .large-settings-screen").hide();
+
+  $("#iphone-home-thumb").click(function() {
     $(".large-home-screen").show();
     $(".large-home-screen").center();
   });
 
+  $("#iphone-add-thumb").click(function() {
+    $(".large-add-screen").show();
+    $(".large-add-screen").center();
+  });
+
+  $("#iphone-settings-thumb").click(function() {
+    $(".large-settings-screen").show();
+    $(".large-settings-screen").center();
+  });
+
   $(".large-home-screen").click(function() {
-    $(this).hide();
-  })
+    $(".large-home-screen").hide();
+  });
+
+  $(".large-add-screen").click(function() {
+    $(".large-add-screen").hide();
+  });
+
+  $(".large-settings-screen").click(function() {
+    $(".large-settings-screen").hide();
+  });
 
   $(function () {
     $('[data-toggle="tooltip"]').tooltip();

@@ -84,11 +84,12 @@ div.tooltip-inner {
 	// letter-spacing: 1.5px;
 }
 
-.large-home-screen {
+.large-home-screen, .large-add-screen, .large-settings-screen {
 	position: fixed;
 	z-index: 2000;
 	top: 100px;
 	left: 100px;
+	cursor: pointer;
 }
 
 
@@ -97,6 +98,7 @@ div.tooltip-inner {
 	float: left;
 	margin-left: 10px;
 	margin-right: 10px;
+	cursor: pointer;
 }
 
 .randomized {
