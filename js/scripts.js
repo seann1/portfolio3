@@ -6,6 +6,8 @@ $(document).ready(function() {
   $(".design-hide-show").hide();
   $(".video-hide-show").hide();
   $(".about-hide-show").hide();
+  $(".contact-hide-show").hide();
+  $(".nav-hide-show").hide();
   
   $(".code").click(function() {
     $(".code-hide-show").toggle();
@@ -21,6 +23,10 @@ $(document).ready(function() {
 
   $(".about-hide").click(function() {
     $(".about-hide-show").toggle();
+  });
+
+  $(".contact-hide").click(function() {
+    $(".contact-hide-show").toggle();
   });
 
   jQuery.fn.center = function () {
