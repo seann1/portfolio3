@@ -2,6 +2,27 @@
 
 $(document).ready(function() {
 
+  $(".code-hide-show").hide();
+  $(".design-hide-show").hide();
+  $(".video-hide-show").hide();
+  $(".about-hide-show").hide();
+  
+  $(".code").click(function() {
+    $(".code-hide-show").toggle();
+  });
+
+  $(".design").click(function() {
+    $(".design-hide-show").toggle();
+  });
+
+  $(".video-hide").click(function() {
+    $(".video-hide-show").toggle();
+  });
+
+  $(".about-hide").click(function() {
+    $(".about-hide-show").toggle();
+  });
+
   jQuery.fn.center = function () {
     this.css("position","absolute");
     this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + 
