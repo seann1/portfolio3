@@ -440,12 +440,12 @@ body {
 }
 /* line 339, ../sass/screen.scss */
 .navbar-default .active {
-  height: 35px;
+  height: 28px;
 }
 
 /* line 346, ../sass/screen.scss */
 .active a {
-  height: 45px;
+  height: 35px;
   background-color: #b6f9e1;
 }
 
@@ -528,31 +528,36 @@ html, body {
 }
 
 /* line 424, ../sass/screen.scss */
-.portfolio-block {
-  background-color: #ffffff;
+.portfolio-block, .design-block, .video-block, .about-block, .contact-block {
+  background-color: #5e5e5e;
 }
 
 /* line 428, ../sass/screen.scss */
-.design-block {
-  background-color: #FF0000;
+.portfolio-block:hover {
+  background-color: #ffffff;
 }
 
 /* line 432, ../sass/screen.scss */
-.video-block {
-  background-color: #0ACC86;
+.design-block:hover {
+  background-color: #FF0000;
 }
 
 /* line 436, ../sass/screen.scss */
-.about-block {
-  background-color: #0659FF;
+.video-block:hover {
+  background-color: #0ACC86;
 }
 
 /* line 440, ../sass/screen.scss */
-.contact-block {
-  background-color: #E9F40C;
+.about-block:hover {
+  background-color: #0659FF;
 }
 
 /* line 444, ../sass/screen.scss */
+.contact-block:hover {
+  background-color: #E9F40C;
+}
+
+/* line 448, ../sass/screen.scss */
 .vid-text {
   margin-top: 150px;
   font-family: bebas;
@@ -563,7 +568,7 @@ html, body {
   height: 100px;
 }
 
-/* line 454, ../sass/screen.scss */
+/* line 458, ../sass/screen.scss */
 .sticker-container {
   position: absolute;
   top: 200px;
@@ -571,29 +576,29 @@ html, body {
   z-index: 1;
 }
 
-/* line 461, ../sass/screen.scss */
+/* line 465, ../sass/screen.scss */
 .cloud1 {
   position: relative;
   z-index: 500;
 }
 
-/* line 467, ../sass/screen.scss */
+/* line 471, ../sass/screen.scss */
 .caption .small-caption {
   font-size: .9em;
 }
-/* line 470, ../sass/screen.scss */
+/* line 474, ../sass/screen.scss */
 .caption h3 {
   position: absolute;
   top: 170px;
 }
-/* line 474, ../sass/screen.scss */
+/* line 478, ../sass/screen.scss */
 .caption p {
   position: absolute;
   top: 200px;
   max-width: 200px;
 }
 
-/* line 481, ../sass/screen.scss */
+/* line 485, ../sass/screen.scss */
 .click-play {
   margin-top: 12px;
   margin-left: 20px;
@@ -602,18 +607,18 @@ html, body {
   color: white;
 }
 
-/* line 489, ../sass/screen.scss */
+/* line 493, ../sass/screen.scss */
 .video {
   float: right;
 }
 
-/* line 493, ../sass/screen.scss */
+/* line 497, ../sass/screen.scss */
 .modal-container {
   padding-left: 15px;
   margin-bottom: 10px;
 }
 
-/* line 498, ../sass/screen.scss */
+/* line 502, ../sass/screen.scss */
 .vid-title {
   font-size: 40px;
   padding-top: 20px;
@@ -624,7 +629,13 @@ html, body {
   font-family: bebas;
 }
 
-/* line 509, ../sass/screen.scss */
+/* line 521, ../sass/screen.scss */
+.vid-title-container {
+  position: relative;
+  z-index: 0;
+}
+
+/* line 526, ../sass/screen.scss */
 .icon-container {
   background-color: #7f7f7f;
   padding-top: 15px;
@@ -633,52 +644,52 @@ html, body {
   text-align: center;
 }
 
-/* line 517, ../sass/screen.scss */
+/* line 534, ../sass/screen.scss */
 .i-c-facebook:hover {
   background-color: #3B5998;
 }
-/* line 519, ../sass/screen.scss */
+/* line 536, ../sass/screen.scss */
 .i-c-facebook:hover i {
   color: white;
 }
 
-/* line 524, ../sass/screen.scss */
+/* line 541, ../sass/screen.scss */
 .i-c-twitter:hover {
   background-color: #4099FF;
 }
-/* line 526, ../sass/screen.scss */
+/* line 543, ../sass/screen.scss */
 .i-c-twitter:hover i {
   color: white;
 }
 
-/* line 531, ../sass/screen.scss */
+/* line 548, ../sass/screen.scss */
 .i-c-linkedin:hover {
   background-color: #3b5998;
 }
-/* line 533, ../sass/screen.scss */
+/* line 550, ../sass/screen.scss */
 .i-c-linkedin:hover i {
   color: white;
 }
 
-/* line 538, ../sass/screen.scss */
+/* line 555, ../sass/screen.scss */
 .i-c-mail:hover {
   background-color: #444444;
 }
-/* line 540, ../sass/screen.scss */
+/* line 557, ../sass/screen.scss */
 .i-c-mail:hover i {
   color: white;
 }
 
-/* line 545, ../sass/screen.scss */
+/* line 562, ../sass/screen.scss */
 .i-c-phone:hover {
   background-color: #444444;
 }
-/* line 547, ../sass/screen.scss */
+/* line 564, ../sass/screen.scss */
 .i-c-phone:hover i {
   color: white;
 }
 
-/* line 552, ../sass/screen.scss */
+/* line 569, ../sass/screen.scss */
 #return-to-top {
   position: fixed;
   bottom: -135px;
@@ -698,7 +709,7 @@ html, body {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 570, ../sass/screen.scss */
+/* line 587, ../sass/screen.scss */
 #return-to-top i {
   color: black;
   margin-right: 10px;
@@ -714,25 +725,25 @@ html, body {
   transform: rotateY(0deg);
 }
 
-/* line 586, ../sass/screen.scss */
+/* line 603, ../sass/screen.scss */
 #return-to-top:hover {
   background: black;
 }
 
-/* line 590, ../sass/screen.scss */
+/* line 607, ../sass/screen.scss */
 #return-to-top:hover i {
   color: white;
   bottom: 30px;
   transform: rotateY(720deg);
 }
 
-/* line 596, ../sass/screen.scss */
+/* line 613, ../sass/screen.scss */
 .jsdemo {
   margin-left: 30px;
   margin-bottom: 40px;
 }
 
-/* line 601, ../sass/screen.scss */
+/* line 618, ../sass/screen.scss */
 .inline-link, .inline-link:visited {
   color: #ffe900;
   -webkit-transition: color 1s;
@@ -740,40 +751,40 @@ html, body {
   text-decoration: none !important;
 }
 
-/* line 608, ../sass/screen.scss */
+/* line 625, ../sass/screen.scss */
 .inline-link:hover {
   color: #00c7ff;
   text-decoration: none;
 }
 
-/* line 614, ../sass/screen.scss */
+/* line 631, ../sass/screen.scss */
 .navbar-collapse a {
   cursor: pointer;
   cursor: hand;
 }
 
-/* line 620, ../sass/screen.scss */
+/* line 637, ../sass/screen.scss */
 .fa-phone, .phone, .email, .fa-envelope {
   cursor: pointer;
 }
 
-/* line 624, ../sass/screen.scss */
+/* line 641, ../sass/screen.scss */
 .navbar-toggle {
   background-color: orange;
 }
 
-/* line 628, ../sass/screen.scss */
+/* line 645, ../sass/screen.scss */
 .footer-icon {
   color: black;
 }
 
-/* line 632, ../sass/screen.scss */
+/* line 649, ../sass/screen.scss */
 .footer-row {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 637, ../sass/screen.scss */
+/* line 654, ../sass/screen.scss */
 .desc-btn {
   position: absolute;
   top: 200px;
@@ -783,59 +794,59 @@ html, body {
   font-family: venera;
 }
 
-/* line 646, ../sass/screen.scss */
+/* line 663, ../sass/screen.scss */
 .desc-btn:hover {
   background-color: black;
   color: #f9dd04;
 }
-/* line 649, ../sass/screen.scss */
+/* line 666, ../sass/screen.scss */
 .desc-btn:hover i {
   -webkit-animation: rotate 1s infinite;
   animation: rotate 1s infinite;
 }
 
-/* line 655, ../sass/screen.scss */
+/* line 672, ../sass/screen.scss */
 .desc-btn:visited {
   background-color: black;
   color: #f9dd04;
 }
 
-/* line 660, ../sass/screen.scss */
+/* line 677, ../sass/screen.scss */
 .modal-title {
   font-family: 'Venerafive';
 }
 
-/* line 664, ../sass/screen.scss */
+/* line 681, ../sass/screen.scss */
 .modal-content {
   background-color: rgba(255, 255, 255, 0.9);
   font-family: 'Montserrat', sans-serif;
   line-height: 150%;
 }
 
-/* line 670, ../sass/screen.scss */
+/* line 687, ../sass/screen.scss */
 .close {
   color: black;
   opacity: 1;
 }
 
-/* line 675, ../sass/screen.scss */
+/* line 692, ../sass/screen.scss */
 .close:hover {
   color: #00a1ff;
 }
 
-/* line 679, ../sass/screen.scss */
+/* line 696, ../sass/screen.scss */
 .modal-header {
   background-color: #2b2b2b;
   color: white;
   border-radius: 0px 0px 0px 0px;
 }
 
-/* line 685, ../sass/screen.scss */
+/* line 702, ../sass/screen.scss */
 .modal-footer {
   background-color: #c1c1c1;
 }
 
-/* line 689, ../sass/screen.scss */
+/* line 706, ../sass/screen.scss */
 .fa-github, .fa-globe {
   float: left;
   color: black;

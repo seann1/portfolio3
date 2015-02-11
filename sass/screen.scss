@@ -337,14 +337,14 @@ body {
 
  .navbar-default { height: 28px;
  	.active {
-		height: 35px;
+		height: 28px;
 	}
  }
 
 
 	.active {
 		a {
-		height: 45px;
+		height: 35px;
 		background-color: #b6f9e1;
 	}
 	}
@@ -421,23 +421,27 @@ html, body {
     left: 0;
 }
 
-.portfolio-block {
+.portfolio-block, .design-block, .video-block, .about-block, .contact-block {
+	background-color: #5e5e5e;
+}
+
+.portfolio-block:hover {
 	background-color: #ffffff;
 }
 
-.design-block {
+.design-block:hover {
 	background-color: #FF0000;
 }
 
-.video-block {
+.video-block:hover {
 	background-color: #0ACC86;
 }
 
-.about-block {
+.about-block:hover {
 	background-color: #0659FF;
 }
 
-.contact-block {
+.contact-block:hover {
 	background-color: #E9F40C;
 }
 
@@ -504,6 +508,19 @@ html, body {
 	color: black;
 	margin-bottom: 10px;
 	font-family: bebas;
+}
+
+// .inner-code-stripe {
+// 	position: absolute;
+// 	background-color: green;
+// 	height: 100%;
+// 	width: 100%;
+// 	z-index: 100;
+// }
+
+.vid-title-container {
+	position: relative;
+	z-index: 0;
 }
 
 .icon-container {

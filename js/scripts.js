@@ -7,7 +7,7 @@ $(document).ready(function() {
   $(".video-hide-show").hide();
   $(".about-hide-show").hide();
   $(".contact-hide-show").hide();
-  $(".nav-hide-show").hide();
+  // $(".nav-hide-show").hide();
   
   $(".code").click(function() {
     $(".code-hide-show").toggle();
@@ -29,11 +29,15 @@ $(document).ready(function() {
     $(".contact-hide-show").toggle();
   });
 
+  // if ($(".code-hide-show").is(':visible')) {
+  //   $(".nav-hide-show").show();
+  // } else {}
+
   jQuery.fn.center = function () {
     this.css("position","absolute");
-    this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) + 
+    this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) +
                                                 $(window).scrollTop()) + "px");
-    this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) + 
+    this.css("left", Math.max(0, (($(window).width() - $(this).outerWidth()) / 2) +
                                                 $(window).scrollLeft()) + "px");
     return this;
   };
@@ -90,6 +94,17 @@ $(document).ready(function() {
   });
 
     $(".i-c-mail, .i-c-phone").tooltip();
+
+      $(".vid-title-container").hover(function(){
+    if (!$(this).hasClass('animated')) {
+      $(this).dequeue().stop().transition({ perspective: '500px',
+      rotateX: '30deg' }, 2000, "easeOutCubic");
+    }
+  }, function() {
+      $(this).addClass('animated').transition({ rotateX: '0deg' }, "normal", "easeOutCubic", function() {
+      $(this).removeClass('animated').dequeue();
+    });
+  });
 
   $(".icon-container").hover(function(){
     if (!$(this).hasClass('animated')) {
