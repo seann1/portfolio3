@@ -421,26 +421,6 @@ html, body {
     left: 0;
 }
 
-.portfolio-block:hover {
-	background-color: #ffffff;
-}
-
-.design-block:hover {
-	background-color: #FF0000;
-}
-
-.video-block:hover {
-	background-color: #0ACC86;
-}
-
-.about-block:hover {
-	background-color: #0659FF;
-}
-
-.contact-block:hover {
-	background-color: #E9F40C;
-}
-
 .vid-text {
 	margin-top: 150px;
 	font-family: bebas;
@@ -510,11 +490,64 @@ html, body {
 	width: 1%;
 	top: 0px;
 	left: 0px;
+}
+
+.inner-design-stripe {
+	position: relative;
+	background-color: #FF0000;
+	width: 1%;
+	top: 0px;
+	left: 0px;
+}
+
+.inner-video-stripe {
+	position: relative;
+	background-color: #0ACC86;
+	width: 1%;
+	top: 0px;
+	left: 0px;
 	// height: 10px;
 }
 
-.vid-title-container {
+.inner-about-stripe {
+	position: relative;
+	background-color: #0659FF;
+	width: 1%;
+	top: 0px;
+	left: 0px;
+	// height: 10px;
+}
+
+.inner-contact-stripe {
+	position: relative;
+	background-color: #E9F40C;
+	width: 1%;
+	top: 0px;
+	left: 0px;
+	// height: 10px;
+}
+
+.design-block:hover {
+	background-color: #FF0000;
+}
+
+.video-block:hover {
+	background-color: #0ACC86;
+}
+
+.about-block:hover {
+	background-color: #0659FF;
+}
+
+.contact-block:hover {
+	background-color: #E9F40C;
+}
+
+.portfolio-block {
 	background-color: #7f7f7f;
+}
+
+.vid-title-container {
 	position: relative;
 	height: 90%;
 	margin: 5px;

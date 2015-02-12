@@ -2,6 +2,13 @@
 
 $(document).ready(function() {
 
+  $(".portfolio-block").hover(function() {
+    $(".inner-code-stripe").transition({width:'100%'}, 1000);
+    $(".portfolio-block").animate({backgroundColor: "#ff0fff"}, 1000);
+  }, function() {
+    $(".inner-code-stripe").delay(500).transition({width:'1%'}, 1000);
+  });
+
   $(".code-hide-show").hide();
   $(".design-hide-show").hide();
   $(".video-hide-show").hide();

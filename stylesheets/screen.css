@@ -528,31 +528,6 @@ html, body {
 }
 
 /* line 424, ../sass/screen.scss */
-.portfolio-block:hover {
-  background-color: #ffffff;
-}
-
-/* line 428, ../sass/screen.scss */
-.design-block:hover {
-  background-color: #FF0000;
-}
-
-/* line 432, ../sass/screen.scss */
-.video-block:hover {
-  background-color: #0ACC86;
-}
-
-/* line 436, ../sass/screen.scss */
-.about-block:hover {
-  background-color: #0659FF;
-}
-
-/* line 440, ../sass/screen.scss */
-.contact-block:hover {
-  background-color: #E9F40C;
-}
-
-/* line 444, ../sass/screen.scss */
 .vid-text {
   margin-top: 150px;
   font-family: bebas;
@@ -563,7 +538,7 @@ html, body {
   height: 100px;
 }
 
-/* line 454, ../sass/screen.scss */
+/* line 434, ../sass/screen.scss */
 .sticker-container {
   position: absolute;
   top: 200px;
@@ -571,29 +546,29 @@ html, body {
   z-index: 1;
 }
 
-/* line 461, ../sass/screen.scss */
+/* line 441, ../sass/screen.scss */
 .cloud1 {
   position: relative;
   z-index: 500;
 }
 
-/* line 467, ../sass/screen.scss */
+/* line 447, ../sass/screen.scss */
 .caption .small-caption {
   font-size: .9em;
 }
-/* line 470, ../sass/screen.scss */
+/* line 450, ../sass/screen.scss */
 .caption h3 {
   position: absolute;
   top: 170px;
 }
-/* line 474, ../sass/screen.scss */
+/* line 454, ../sass/screen.scss */
 .caption p {
   position: absolute;
   top: 200px;
   max-width: 200px;
 }
 
-/* line 481, ../sass/screen.scss */
+/* line 461, ../sass/screen.scss */
 .click-play {
   margin-top: 12px;
   margin-left: 20px;
@@ -602,18 +577,18 @@ html, body {
   color: white;
 }
 
-/* line 489, ../sass/screen.scss */
+/* line 469, ../sass/screen.scss */
 .video {
   float: right;
 }
 
-/* line 493, ../sass/screen.scss */
+/* line 473, ../sass/screen.scss */
 .modal-container {
   padding-left: 15px;
   margin-bottom: 10px;
 }
 
-/* line 498, ../sass/screen.scss */
+/* line 478, ../sass/screen.scss */
 .vid-title {
   font-size: 40px;
   padding-top: 20px;
@@ -623,7 +598,7 @@ html, body {
   font-family: bebas;
 }
 
-/* line 507, ../sass/screen.scss */
+/* line 487, ../sass/screen.scss */
 .inner-code-stripe {
   position: relative;
   background-color: white;
@@ -632,15 +607,75 @@ html, body {
   left: 0px;
 }
 
-/* line 516, ../sass/screen.scss */
-.vid-title-container {
+/* line 495, ../sass/screen.scss */
+.inner-design-stripe {
+  position: relative;
+  background-color: #FF0000;
+  width: 1%;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 503, ../sass/screen.scss */
+.inner-video-stripe {
+  position: relative;
+  background-color: #0ACC86;
+  width: 1%;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 512, ../sass/screen.scss */
+.inner-about-stripe {
+  position: relative;
+  background-color: #0659FF;
+  width: 1%;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 521, ../sass/screen.scss */
+.inner-contact-stripe {
+  position: relative;
+  background-color: #E9F40C;
+  width: 1%;
+  top: 0px;
+  left: 0px;
+}
+
+/* line 530, ../sass/screen.scss */
+.design-block:hover {
+  background-color: #FF0000;
+}
+
+/* line 534, ../sass/screen.scss */
+.video-block:hover {
+  background-color: #0ACC86;
+}
+
+/* line 538, ../sass/screen.scss */
+.about-block:hover {
+  background-color: #0659FF;
+}
+
+/* line 542, ../sass/screen.scss */
+.contact-block:hover {
+  background-color: #E9F40C;
+}
+
+/* line 546, ../sass/screen.scss */
+.portfolio-block {
   background-color: #7f7f7f;
+}
+
+/* line 550, ../sass/screen.scss */
+.vid-title-container {
   position: relative;
   height: 90%;
   margin: 5px;
 }
 
-/* line 524, ../sass/screen.scss */
+/* line 557, ../sass/screen.scss */
 .icon-container {
   background-color: #7f7f7f;
   padding-top: 15px;
@@ -649,52 +684,52 @@ html, body {
   text-align: center;
 }
 
-/* line 532, ../sass/screen.scss */
+/* line 565, ../sass/screen.scss */
 .i-c-facebook:hover {
   background-color: #3B5998;
 }
-/* line 534, ../sass/screen.scss */
+/* line 567, ../sass/screen.scss */
 .i-c-facebook:hover i {
   color: white;
 }
 
-/* line 539, ../sass/screen.scss */
+/* line 572, ../sass/screen.scss */
 .i-c-twitter:hover {
   background-color: #4099FF;
 }
-/* line 541, ../sass/screen.scss */
+/* line 574, ../sass/screen.scss */
 .i-c-twitter:hover i {
   color: white;
 }
 
-/* line 546, ../sass/screen.scss */
+/* line 579, ../sass/screen.scss */
 .i-c-linkedin:hover {
   background-color: #3b5998;
 }
-/* line 548, ../sass/screen.scss */
+/* line 581, ../sass/screen.scss */
 .i-c-linkedin:hover i {
   color: white;
 }
 
-/* line 553, ../sass/screen.scss */
+/* line 586, ../sass/screen.scss */
 .i-c-mail:hover {
   background-color: #444444;
 }
-/* line 555, ../sass/screen.scss */
+/* line 588, ../sass/screen.scss */
 .i-c-mail:hover i {
   color: white;
 }
 
-/* line 560, ../sass/screen.scss */
+/* line 593, ../sass/screen.scss */
 .i-c-phone:hover {
   background-color: #444444;
 }
-/* line 562, ../sass/screen.scss */
+/* line 595, ../sass/screen.scss */
 .i-c-phone:hover i {
   color: white;
 }
 
-/* line 567, ../sass/screen.scss */
+/* line 600, ../sass/screen.scss */
 #return-to-top {
   position: fixed;
   bottom: -135px;
@@ -714,7 +749,7 @@ html, body {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 585, ../sass/screen.scss */
+/* line 618, ../sass/screen.scss */
 #return-to-top i {
   color: black;
   margin-right: 10px;
@@ -730,25 +765,25 @@ html, body {
   transform: rotateY(0deg);
 }
 
-/* line 601, ../sass/screen.scss */
+/* line 634, ../sass/screen.scss */
 #return-to-top:hover {
   background: black;
 }
 
-/* line 605, ../sass/screen.scss */
+/* line 638, ../sass/screen.scss */
 #return-to-top:hover i {
   color: white;
   bottom: 30px;
   transform: rotateY(720deg);
 }
 
-/* line 611, ../sass/screen.scss */
+/* line 644, ../sass/screen.scss */
 .jsdemo {
   margin-left: 30px;
   margin-bottom: 40px;
 }
 
-/* line 616, ../sass/screen.scss */
+/* line 649, ../sass/screen.scss */
 .inline-link, .inline-link:visited {
   color: #ffe900;
   -webkit-transition: color 1s;
@@ -756,40 +791,40 @@ html, body {
   text-decoration: none !important;
 }
 
-/* line 623, ../sass/screen.scss */
+/* line 656, ../sass/screen.scss */
 .inline-link:hover {
   color: #00c7ff;
   text-decoration: none;
 }
 
-/* line 629, ../sass/screen.scss */
+/* line 662, ../sass/screen.scss */
 .navbar-collapse a {
   cursor: pointer;
   cursor: hand;
 }
 
-/* line 635, ../sass/screen.scss */
+/* line 668, ../sass/screen.scss */
 .fa-phone, .phone, .email, .fa-envelope {
   cursor: pointer;
 }
 
-/* line 639, ../sass/screen.scss */
+/* line 672, ../sass/screen.scss */
 .navbar-toggle {
   background-color: orange;
 }
 
-/* line 643, ../sass/screen.scss */
+/* line 676, ../sass/screen.scss */
 .footer-icon {
   color: black;
 }
 
-/* line 647, ../sass/screen.scss */
+/* line 680, ../sass/screen.scss */
 .footer-row {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 652, ../sass/screen.scss */
+/* line 685, ../sass/screen.scss */
 .desc-btn {
   position: absolute;
   top: 200px;
@@ -799,59 +834,59 @@ html, body {
   font-family: venera;
 }
 
-/* line 661, ../sass/screen.scss */
+/* line 694, ../sass/screen.scss */
 .desc-btn:hover {
   background-color: black;
   color: #f9dd04;
 }
-/* line 664, ../sass/screen.scss */
+/* line 697, ../sass/screen.scss */
 .desc-btn:hover i {
   -webkit-animation: rotate 1s infinite;
   animation: rotate 1s infinite;
 }
 
-/* line 670, ../sass/screen.scss */
+/* line 703, ../sass/screen.scss */
 .desc-btn:visited {
   background-color: black;
   color: #f9dd04;
 }
 
-/* line 675, ../sass/screen.scss */
+/* line 708, ../sass/screen.scss */
 .modal-title {
   font-family: 'Venerafive';
 }
 
-/* line 679, ../sass/screen.scss */
+/* line 712, ../sass/screen.scss */
 .modal-content {
   background-color: rgba(255, 255, 255, 0.9);
   font-family: 'Montserrat', sans-serif;
   line-height: 150%;
 }
 
-/* line 685, ../sass/screen.scss */
+/* line 718, ../sass/screen.scss */
 .close {
   color: black;
   opacity: 1;
 }
 
-/* line 690, ../sass/screen.scss */
+/* line 723, ../sass/screen.scss */
 .close:hover {
   color: #00a1ff;
 }
 
-/* line 694, ../sass/screen.scss */
+/* line 727, ../sass/screen.scss */
 .modal-header {
   background-color: #2b2b2b;
   color: white;
   border-radius: 0px 0px 0px 0px;
 }
 
-/* line 700, ../sass/screen.scss */
+/* line 733, ../sass/screen.scss */
 .modal-footer {
   background-color: #c1c1c1;
 }
 
-/* line 704, ../sass/screen.scss */
+/* line 737, ../sass/screen.scss */
 .fa-github, .fa-globe {
   float: left;
   color: black;
