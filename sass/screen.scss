@@ -527,24 +527,25 @@ html, body {
 	// height: 10px;
 }
 
-.design-block:hover {
-	background-color: #FF0000;
-}
-
-.video-block:hover {
-	background-color: #0ACC86;
-}
-
-.about-block:hover {
-	background-color: #0659FF;
-}
-
-.contact-block:hover {
-	background-color: #E9F40C;
-}
-
 .portfolio-block {
-	background-color: #7f7f7f;
+	background-color: #dbdbdb;
+}
+
+.design-block {
+	background-color: #bf0000;
+}
+
+
+.video-block {
+	background-color: #0AfC86;
+}
+
+.about-block {
+	background-color: #2d00b5;
+}
+
+.contact-block {
+	background-color: #bfaf00;
 }
 
 .vid-title-container {

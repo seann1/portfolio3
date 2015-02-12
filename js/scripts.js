@@ -4,9 +4,32 @@ $(document).ready(function() {
 
   $(".portfolio-block").hover(function() {
     $(".inner-code-stripe").transition({width:'100%'}, 1000);
-    $(".portfolio-block").animate({backgroundColor: "#ff0fff"}, 1000);
   }, function() {
     $(".inner-code-stripe").delay(500).transition({width:'1%'}, 1000);
+  });
+
+  $(".design-block").hover(function() {
+    $(".inner-design-stripe").transition({width:'100%'}, 1000);
+  }, function() {
+    $(".inner-design-stripe").delay(500).transition({width:'1%'}, 1000);
+  });
+
+  $(".video-block").hover(function() {
+    $(".inner-video-stripe").transition({width:'100%'}, 1000);
+  }, function() {
+    $(".inner-video-stripe").delay(500).transition({width:'1%'}, 1000);
+  });
+
+  $(".about-block").hover(function() {
+    $(".inner-about-stripe").transition({width:'100%'}, 1000);
+  }, function() {
+    $(".inner-about-stripe").delay(500).transition({width:'1%'}, 1000);
+  });
+
+  $(".contact-block").hover(function() {
+    $(".inner-contact-stripe").transition({width:'100%'}, 1000);
+  }, function() {
+    $(".inner-contact-stripe").delay(500).transition({width:'1%'}, 1000);
   });
 
   $(".code-hide-show").hide();
