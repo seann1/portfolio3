@@ -593,7 +593,7 @@ html, body {
   font-size: 40px;
   padding-top: 20px;
   padding-left: 10px;
-  color: black;
+  color: white;
   margin-bottom: 10px;
   font-family: bebas;
 }
@@ -645,17 +645,17 @@ html, body {
 
 /* line 530, ../sass/screen.scss */
 .portfolio-block {
-  background-color: #dbdbdb;
+  background-color: black;
 }
 
 /* line 534, ../sass/screen.scss */
 .design-block {
-  background-color: #bf0000;
+  background-color: black;
 }
 
 /* line 539, ../sass/screen.scss */
 .video-block {
-  background-color: #0AfC86;
+  background-color: black;
 }
 
 /* line 543, ../sass/screen.scss */

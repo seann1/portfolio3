@@ -2,22 +2,41 @@
 
 $(document).ready(function() {
 
-  $(".portfolio-block").hover(function() {
+  //toggle on click function
+  jQuery.fn.clickToggle = function(a,b) {
+    var ab=[b,a];
+    function cb(){ ab[this._tog^=1].call(this); }
+    return this.on("click", cb);
+  };
+
+  $(".portfolio-block").clickToggle(function() {
+    $(".portfolio-block").transition({backgroundColor: "#dbdbdb", perspective: '500px', rotateX: '30deg'}, 2000, "easeOutCubic");
     $(".inner-code-stripe").transition({width:'100%'}, 1000);
+    $("#portfolio").transition({color: "black"}, 2000);
   }, function() {
+    $(".portfolio-block").transition({backgroundColor: "black", perspective: '500px', rotateX: '0deg'}, 2000, "easeOutCubic");
     $(".inner-code-stripe").delay(500).transition({width:'1%'}, 1000);
+    $("#portfolio").transition({color: "white"}, 2000);
   });
 
-  $(".design-block").hover(function() {
+  $(".design-block").clickToggle(function() {
+    $(".design-block").transition({backgroundColor: "#bf0000", perspective: '500px', rotateX: '30deg'}, 2000, "easeOutCubic");
     $(".inner-design-stripe").transition({width:'100%'}, 1000);
+    $("#design").transition({color: "black"}, 2000);
   }, function() {
+    $(".design-block").transition({backgroundColor: "black", perspective: '500px', rotateX: '0deg'}, 2000, "easeOutCubic");
     $(".inner-design-stripe").delay(500).transition({width:'1%'}, 1000);
+    $("#design").transition({color: "white"}, 2000);
   });
 
-  $(".video-block").hover(function() {
+  $(".video-block").clickToggle(function() {
+    $(".video-block").transition({backgroundColor: "#0AfC86", perspective: '500px', rotateX: '30deg'}, 2000, "easeOutCubic");
     $(".inner-video-stripe").transition({width:'100%'}, 1000);
+    $("#video").transition({color: "black"}, 2000);
   }, function() {
+    $(".video-block").transition({backgroundColor: "black", perspective: '500px', rotateX: '0deg'}, 2000, "easeOutCubic");
     $(".inner-video-stripe").delay(500).transition({width:'1%'}, 1000);
+    $("#video").transition({color: "white"}, 2000);
   });
 
   $(".about-block").hover(function() {
@@ -58,10 +77,6 @@ $(document).ready(function() {
   $(".contact-hide").click(function() {
     $(".contact-hide-show").toggle();
   });
-
-  // if ($(".code-hide-show").is(':visible')) {
-  //   $(".nav-hide-show").show();
-  // } else {}
 
   jQuery.fn.center = function () {
     this.css("position","absolute");
@@ -124,17 +139,6 @@ $(document).ready(function() {
   });
 
     $(".i-c-mail, .i-c-phone").tooltip();
-
-      $(".vid-title-container").hover(function(){
-    if (!$(this).hasClass('animated')) {
-      $(this).dequeue().stop().transition({ perspective: '500px',
-      rotateX: '30deg' }, 2000, "easeOutCubic");
-    }
-  }, function() {
-      $(this).addClass('animated').transition({ rotateX: '0deg' }, "normal", "easeOutCubic", function() {
-      $(this).removeClass('animated').dequeue();
-    });
-  });
 
   $(".icon-container").hover(function(){
     if (!$(this).hasClass('animated')) {
