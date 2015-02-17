@@ -11,31 +11,31 @@ $(document).ready(function() {
 
   $(".portfolio-block").clickToggle(function() {
     $(".inner-code-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-    $(".code-bottom").transition({width: "101.5%", perspective: '500px', rotateX: '120deg'}, 1000);
+    $(".code-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
     $("#portfolio").transition({color: "black"}, 2000);
   }, function() {
     $(".inner-code-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+    $(".code-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
     $("#portfolio").transition({color: "white"}, 2000);
-    $(".code-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'});
   });
 
   $(".design-block").clickToggle(function() {
-    $(".design-block").transition({backgroundColor: "#bf0000", perspective: '500px', rotateX: '30deg'}, 2000, "easeOutCubic");
-    $(".inner-design-stripe").transition({width:'100%'}, 1000);
+    $(".inner-design-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+    $(".design-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
     $("#design").transition({color: "black"}, 2000);
   }, function() {
-    $(".design-block").transition({backgroundColor: "black", perspective: '500px', rotateX: '0deg'}, 2000, "easeOutCubic");
-    $(".inner-design-stripe").delay(500).transition({width:'1%'}, 1000);
+    $(".inner-design-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+    $(".design-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
     $("#design").transition({color: "white"}, 2000);
   });
 
   $(".video-block").clickToggle(function() {
-    $(".video-block").transition({backgroundColor: "#0AfC86", perspective: '500px', rotateX: '30deg'}, 2000, "easeOutCubic");
-    $(".inner-video-stripe").transition({width:'100%'}, 1000);
+    $(".inner-video-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+    $(".video-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
     $("#video").transition({color: "black"}, 2000);
   }, function() {
-    $(".video-block").transition({backgroundColor: "black", perspective: '500px', rotateX: '0deg'}, 2000, "easeOutCubic");
-    $(".inner-video-stripe").delay(500).transition({width:'1%'}, 1000);
+    $(".inner-video-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+    $(".video-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
     $("#video").transition({color: "white"}, 2000);
   });
 

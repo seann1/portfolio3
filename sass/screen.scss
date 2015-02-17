@@ -527,10 +527,30 @@ html, body {
 
 .code-bottom {
 	position: absolute;
-	background-color: gray;
-	bottom: -2px;
-	left: -4px;
-	height: 20px;
+	background-color: #cccccc;
+	bottom: -17px;
+	left: 1px;
+	height: 40px;
+	-webkit-transform: rotateX(90deg);
+	width: 1%;
+}
+
+.design-bottom {
+	position: absolute;
+	background-color: #ad0000;
+	bottom: -17px;
+	left: 1px;
+	height: 40px;
+	-webkit-transform: rotateX(90deg);
+	width: 1%;
+}
+
+.video-bottom {
+	position: absolute;
+	background-color: rgb(10, 252, 134);
+	bottom: -17px;
+	left: 1px;
+	height: 40px;
 	-webkit-transform: rotateX(90deg);
 	width: 1%;
 }

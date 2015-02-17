@@ -646,37 +646,59 @@ html, body {
 /* line 528, ../sass/screen.scss */
 .code-bottom {
   position: absolute;
-  background-color: gray;
-  bottom: -2px;
-  left: -4px;
-  height: 20px;
+  background-color: #cccccc;
+  bottom: -17px;
+  left: 1px;
+  height: 40px;
   -webkit-transform: rotateX(90deg);
   width: 1%;
 }
 
 /* line 538, ../sass/screen.scss */
+.design-bottom {
+  position: absolute;
+  background-color: #ad0000;
+  bottom: -17px;
+  left: 1px;
+  height: 40px;
+  -webkit-transform: rotateX(90deg);
+  width: 1%;
+}
+
+/* line 548, ../sass/screen.scss */
+.video-bottom {
+  position: absolute;
+  background-color: #0afc86;
+  bottom: -17px;
+  left: 1px;
+  height: 40px;
+  -webkit-transform: rotateX(90deg);
+  width: 1%;
+}
+
+/* line 558, ../sass/screen.scss */
 .portfolio-block, .design-block, .video-block {
   background-color: black;
 }
 
-/* line 542, ../sass/screen.scss */
+/* line 562, ../sass/screen.scss */
 .about-block {
   background-color: #2d00b5;
 }
 
-/* line 546, ../sass/screen.scss */
+/* line 566, ../sass/screen.scss */
 .contact-block {
   background-color: #bfaf00;
 }
 
-/* line 550, ../sass/screen.scss */
+/* line 570, ../sass/screen.scss */
 .vid-title-container {
   position: relative;
   height: 90%;
   margin: 5px;
 }
 
-/* line 557, ../sass/screen.scss */
+/* line 577, ../sass/screen.scss */
 .icon-container {
   background-color: #7f7f7f;
   padding-top: 15px;
@@ -685,52 +707,52 @@ html, body {
   text-align: center;
 }
 
-/* line 565, ../sass/screen.scss */
+/* line 585, ../sass/screen.scss */
 .i-c-facebook:hover {
   background-color: #3B5998;
 }
-/* line 567, ../sass/screen.scss */
+/* line 587, ../sass/screen.scss */
 .i-c-facebook:hover i {
   color: white;
 }
 
-/* line 572, ../sass/screen.scss */
+/* line 592, ../sass/screen.scss */
 .i-c-twitter:hover {
   background-color: #4099FF;
 }
-/* line 574, ../sass/screen.scss */
+/* line 594, ../sass/screen.scss */
 .i-c-twitter:hover i {
   color: white;
 }
 
-/* line 579, ../sass/screen.scss */
+/* line 599, ../sass/screen.scss */
 .i-c-linkedin:hover {
   background-color: #3b5998;
 }
-/* line 581, ../sass/screen.scss */
+/* line 601, ../sass/screen.scss */
 .i-c-linkedin:hover i {
   color: white;
 }
 
-/* line 586, ../sass/screen.scss */
+/* line 606, ../sass/screen.scss */
 .i-c-mail:hover {
   background-color: #444444;
 }
-/* line 588, ../sass/screen.scss */
+/* line 608, ../sass/screen.scss */
 .i-c-mail:hover i {
   color: white;
 }
 
-/* line 593, ../sass/screen.scss */
+/* line 613, ../sass/screen.scss */
 .i-c-phone:hover {
   background-color: #444444;
 }
-/* line 595, ../sass/screen.scss */
+/* line 615, ../sass/screen.scss */
 .i-c-phone:hover i {
   color: white;
 }
 
-/* line 600, ../sass/screen.scss */
+/* line 620, ../sass/screen.scss */
 #return-to-top {
   position: fixed;
   bottom: -135px;
@@ -750,7 +772,7 @@ html, body {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 618, ../sass/screen.scss */
+/* line 638, ../sass/screen.scss */
 #return-to-top i {
   color: black;
   margin-right: 10px;
@@ -766,25 +788,25 @@ html, body {
   transform: rotateY(0deg);
 }
 
-/* line 634, ../sass/screen.scss */
+/* line 654, ../sass/screen.scss */
 #return-to-top:hover {
   background: black;
 }
 
-/* line 638, ../sass/screen.scss */
+/* line 658, ../sass/screen.scss */
 #return-to-top:hover i {
   color: white;
   bottom: 30px;
   transform: rotateY(720deg);
 }
 
-/* line 644, ../sass/screen.scss */
+/* line 664, ../sass/screen.scss */
 .jsdemo {
   margin-left: 30px;
   margin-bottom: 40px;
 }
 
-/* line 649, ../sass/screen.scss */
+/* line 669, ../sass/screen.scss */
 .inline-link, .inline-link:visited {
   color: #ffe900;
   -webkit-transition: color 1s;
@@ -792,40 +814,40 @@ html, body {
   text-decoration: none !important;
 }
 
-/* line 656, ../sass/screen.scss */
+/* line 676, ../sass/screen.scss */
 .inline-link:hover {
   color: #00c7ff;
   text-decoration: none;
 }
 
-/* line 662, ../sass/screen.scss */
+/* line 682, ../sass/screen.scss */
 .navbar-collapse a {
   cursor: pointer;
   cursor: hand;
 }
 
-/* line 668, ../sass/screen.scss */
+/* line 688, ../sass/screen.scss */
 .fa-phone, .phone, .email, .fa-envelope {
   cursor: pointer;
 }
 
-/* line 672, ../sass/screen.scss */
+/* line 692, ../sass/screen.scss */
 .navbar-toggle {
   background-color: orange;
 }
 
-/* line 676, ../sass/screen.scss */
+/* line 696, ../sass/screen.scss */
 .footer-icon {
   color: black;
 }
 
-/* line 680, ../sass/screen.scss */
+/* line 700, ../sass/screen.scss */
 .footer-row {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 685, ../sass/screen.scss */
+/* line 705, ../sass/screen.scss */
 .desc-btn {
   position: absolute;
   top: 200px;
@@ -835,59 +857,59 @@ html, body {
   font-family: venera;
 }
 
-/* line 694, ../sass/screen.scss */
+/* line 714, ../sass/screen.scss */
 .desc-btn:hover {
   background-color: black;
   color: #f9dd04;
 }
-/* line 697, ../sass/screen.scss */
+/* line 717, ../sass/screen.scss */
 .desc-btn:hover i {
   -webkit-animation: rotate 1s infinite;
   animation: rotate 1s infinite;
 }
 
-/* line 703, ../sass/screen.scss */
+/* line 723, ../sass/screen.scss */
 .desc-btn:visited {
   background-color: black;
   color: #f9dd04;
 }
 
-/* line 708, ../sass/screen.scss */
+/* line 728, ../sass/screen.scss */
 .modal-title {
   font-family: 'Venerafive';
 }
 
-/* line 712, ../sass/screen.scss */
+/* line 732, ../sass/screen.scss */
 .modal-content {
   background-color: rgba(255, 255, 255, 0.9);
   font-family: 'Montserrat', sans-serif;
   line-height: 150%;
 }
 
-/* line 718, ../sass/screen.scss */
+/* line 738, ../sass/screen.scss */
 .close {
   color: black;
   opacity: 1;
 }
 
-/* line 723, ../sass/screen.scss */
+/* line 743, ../sass/screen.scss */
 .close:hover {
   color: #00a1ff;
 }
 
-/* line 727, ../sass/screen.scss */
+/* line 747, ../sass/screen.scss */
 .modal-header {
   background-color: #2b2b2b;
   color: white;
   border-radius: 0px 0px 0px 0px;
 }
 
-/* line 733, ../sass/screen.scss */
+/* line 753, ../sass/screen.scss */
 .modal-footer {
   background-color: #c1c1c1;
 }
 
-/* line 737, ../sass/screen.scss */
+/* line 757, ../sass/screen.scss */
 .fa-github, .fa-globe {
   float: left;
   color: black;
