@@ -555,16 +555,28 @@ html, body {
 	width: 1%;
 }
 
-.portfolio-block, .design-block, .video-block {
+.about-bottom {
+	position: absolute;
+	background-color: rgb(10, 252, 134);
+	bottom: -17px;
+	left: 1px;
+	height: 40px;
+	-webkit-transform: rotateX(90deg);
+	width: 1%;
+}
+
+.contact-bottom {
+	position: absolute;
+	background-color: rgb(10, 252, 134);
+	bottom: -17px;
+	left: 1px;
+	height: 40px;
+	-webkit-transform: rotateX(90deg);
+	width: 1%;
+}
+
+.portfolio-block, .design-block, .video-block, .about-block, .contact-block {
 	background-color: black;
-}
-
-.about-block {
-	background-color: #2d00b5;
-}
-
-.contact-block {
-	background-color: #bfaf00;
 }
 
 .vid-title-container {

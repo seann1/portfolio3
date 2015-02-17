@@ -39,16 +39,24 @@ $(document).ready(function() {
     $("#video").transition({color: "white"}, 2000);
   });
 
-  $(".about-block").hover(function() {
-    $(".inner-about-stripe").transition({width:'100%'}, 1000);
+  $(".about-block").clickToggle(function() {
+    $(".inner-about-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+    $(".about-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+    $("#about").transition({color: "black"}, 2000);
   }, function() {
-    $(".inner-about-stripe").delay(500).transition({width:'1%'}, 1000);
+    $(".inner-about-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+    $(".about-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+    $("#about").transition({color: "white"}, 2000);
   });
 
-  $(".contact-block").hover(function() {
-    $(".inner-contact-stripe").transition({width:'100%'}, 1000);
+  $(".contact-block").clickToggle(function() {
+    $(".inner-contact-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+    $(".contact-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+    $("#contact").transition({color: "black"}, 2000);
   }, function() {
-    $(".inner-contact-stripe").delay(500).transition({width:'1%'}, 1000);
+    $(".inner-contact-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+    $(".contact-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+    $("#contact").transition({color: "white"}, 2000);
   });
 
   $(".code-hide-show").hide();
@@ -56,7 +64,7 @@ $(document).ready(function() {
   $(".video-hide-show").hide();
   $(".about-hide-show").hide();
   $(".contact-hide-show").hide();
-  // $(".nav-hide-show").hide();
+  $(".nav-hide-show").hide();
   
   $(".code").click(function() {
     $(".code-hide-show").fadeToggle(1000);
@@ -259,27 +267,6 @@ function scrollToDiv(divid) {
 
 
 });
-
-
-//google maps
-      function initialize() {
-        var mapCanvas = document.getElementById('map-canvas');
-        var myLatlng = new google.maps.LatLng(45.422615, -122.716294);
-        var mapOptions = {
-          center: new google.maps.LatLng(45.422615, -122.716294),
-          zoom: 10,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map(mapCanvas, mapOptions);
-
-        var marker = new google.maps.Marker({
-          position: myLatlng,
-          map: map,
-          title:"Sean"
-        });
-
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
 
 
       
