@@ -5,6 +5,7 @@
 
 @import "compass/reset";
 @import "compass/css3/animation";
+@import "compass/css3/transform";
 
 @font-face {
 font-family: Venera;
@@ -506,7 +507,6 @@ html, body {
 	width: 1%;
 	top: 0px;
 	left: 0px;
-	// height: 10px;
 }
 
 .inner-about-stripe {
@@ -515,7 +515,6 @@ html, body {
 	width: 1%;
 	top: 0px;
 	left: 0px;
-	// height: 10px;
 }
 
 .inner-contact-stripe {
@@ -524,19 +523,19 @@ html, body {
 	width: 1%;
 	top: 0px;
 	left: 0px;
-	// height: 10px;
 }
 
-.portfolio-block {
-	background-color: black;
+.code-bottom {
+	position: absolute;
+	background-color: gray;
+	bottom: -2px;
+	left: -4px;
+	height: 20px;
+	-webkit-transform: rotateX(90deg);
+	width: 1%;
 }
 
-.design-block {
-	background-color: black;
-}
-
-
-.video-block {
+.portfolio-block, .design-block, .video-block {
 	background-color: black;
 }
 

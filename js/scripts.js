@@ -10,13 +10,13 @@ $(document).ready(function() {
   };
 
   $(".portfolio-block").clickToggle(function() {
-    $(".portfolio-block").transition({backgroundColor: "#dbdbdb", perspective: '500px', rotateX: '30deg'}, 2000, "easeOutCubic");
-    $(".inner-code-stripe").transition({width:'100%'}, 1000);
+    $(".inner-code-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+    $(".code-bottom").transition({width: "101.5%", perspective: '500px', rotateX: '120deg'}, 1000);
     $("#portfolio").transition({color: "black"}, 2000);
   }, function() {
-    $(".portfolio-block").transition({backgroundColor: "black", perspective: '500px', rotateX: '0deg'}, 2000, "easeOutCubic");
-    $(".inner-code-stripe").delay(500).transition({width:'1%'}, 1000);
+    $(".inner-code-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
     $("#portfolio").transition({color: "white"}, 2000);
+    $(".code-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'});
   });
 
   $(".design-block").clickToggle(function() {
@@ -59,7 +59,7 @@ $(document).ready(function() {
   // $(".nav-hide-show").hide();
   
   $(".code").click(function() {
-    $(".code-hide-show").toggle();
+    $(".code-hide-show").fadeToggle(1000);
   });
 
   $(".design").click(function() {
