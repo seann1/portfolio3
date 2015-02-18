@@ -72,6 +72,11 @@ div.tooltip-inner {
 
 .iphone-image {
 	width: 290px;
+	cursor: pointer;
+}
+
+.vid-title-container:hover {
+	cursor: pointer;
 }
 
 .design-thumb-text {
@@ -660,6 +665,7 @@ html, body {
     -o-transition: all 0.3s ease;
     transition: all 1s ease;
     transform: rotateY(0deg);
+    cursor: pointer;
   }
 }
 
