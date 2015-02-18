@@ -775,12 +775,13 @@ html, body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 5px;
-	a {
-	color: black;
-	text-decoration: none;
-	}
 	font-size: 1.2em;
 	cursor: pointer;
+}
+
+.c-button-text, .c-button-text:hover, .c-button-text:visited {
+	color: black;
+	text-decoration: none !important;
 }
 
 .close:hover {
