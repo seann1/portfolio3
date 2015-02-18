@@ -1,6 +1,7 @@
 
 
 $(document).ready(function() {
+  $('#loading_wrap').remove();
 
   //toggle on click function
   jQuery.fn.clickToggle = function(a,b) {
