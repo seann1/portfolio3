@@ -71,19 +71,19 @@ $(document).ready(function() {
   });
 
   $(".design").click(function() {
-    $(".design-hide-show").toggle();
+    $(".design-hide-show").fadeToggle(1000);
   });
 
   $(".video-hide").click(function() {
-    $(".video-hide-show").toggle();
+    $(".video-hide-show").fadeToggle(1000);
   });
 
   $(".about-hide").click(function() {
-    $(".about-hide-show").toggle();
+    $(".about-hide-show").fadeToggle(1000);
   });
 
   $(".contact-hide").click(function() {
-    $(".contact-hide-show").toggle();
+    $(".contact-hide-show").fadeToggle(1000);
   });
 
   jQuery.fn.center = function () {
