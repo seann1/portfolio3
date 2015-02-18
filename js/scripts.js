@@ -9,6 +9,18 @@ $(document).ready(function() {
     return this.on("click", cb);
   };
 
+  $(".blog-button").hover(function() {
+    $(this).addClass("pulse");
+  }, function()  {
+    $(this).removeClass("pulse");
+  });
+
+    $(".resume-button").hover(function() {
+    $(this).addClass("pulse");
+  }, function()  {
+    $(this).removeClass("pulse");
+  });
+
   $(".portfolio-block").clickToggle(function() {
     $(".inner-code-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
     $(".code-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);

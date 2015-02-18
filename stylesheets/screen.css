@@ -685,7 +685,7 @@ html, body {
 /* line 563, ../sass/screen.scss */
 .about-bottom {
   position: absolute;
-  background-color: #0afc86;
+  background-color: #0032bc;
   bottom: -17px;
   left: 1px;
   height: 40px;
@@ -696,7 +696,7 @@ html, body {
 /* line 573, ../sass/screen.scss */
 .contact-bottom {
   position: absolute;
-  background-color: #0afc86;
+  background-color: #c2c900;
   bottom: -17px;
   left: 1px;
   height: 40px;
@@ -912,23 +912,44 @@ html, body {
 }
 
 /* line 761, ../sass/screen.scss */
+.under-bar-row {
+  margin-top: 20px;
+}
+
+/* line 765, ../sass/screen.scss */
+.contact-button {
+  position: relative;
+  background-color: #d60000;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+/* line 771, ../sass/screen.scss */
+.contact-button a {
+  color: black;
+  text-decoration: none;
+}
+
+/* line 779, ../sass/screen.scss */
 .close:hover {
   color: #00a1ff;
 }
 
-/* line 765, ../sass/screen.scss */
+/* line 783, ../sass/screen.scss */
 .modal-header {
   background-color: #2b2b2b;
   color: white;
   border-radius: 0px 0px 0px 0px;
 }
 
-/* line 771, ../sass/screen.scss */
+/* line 789, ../sass/screen.scss */
 .modal-footer {
   background-color: #c1c1c1;
 }
 
-/* line 775, ../sass/screen.scss */
+/* line 793, ../sass/screen.scss */
 .fa-github, .fa-globe {
   float: left;
   color: black;

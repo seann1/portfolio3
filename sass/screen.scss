@@ -562,7 +562,7 @@ html, body {
 
 .about-bottom {
 	position: absolute;
-	background-color: rgb(10, 252, 134);
+	background-color: #0032bc;
 	bottom: -17px;
 	left: 1px;
 	height: 40px;
@@ -572,7 +572,7 @@ html, body {
 
 .contact-bottom {
 	position: absolute;
-	background-color: rgb(10, 252, 134);
+	background-color: #c2c900;
 	bottom: -17px;
 	left: 1px;
 	height: 40px;
@@ -756,6 +756,24 @@ html, body {
 .close {
     color: black; 
     opacity: 1;
+}
+
+.under-bar-row {
+	margin-top: 20px;
+}
+
+.contact-button {
+	position: relative;
+	background-color: #d60000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	a {
+	color: black;
+	text-decoration: none;
+	}
+	font-size: 1.2em;
+	cursor: pointer;
 }
 
 .close:hover {
