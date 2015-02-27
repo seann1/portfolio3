@@ -33,10 +33,6 @@ src: url("../fonts/Venera-500.otf") format("opentype");
 }
 
 @-webkit-keyframes rotate {
-    transform: rotateY(360);
-}
-
-@keyframes rotate {
     from {transform: rotateY(0);}
     to {transform: rotateY(360);}
 }

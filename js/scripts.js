@@ -1,6 +1,8 @@
-
+var controller;
 
 $(document).ready(function() {
+
+
   $('#loading_wrap').remove();
 
   //toggle on click function
