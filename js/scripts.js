@@ -244,10 +244,15 @@ function scrollToDiv(divid) {
 
   randomText.shuffleLetters();
 
+  var i = 0;
   setInterval(function() {
-    var randomWord = ["<h1>Coder</h1>", "<h1>Designer</h1>", "<h1>Engineer</h1>", "<h1>Problem Solver</h1>", "<h1>Artist</h1>"];
-    $("#subtitle").html(randomWord[Math.floor(Math.random() * randomWord.length)]).shuffleLetters();
-
+    var randomWord = ["<h1>Developer</h1>", "<h1>Designer</h1>", "<h1>UI/UX</h1>"];
+    $("#subtitle").html(randomWord[i]).shuffleLetters();
+    if (i > 1) {
+      i = 0;
+    } else {
+      i += 1;
+    }
   }, 5000);
 
 

@@ -87,11 +87,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: voyager;
   src: url("../fonts/Voyager-Grotesque/V-GERB(bold).ttf") format("opentype");
 }
-@-webkit-keyframes rotate {
+@-moz-keyframes rotate {
   from {
+    -moz-transform: rotateY(0);
     transform: rotateY(0);
   }
   to {
+    -moz-transform: rotateY(360);
+    transform: rotateY(360);
+  }
+}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  to {
+    -webkit-transform: rotateY(360);
+    transform: rotateY(360);
+  }
+}
+@keyframes rotate {
+  from {
+    -moz-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    -webkit-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+  to {
+    -moz-transform: rotateY(360);
+    -ms-transform: rotateY(360);
+    -webkit-transform: rotateY(360);
     transform: rotateY(360);
   }
 }
@@ -281,7 +307,10 @@ div.tooltip-inner {
 }
 /* line 202, ../sass/screen.scss */
 .right img {
+  -moz-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
   -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
 }
 
 /* line 207, ../sass/screen.scss */
@@ -330,7 +359,10 @@ body {
 /* line 245, ../sass/screen.scss */
 .icon {
   height: 60px;
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
   -webkit-filter: hue-rotate(0deg);
   -webkit-transition: -webkit-transform, .5s;
   float: left;
@@ -662,7 +694,10 @@ html, body {
   bottom: -17px;
   left: 1px;
   height: 40px;
+  -moz-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
   -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
   width: 1%;
 }
 
@@ -673,7 +708,10 @@ html, body {
   bottom: -17px;
   left: 1px;
   height: 40px;
+  -moz-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
   -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
   width: 1%;
 }
 
@@ -684,7 +722,10 @@ html, body {
   bottom: -17px;
   left: 1px;
   height: 40px;
+  -moz-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
   -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
   width: 1%;
 }
 
@@ -695,7 +736,10 @@ html, body {
   bottom: -17px;
   left: 1px;
   height: 40px;
+  -moz-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
   -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
   width: 1%;
 }
 
@@ -706,7 +750,10 @@ html, body {
   bottom: -17px;
   left: 1px;
   height: 40px;
+  -moz-transform: rotateX(90deg);
+  -ms-transform: rotateX(90deg);
   -webkit-transform: rotateX(90deg);
+  transform: rotateX(90deg);
   width: 1%;
 }
 
@@ -889,40 +936,41 @@ html, body {
 }
 /* line 738, ../sass/screen.scss */
 .desc-btn:hover i {
-  -webkit-animation: rotate 1s infinite;
-  animation: rotate 1s infinite;
+  -moz-animation: "rotate 1s infinite";
+  -webkit-animation: "rotate 1s infinite";
+  animation: "rotate 1s infinite";
 }
 
-/* line 744, ../sass/screen.scss */
+/* line 743, ../sass/screen.scss */
 .desc-btn:visited {
   background-color: black;
   color: #f9dd04;
 }
 
-/* line 749, ../sass/screen.scss */
+/* line 748, ../sass/screen.scss */
 .modal-title {
   font-family: 'Venerafive';
 }
 
-/* line 753, ../sass/screen.scss */
+/* line 752, ../sass/screen.scss */
 .modal-content {
   background-color: rgba(255, 255, 255, 0.9);
   font-family: 'Montserrat', sans-serif;
   line-height: 150%;
 }
 
-/* line 759, ../sass/screen.scss */
+/* line 758, ../sass/screen.scss */
 .close {
   color: black;
   opacity: 1;
 }
 
-/* line 764, ../sass/screen.scss */
+/* line 763, ../sass/screen.scss */
 .under-bar-row {
   margin-top: 20px;
 }
 
-/* line 768, ../sass/screen.scss */
+/* line 767, ../sass/screen.scss */
 .contact-button {
   position: relative;
   background-color: #d60000;
@@ -933,30 +981,30 @@ html, body {
   cursor: pointer;
 }
 
-/* line 778, ../sass/screen.scss */
+/* line 777, ../sass/screen.scss */
 .c-button-text, .c-button-text:hover, .c-button-text:visited {
   color: black;
   text-decoration: none !important;
 }
 
-/* line 783, ../sass/screen.scss */
+/* line 782, ../sass/screen.scss */
 .close:hover {
   color: #00a1ff;
 }
 
-/* line 787, ../sass/screen.scss */
+/* line 786, ../sass/screen.scss */
 .modal-header {
   background-color: #2b2b2b;
   color: white;
   border-radius: 0px 0px 0px 0px;
 }
 
-/* line 793, ../sass/screen.scss */
+/* line 792, ../sass/screen.scss */
 .modal-footer {
   background-color: #c1c1c1;
 }
 
-/* line 797, ../sass/screen.scss */
+/* line 796, ../sass/screen.scss */
 .fa-github, .fa-globe {
   float: left;
   color: black;

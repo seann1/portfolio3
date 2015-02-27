@@ -32,9 +32,9 @@ src: url("../fonts/Venera-500.otf") format("opentype");
 	src: url("../fonts/Voyager-Grotesque/V-GERB(bold).ttf") format("opentype");
 }
 
-@-webkit-keyframes rotate {
-    from {transform: rotateY(0);}
-    to {transform: rotateY(360);}
+@include keyframes(rotate) {
+    from {@include transform(rotateY(0));}
+    to {@include transform(rotateY(360));}
 }
 
 body {
@@ -200,7 +200,7 @@ div.tooltip-inner {
 .right {
 	float: left;
 	img {
-		-webkit-transform: scaleX(-1);
+		@include transform(scaleX(-1));
 	}
 }
 
@@ -244,7 +244,7 @@ body {
 
 .icon {
 	height: 60px;
-	-webkit-transform: rotate(0deg);
+	@include transform(rotate(0deg));
 	-webkit-filter: hue-rotate(0deg);
 	-webkit-transition: -webkit-transform, .5s;
 	float: left;
@@ -539,7 +539,7 @@ html, body {
 	bottom: -17px;
 	left: 1px;
 	height: 40px;
-	-webkit-transform: rotateX(90deg);
+	@include transform(rotateX(90deg));
 	width: 1%;
 }
 
@@ -549,7 +549,7 @@ html, body {
 	bottom: -17px;
 	left: 1px;
 	height: 40px;
-	-webkit-transform: rotateX(90deg);
+	@include transform(rotateX(90deg));
 	width: 1%;
 }
 
@@ -559,7 +559,7 @@ html, body {
 	bottom: -17px;
 	left: 1px;
 	height: 40px;
-	-webkit-transform: rotateX(90deg);
+	@include transform(rotateX(90deg));
 	width: 1%;
 }
 
@@ -569,7 +569,7 @@ html, body {
 	bottom: -17px;
 	left: 1px;
 	height: 40px;
-	-webkit-transform: rotateX(90deg);
+	@include transform(rotateX(90deg));
 	width: 1%;
 }
 
@@ -579,7 +579,7 @@ html, body {
 	bottom: -17px;
 	left: 1px;
 	height: 40px;
-	-webkit-transform: rotateX(90deg);
+	@include transform(rotateX(90deg));
 	width: 1%;
 }
 
@@ -736,8 +736,7 @@ html, body {
 	background-color: black;
 	color: #f9dd04;
 	i {
-	-webkit-animation: rotate 1s infinite;
-	animation: rotate 1s infinite;
+	@include animation('rotate 1s infinite');
 	}
 }
 
