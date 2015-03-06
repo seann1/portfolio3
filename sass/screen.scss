@@ -13,6 +13,11 @@ src: url("../fonts/Venera-100.otf") format("opentype");
 }
 
 @font-face {
+font-family: bebas-hard;
+src: url("../fonts/bebas/BebasNeue Bold.otf") format("opentype");
+}
+
+@font-face {
 font-family: Venerathree;
 src: url("../fonts/Venera-300.otf") format("opentype");
 }
@@ -24,7 +29,7 @@ src: url("../fonts/Venera-500.otf") format("opentype");
 
 @font-face {
 	font-family: bebas;
-	src: url("../fonts/bebas/BebasNeue Bold.otf") format("opentype");
+	src: url("../fonts/Roboto-Regular.ttf") format("opentype");
 }
 
 @font-face {
@@ -325,7 +330,6 @@ body {
 	margin-top: 60px;
 	margin-bottom: 10px;
 	font-family: 'bebas', sans-serif;
-	letter-spacing: 20px;
 	font-size: 80px;
 	color: #5e5e5e;
 }
@@ -337,7 +341,6 @@ body {
 	letter-spacing: 10px;
 	font-size: 40px;
 	color: #5e5e5e;
-	// z-index: 500;
 }
 
  .navbar-default { height: 28px;
@@ -428,7 +431,7 @@ html, body {
 
 .vid-text {
 	margin-top: 150px;
-	font-family: bebas;
+	font-family: bebas-hard;
 	color: black;
 	font-size: 60px;
 	padding: 30px;
