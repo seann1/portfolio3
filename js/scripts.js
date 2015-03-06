@@ -24,15 +24,26 @@ $(document).ready(function() {
     $(this).removeClass("pulse");
   });
 
-    $(".portfolio-block").clickToggle(function() {
-      $(".inner-code-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-      $(".code-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-      $("#portfolio").transition({color: "black"}, 2000);
-    }, function() {
-      $(".inner-code-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-      $(".code-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-      $("#portfolio").transition({color: "white"}, 2000);
-    });
+    $(".portfolio-block").clickToggle(function(){
+      codeClickOut();
+      designClickIn();
+    }, function(){})
+
+      function codeClickOut(){
+        $(".inner-code-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+        $(".code-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+        $("#portfolio").transition({color: "black"}, 2000);
+      }
+
+      function codeClickIn() {
+        $(".inner-code-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+        $(".code-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+        $("#portfolio").transition({color: "white"}, 2000);
+      }
+
+
+
+
 
     $(".design-block").clickToggle(function() {
       $(".inner-design-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
