@@ -64,12 +64,14 @@ $(document).ready(function() {
         $(".inner-design-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
         $(".design-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
         $("#design").transition({color: "black"}, 2000);
+        $(".design-hide-show").fadeIn(1000);
       }
 
       function designClickIn() {
         $(".inner-design-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
         $(".design-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
         $("#design").transition({color: "white"}, 2000);
+        $(".design-hide-show").fadeOut(1000);
       }
 
 
@@ -109,14 +111,6 @@ $(document).ready(function() {
   $(".about-hide-show").hide();
   $(".contact-hide-show").hide();
   $(".nav-hide-show").hide();
-  
-  // $(".code").click(function() {
-  //   $(".code-hide-show").fadeIn(1000);
-  // });
-
-  $(".design").click(function() {
-    $(".design-hide-show").fadeToggle(1000);
-  });
 
   $(".video-hide").click(function() {
     $(".video-hide-show").fadeToggle(1000);
