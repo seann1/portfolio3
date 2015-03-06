@@ -129,11 +129,6 @@ div.tooltip-inner {
 	z-index: 500;
 }
 
-.turn-sound {
-	position: relative;
-	z-index: 500;
-}
-
 .title {
 	height: 400px;
 	width: 800px;
@@ -342,7 +337,7 @@ body {
 	letter-spacing: 10px;
 	font-size: 40px;
 	color: #5e5e5e;
-	z-index: 500;
+	// z-index: 500;
 }
 
  .navbar-default { height: 28px;
@@ -441,18 +436,6 @@ html, body {
 	height: 100px;
 }
 
-.sticker-container {
-	position: absolute;
-	top: 200px;
-	right: 1200px;
-	z-index: 1;
-}
-
-.cloud1 {
-	position: relative;
-	z-index: 500;
-}
-
 .caption {
 	.small-caption {
 		font-size: .9em;
@@ -480,10 +463,15 @@ html, body {
 	float: right;
 }
 
+<<<<<<< HEAD
 .modal-content {
 	position: relative !important;
 	z-index: 2000 !important;
 	-webkit-transform: translate3d(0,0,0);
+=======
+.modal {
+	z-index: 100px !important;
+>>>>>>> remove-3d
 	-webkit-transform: translateZ(50px);
 }
 
