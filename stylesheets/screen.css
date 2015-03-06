@@ -864,15 +864,16 @@ html, body {
   color: white;
   bottom: 30px;
   transform: rotateY(720deg);
+  -webkit-transform: rotateY(720deg);
 }
 
-/* line 682, ../sass/screen.scss */
+/* line 683, ../sass/screen.scss */
 .jsdemo {
   margin-left: 30px;
   margin-bottom: 40px;
 }
 
-/* line 687, ../sass/screen.scss */
+/* line 688, ../sass/screen.scss */
 .inline-link, .inline-link:visited {
   color: #ffe900;
   -webkit-transition: color 1s;
@@ -880,40 +881,40 @@ html, body {
   text-decoration: none !important;
 }
 
-/* line 694, ../sass/screen.scss */
+/* line 695, ../sass/screen.scss */
 .inline-link:hover {
   color: #00c7ff;
   text-decoration: none;
 }
 
-/* line 700, ../sass/screen.scss */
+/* line 701, ../sass/screen.scss */
 .navbar-collapse a {
   cursor: pointer;
   cursor: hand;
 }
 
-/* line 706, ../sass/screen.scss */
+/* line 707, ../sass/screen.scss */
 .fa-phone, .phone, .email, .fa-envelope {
   cursor: pointer;
 }
 
-/* line 710, ../sass/screen.scss */
+/* line 711, ../sass/screen.scss */
 .navbar-toggle {
   background-color: orange;
 }
 
-/* line 714, ../sass/screen.scss */
+/* line 715, ../sass/screen.scss */
 .footer-icon {
   color: black;
 }
 
-/* line 718, ../sass/screen.scss */
+/* line 719, ../sass/screen.scss */
 .footer-row {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 723, ../sass/screen.scss */
+/* line 724, ../sass/screen.scss */
 .desc-btn {
   position: absolute;
   top: 200px;
@@ -923,48 +924,48 @@ html, body {
   font-family: venera;
 }
 
-/* line 732, ../sass/screen.scss */
+/* line 733, ../sass/screen.scss */
 .desc-btn:hover {
   background-color: black;
   color: #f9dd04;
 }
-/* line 735, ../sass/screen.scss */
+/* line 736, ../sass/screen.scss */
 .desc-btn:hover i {
   -moz-animation: "rotate 1s infinite";
   -webkit-animation: "rotate 1s infinite";
   animation: "rotate 1s infinite";
 }
 
-/* line 740, ../sass/screen.scss */
+/* line 741, ../sass/screen.scss */
 .desc-btn:visited {
   background-color: black;
   color: #f9dd04;
 }
 
-/* line 745, ../sass/screen.scss */
+/* line 746, ../sass/screen.scss */
 .modal-title {
   font-family: 'Venerafive';
 }
 
-/* line 749, ../sass/screen.scss */
+/* line 750, ../sass/screen.scss */
 .modal-content {
   background-color: rgba(255, 255, 255, 0.9);
   font-family: 'Montserrat', sans-serif;
   line-height: 150%;
 }
 
-/* line 755, ../sass/screen.scss */
+/* line 756, ../sass/screen.scss */
 .close {
   color: black;
   opacity: 1;
 }
 
-/* line 760, ../sass/screen.scss */
+/* line 761, ../sass/screen.scss */
 .under-bar-row {
   margin-top: 20px;
 }
 
-/* line 764, ../sass/screen.scss */
+/* line 765, ../sass/screen.scss */
 .contact-button {
   position: relative;
   background-color: #d60000;
@@ -975,30 +976,30 @@ html, body {
   cursor: pointer;
 }
 
-/* line 774, ../sass/screen.scss */
+/* line 775, ../sass/screen.scss */
 .c-button-text, .c-button-text:hover, .c-button-text:visited {
   color: black;
   text-decoration: none !important;
 }
 
-/* line 779, ../sass/screen.scss */
+/* line 780, ../sass/screen.scss */
 .close:hover {
   color: #00a1ff;
 }
 
-/* line 783, ../sass/screen.scss */
+/* line 784, ../sass/screen.scss */
 .modal-header {
   background-color: #2b2b2b;
   color: white;
   border-radius: 0px 0px 0px 0px;
 }
 
-/* line 789, ../sass/screen.scss */
+/* line 790, ../sass/screen.scss */
 .modal-footer {
   background-color: #c1c1c1;
 }
 
-/* line 793, ../sass/screen.scss */
+/* line 794, ../sass/screen.scss */
 .fa-github, .fa-globe {
   float: left;
   color: black;
