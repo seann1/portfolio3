@@ -481,9 +481,9 @@ html, body {
 }
 
 .modal-content {
-	position: fixed !important;
 	position: relative !important;
-	z-index: 100px !important;
+	z-index: 2000 !important;
+	-webkit-transform: translate3d(0,0,0);
 	-webkit-transform: translateZ(50px);
 }
 
