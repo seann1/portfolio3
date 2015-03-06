@@ -1,7 +1,6 @@
 var controller;
 
 $(document).ready(function() {
-  console.log(navigator.appName);
 
   $('#loading_wrap').remove();
 
@@ -96,18 +95,6 @@ $(document).ready(function() {
   $(".contact-hide-show").hide();
   $(".nav-hide-show").hide();
 
-  // $(".video-hide").click(function() {
-  //   $(".video-hide-show").fadeToggle(1000);
-  // });
-
-  // $(".about-hide").click(function() {
-  //   $(".about-hide-show").fadeToggle(1000);
-  // });
-
-  // $(".contact-hide").click(function() {
-  //   $(".contact-hide-show").fadeToggle(1000);
-  // });
-
   jQuery.fn.center = function () {
     this.css("position","absolute");
     this.css("top", Math.max(0, (($(window).height() - $(this).outerHeight()) / 2) +
@@ -181,41 +168,33 @@ $(document).ready(function() {
     });
   });
 
-  // $.get(
-  //   "https://api.github.com/repos/octokit/octokit.rb",
-  //   {paramOne : 1, paramX : 'abc'},
-  //   function(data) {
-  //      alert('page content: ' + data);
-  //   }
-  // );
+  // $(window).on('scroll', function() {
+  //   var scrollTop = $(window).scrollTop(),
+  //       portfolioOffset = $('#portfolio').offset().top,
+  //       portfolioDistance  = (portfolioOffset - scrollTop),
+  //       aboutOffset = $("#about").offset().top,
+  //       aboutDistance = (aboutOffset - scrollTop),
+  //       contactOffset = $('#contact').offset().top,
+  //       contactDistance = (contactOffset - scrollTop),
+  //       homeOffset = $('#home').offset().top,
+  //       homeDistance = (homeOffset - scrollTop);
 
-  $(window).on('scroll', function() {
-    var scrollTop = $(window).scrollTop(),
-        portfolioOffset = $('#portfolio').offset().top,
-        portfolioDistance  = (portfolioOffset - scrollTop),
-        aboutOffset = $("#about").offset().top,
-        aboutDistance = (aboutOffset - scrollTop),
-        contactOffset = $('#contact').offset().top,
-        contactDistance = (contactOffset - scrollTop),
-        homeOffset = $('#home').offset().top,
-        homeDistance = (homeOffset - scrollTop);
+  //       if (homeDistance > -100 && homeDistance < 100) {
+  //         $(".nav").find(".active").removeClass("active");
+  //         $(".home-link").addClass("active");
+  //       } else if (portfolioDistance > -100 && portfolioDistance < 100) {
+  //         $(".nav").find(".active").removeClass("active");
+  //         $(".portfolio-link").addClass("active");
+  //       } else if (aboutDistance > -100 && aboutDistance < 100) {
+  //         $(".nav").find(".active").removeClass("active");
+  //         $(".about-link").addClass("active");
+  //       } else if (contactDistance > -100 && contactDistance < 100) {
+  //         $(".nav").find(".active").removeClass("active");
+  //         $(".contact-link").addClass("active");
+  //       } else {
 
-        if (homeDistance > -100 && homeDistance < 100) {
-          $(".nav").find(".active").removeClass("active");
-          $(".home-link").addClass("active");
-        } else if (portfolioDistance > -100 && portfolioDistance < 100) {
-          $(".nav").find(".active").removeClass("active");
-          $(".portfolio-link").addClass("active");
-        } else if (aboutDistance > -100 && aboutDistance < 100) {
-          $(".nav").find(".active").removeClass("active");
-          $(".about-link").addClass("active");
-        } else if (contactDistance > -100 && contactDistance < 100) {
-          $(".nav").find(".active").removeClass("active");
-          $(".contact-link").addClass("active");
-        } else {
-
-        }
-  });
+  //       }
+  // });
 
   // $(".home-link").click(function() {
   //   scrollToDiv('home');
