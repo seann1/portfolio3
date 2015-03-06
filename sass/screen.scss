@@ -445,10 +445,10 @@ html, body {
 		top: 170px;
 	}
 	p {
-	position: absolute;
-	top: 200px;
-	max-width: 200px;
-}
+		position: absolute;
+		top: 200px;
+		max-width: 200px;
+	}
 }
 
 .click-play {
@@ -463,15 +463,15 @@ html, body {
 	float: right;
 }
 
-<<<<<<< HEAD
+
 .modal-content {
 	position: relative !important;
 	z-index: 2000 !important;
 	-webkit-transform: translate3d(0,0,0);
-=======
+}
+
 .modal {
 	z-index: 100px !important;
->>>>>>> remove-3d
 	-webkit-transform: translateZ(50px);
 }
 
