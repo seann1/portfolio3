@@ -74,19 +74,19 @@ $(document).ready(function() {
       contactClickIn();
     });
 
-      function codeClickOut() {
-        $(".inner-code-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-        $(".code-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-        $("#portfolio").transition({color: "black"}, 2000);
-        $(".code-hide-show").fadeIn(1000);
+      function ClickOut(word) {
+        $(".inner-" + word + "-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+        $("." + word + "-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+        $("#" + word).transition({color: "black"}, 2000);
+        $("." + word + "-hide-show").fadeIn(1000);
 
       }
 
-      function codeClickIn() {
-        $(".inner-code-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-        $(".code-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-        $("#portfolio").transition({color: "white"}, 2000);
-        $(".code-hide-show").fadeOut(1000);
+      function ClickIn(word) {
+        $(".inner-" + word + "-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+        $("." + word + "-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+        $("#" + word).transition({color: "white"}, 2000);
+        $("." + word + "-hide-show").fadeOut(1000);
       }
 
 
