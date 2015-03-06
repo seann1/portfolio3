@@ -94,6 +94,7 @@ div.tooltip-inner {
 	top: 100px;
 	left: 100px;
 	cursor: pointer;
+	-webkit-transform: translateZ(100px);
 }
 
 #loading_wrap {
@@ -479,6 +480,13 @@ html, body {
 	float: right;
 }
 
+.modal-content {
+	position: fixed !important;
+	position: relative !important;
+	z-index: 100px !important;
+	-webkit-transform: translateZ(50px);
+}
+
 .modal-container {
 	padding-left: 15px;
 	margin-bottom: 10px;
@@ -499,6 +507,7 @@ html, body {
 	width: 1%;
 	top: 0px;
 	left: 0px;
+	z-index: 0;
 }
 
 .inner-design-stripe {

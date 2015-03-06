@@ -1,7 +1,7 @@
 var controller;
 
 $(document).ready(function() {
-
+  console.log(navigator.appName);
 
   $('#loading_wrap').remove();
 
@@ -24,55 +24,55 @@ $(document).ready(function() {
     $(this).removeClass("pulse");
   });
 
-  $(".portfolio-block").clickToggle(function() {
-    $(".inner-code-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-    $(".code-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-    $("#portfolio").transition({color: "black"}, 2000);
-  }, function() {
-    $(".inner-code-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-    $(".code-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-    $("#portfolio").transition({color: "white"}, 2000);
-  });
+    $(".portfolio-block").clickToggle(function() {
+      $(".inner-code-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+      $(".code-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+      $("#portfolio").transition({color: "black"}, 2000);
+    }, function() {
+      $(".inner-code-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+      $(".code-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+      $("#portfolio").transition({color: "white"}, 2000);
+    });
 
-  $(".design-block").clickToggle(function() {
-    $(".inner-design-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-    $(".design-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-    $("#design").transition({color: "black"}, 2000);
-  }, function() {
-    $(".inner-design-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-    $(".design-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-    $("#design").transition({color: "white"}, 2000);
-  });
+    $(".design-block").clickToggle(function() {
+      $(".inner-design-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+      $(".design-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+      $("#design").transition({color: "black"}, 2000);
+    }, function() {
+      $(".inner-design-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+      $(".design-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+      $("#design").transition({color: "white"}, 2000);
+    });
 
-  $(".video-block").clickToggle(function() {
-    $(".inner-video-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-    $(".video-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-    $("#video").transition({color: "black"}, 2000);
-  }, function() {
-    $(".inner-video-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-    $(".video-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-    $("#video").transition({color: "white"}, 2000);
-  });
+    $(".video-block").clickToggle(function() {
+      $(".inner-video-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+      $(".video-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+      $("#video").transition({color: "black"}, 2000);
+    }, function() {
+      $(".inner-video-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+      $(".video-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+      $("#video").transition({color: "white"}, 2000);
+    });
 
-  $(".about-block").clickToggle(function() {
-    $(".inner-about-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-    $(".about-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-    $("#about").transition({color: "black"}, 2000);
-  }, function() {
-    $(".inner-about-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-    $(".about-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-    $("#about").transition({color: "white"}, 2000);
-  });
+    $(".about-block").clickToggle(function() {
+      $(".inner-about-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+      $(".about-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+      $("#about").transition({color: "black"}, 2000);
+    }, function() {
+      $(".inner-about-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+      $(".about-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+      $("#about").transition({color: "white"}, 2000);
+    });
 
-  $(".contact-block").clickToggle(function() {
-    $(".inner-contact-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-    $(".contact-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-    $("#contact").transition({color: "black"}, 2000);
-  }, function() {
-    $(".inner-contact-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-    $(".contact-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-    $("#contact").transition({color: "white"}, 2000);
-  });
+    $(".contact-block").clickToggle(function() {
+      $(".inner-contact-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+      $(".contact-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+      $("#contact").transition({color: "black"}, 2000);
+    }, function() {
+      $(".inner-contact-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+      $(".contact-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+      $("#contact").transition({color: "white"}, 2000);
+    });
 
   $(".code-hide-show").hide();
   $(".design-hide-show").hide();
