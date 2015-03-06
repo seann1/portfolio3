@@ -27,33 +27,51 @@ $(document).ready(function() {
     $(".portfolio-block").clickToggle(function(){
       codeClickOut();
       designClickIn();
-    }, function(){})
+      videoClickIn();
+      aboutClickIn();
+      contactClickIn();
+    }, function(){
+      codeClickIn();
+    });
 
-      function codeClickOut(){
+    $(".design-block").clickToggle(function(){
+      codeClickIn();
+      designClickOut();
+      videoClickIn();
+      aboutClickIn();
+      contactClickIn();
+    }, function(){
+      designClickIn();
+    });
+
+      function codeClickOut() {
         $(".inner-code-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
         $(".code-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
         $("#portfolio").transition({color: "black"}, 2000);
+        $(".code-hide-show").fadeIn(1000);
+
       }
 
       function codeClickIn() {
         $(".inner-code-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
         $(".code-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
         $("#portfolio").transition({color: "white"}, 2000);
+        $(".code-hide-show").fadeOut(1000);
       }
 
 
+      function designClickOut() {
+        $(".inner-design-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+        $(".design-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+        $("#design").transition({color: "black"}, 2000);
+      }
 
+      function designClickIn() {
+        $(".inner-design-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+        $(".design-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+        $("#design").transition({color: "white"}, 2000);
+      }
 
-
-    $(".design-block").clickToggle(function() {
-      $(".inner-design-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-      $(".design-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-      $("#design").transition({color: "black"}, 2000);
-    }, function() {
-      $(".inner-design-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-      $(".design-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-      $("#design").transition({color: "white"}, 2000);
-    });
 
     $(".video-block").clickToggle(function() {
       $(".inner-video-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
@@ -92,9 +110,9 @@ $(document).ready(function() {
   $(".contact-hide-show").hide();
   $(".nav-hide-show").hide();
   
-  $(".code").click(function() {
-    $(".code-hide-show").fadeToggle(1000);
-  });
+  // $(".code").click(function() {
+  //   $(".code-hide-show").fadeIn(1000);
+  // });
 
   $(".design").click(function() {
     $(".design-hide-show").fadeToggle(1000);
