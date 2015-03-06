@@ -24,131 +24,70 @@ $(document).ready(function() {
     $(this).removeClass("pulse");
   });
 
-    $(".portfolio-block").clickToggle(function(){
-      codeClickOut();
-      designClickIn();
-      videoClickIn();
-      aboutClickIn();
-      contactClickIn();
-    }, function(){
-      codeClickIn();
-    });
+  function clickOut(word) {
+    $(".inner-" + word + "-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+    $("." + word + "-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+    $("#" + word).transition({color: "black"}, 2000);
+    $("." + word + "-hide-show").fadeIn(1000);
 
-    $(".design-block").clickToggle(function(){
-      codeClickIn();
-      designClickOut();
-      videoClickIn();
-      aboutClickIn();
-      contactClickIn();
-    }, function(){
-      designClickIn();
-    });
+  }
 
-    $(".video-block").clickToggle(function(){
-      codeClickIn();
-      designClickIn();
-      videoClickOut();
-      aboutClickIn();
-      contactClickIn();
-    }, function(){
-      videoClickIn();
-    });
+  function clickIn(word) {
+    $(".inner-" + word + "-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+    $("." + word + "-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+    $("#" + word).transition({color: "white"}, 2000);
+    $("." + word + "-hide-show").fadeOut(1000);
+  }
 
-    $(".about-block").clickToggle(function(){
-      codeClickIn();
-      designClickIn();
-      videoClickIn();
-      aboutClickOut();
-      contactClickIn();
-    }, function(){
-      aboutClickIn();
-    });
+  $(".portfolio-block").clickToggle(function(){
+    clickOut("code");
+    clickIn("design");
+    clickIn("video");
+    clickIn("about");
+    clickIn("contact");
+  }, function(){
+    clickIn("code");
+  });
 
-    $(".contact-block").clickToggle(function(){
-      codeClickIn();
-      designClickIn();
-      videoClickIn();
-      aboutClickIn();
-      contactClickOut();
-    }, function(){
-      contactClickIn();
-    });
+  $(".design-block").clickToggle(function(){
+    clickIn("code");
+    clickOut("design");
+    clickIn("video");
+    clickIn("about");
+    clickIn("contact");
+  }, function(){
+    clickIn("design");
+  });
 
-      function ClickOut(word) {
-        $(".inner-" + word + "-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-        $("." + word + "-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-        $("#" + word).transition({color: "black"}, 2000);
-        $("." + word + "-hide-show").fadeIn(1000);
+  $(".video-block").clickToggle(function(){
+    clickIn("code");
+    clickIn("design");
+    clickOut("video");
+    clickIn("about");
+    clickIn("contact");
+  }, function(){
+    clickIn("video");
+  });
 
-      }
+  $(".about-block").clickToggle(function(){
+    clickIn("code");
+    clickIn("design");
+    clickIn("video");
+    clickOut("about");
+    clickIn("contact");
+  }, function(){
+    clickIn("about");
+  });
 
-      function ClickIn(word) {
-        $(".inner-" + word + "-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-        $("." + word + "-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-        $("#" + word).transition({color: "white"}, 2000);
-        $("." + word + "-hide-show").fadeOut(1000);
-      }
-
-
-      function designClickOut() {
-        $(".inner-design-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-        $(".design-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-        $("#design").transition({color: "black"}, 2000);
-        $(".design-hide-show").fadeIn(1000);
-      }
-
-      function designClickIn() {
-        $(".inner-design-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-        $(".design-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-        $("#design").transition({color: "white"}, 2000);
-        $(".design-hide-show").fadeOut(1000);
-      }
-
-
-      function videoClickOut() {
-        $(".inner-video-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-        $(".video-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-        $("#video").transition({color: "black"}, 2000);
-        $(".video-hide-show").fadeIn(1000);
-      }
-
-      function videoClickIn() {
-        $(".inner-video-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-        $(".video-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-        $("#video").transition({color: "white"}, 2000);
-        $(".video-hide-show").fadeOut(1000);
-      }
-
-
-      function aboutClickOut() {
-        $(".inner-about-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-        $(".about-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-        $("#about").transition({color: "black"}, 2000);
-        $(".about-hide-show").fadeIn(1000);
-      }
-
-      function aboutClickIn() {
-        $(".inner-about-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-        $(".about-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-        $("#about").transition({color: "white"}, 2000);
-        $(".about-hide-show").fadeOut(1000);
-      }
-
-
-      function contactClickOut() {
-        $(".inner-contact-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-        $(".contact-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-        $("#contact").transition({color: "black"}, 2000);
-        $(".contact-hide-show").fadeIn(1000);
-      }
-
-      function contactClickIn() {
-        $(".inner-contact-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-        $(".contact-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-        $("#contact").transition({color: "white"}, 2000);
-        $(".contact-hide-show").fadeOut(1000);
-      }
-
+  $(".contact-block").clickToggle(function(){
+    clickIn("code");
+    clickIn("design");
+    clickIn("video");
+    clickIn("about");
+    clickOut("contact");
+  }, function(){
+    clickIn("contact");
+  });
 
   $(".code-hide-show").hide();
   $(".design-hide-show").hide();
