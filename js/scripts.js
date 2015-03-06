@@ -44,6 +44,36 @@ $(document).ready(function() {
       designClickIn();
     });
 
+    $(".video-block").clickToggle(function(){
+      codeClickIn();
+      designClickIn();
+      videoClickOut();
+      aboutClickIn();
+      contactClickIn();
+    }, function(){
+      videoClickIn();
+    });
+
+    $(".about-block").clickToggle(function(){
+      codeClickIn();
+      designClickIn();
+      videoClickIn();
+      aboutClickOut();
+      contactClickIn();
+    }, function(){
+      aboutClickIn();
+    });
+
+    $(".contact-block").clickToggle(function(){
+      codeClickIn();
+      designClickIn();
+      videoClickIn();
+      aboutClickIn();
+      contactClickOut();
+    }, function(){
+      contactClickIn();
+    });
+
       function codeClickOut() {
         $(".inner-code-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
         $(".code-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
@@ -75,35 +105,50 @@ $(document).ready(function() {
       }
 
 
-    $(".video-block").clickToggle(function() {
-      $(".inner-video-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-      $(".video-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-      $("#video").transition({color: "black"}, 2000);
-    }, function() {
-      $(".inner-video-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-      $(".video-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-      $("#video").transition({color: "white"}, 2000);
-    });
+      function videoClickOut() {
+        $(".inner-video-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+        $(".video-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+        $("#video").transition({color: "black"}, 2000);
+        $(".video-hide-show").fadeIn(1000);
+      }
 
-    $(".about-block").clickToggle(function() {
-      $(".inner-about-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-      $(".about-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-      $("#about").transition({color: "black"}, 2000);
-    }, function() {
-      $(".inner-about-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-      $(".about-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-      $("#about").transition({color: "white"}, 2000);
-    });
+      function videoClickIn() {
+        $(".inner-video-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+        $(".video-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+        $("#video").transition({color: "white"}, 2000);
+        $(".video-hide-show").fadeOut(1000);
+      }
 
-    $(".contact-block").clickToggle(function() {
-      $(".inner-contact-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
-      $(".contact-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
-      $("#contact").transition({color: "black"}, 2000);
-    }, function() {
-      $(".inner-contact-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
-      $(".contact-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
-      $("#contact").transition({color: "white"}, 2000);
-    });
+
+      function aboutClickOut() {
+        $(".inner-about-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+        $(".about-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+        $("#about").transition({color: "black"}, 2000);
+        $(".about-hide-show").fadeIn(1000);
+      }
+
+      function aboutClickIn() {
+        $(".inner-about-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+        $(".about-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+        $("#about").transition({color: "white"}, 2000);
+        $(".about-hide-show").fadeOut(1000);
+      }
+
+
+      function contactClickOut() {
+        $(".inner-contact-stripe").transition({width:'100%', perspective: '500px', rotateX: '30deg'}, 1000);
+        $(".contact-bottom").transition({width: "99.6%", perspective: '500px', rotateX: '120deg'}, 1000);
+        $("#contact").transition({color: "black"}, 2000);
+        $(".contact-hide-show").fadeIn(1000);
+      }
+
+      function contactClickIn() {
+        $(".inner-contact-stripe").delay(500).transition({width:'1%', perspective: '500px', rotateX: '0deg'}, 1000);
+        $(".contact-bottom").transition({width: "0%", perspective: '500px', rotateX: '90deg'}, 1000);
+        $("#contact").transition({color: "white"}, 2000);
+        $(".contact-hide-show").fadeOut(1000);
+      }
+
 
   $(".code-hide-show").hide();
   $(".design-hide-show").hide();
@@ -112,17 +157,17 @@ $(document).ready(function() {
   $(".contact-hide-show").hide();
   $(".nav-hide-show").hide();
 
-  $(".video-hide").click(function() {
-    $(".video-hide-show").fadeToggle(1000);
-  });
+  // $(".video-hide").click(function() {
+  //   $(".video-hide-show").fadeToggle(1000);
+  // });
 
-  $(".about-hide").click(function() {
-    $(".about-hide-show").fadeToggle(1000);
-  });
+  // $(".about-hide").click(function() {
+  //   $(".about-hide-show").fadeToggle(1000);
+  // });
 
-  $(".contact-hide").click(function() {
-    $(".contact-hide-show").fadeToggle(1000);
-  });
+  // $(".contact-hide").click(function() {
+  //   $(".contact-hide-show").fadeToggle(1000);
+  // });
 
   jQuery.fn.center = function () {
     this.css("position","absolute");
@@ -233,21 +278,21 @@ $(document).ready(function() {
         }
   });
 
-  $(".home-link").click(function() {
-    scrollToDiv('home');
-  });
+  // $(".home-link").click(function() {
+  //   scrollToDiv('home');
+  // });
 
-  $(".portfolio-link").click(function() {
-    scrollToDiv('portfolio');
-  });
+  // $(".portfolio-link").click(function() {
+  //   scrollToDiv('portfolio');
+  // });
 
-  $(".about-link").click(function() {
-    scrollToDiv('about');
-  });
+  // $(".about-link").click(function() {
+  //   scrollToDiv('about');
+  // });
 
-  $(".contact-link").click(function() {
-    scrollToDiv('contact');
-  });
+  // $(".contact-link").click(function() {
+  //   scrollToDiv('contact');
+  // });
 
 // add active class to li in navbar on click
 //   $(".nav a").on("click", function(){
